@@ -1,4 +1,5 @@
 import sys
+import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -6,6 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+import run_all
 from run_all import Item, HF_VARIANT, important, make_item, render_feed
 
 
@@ -30,6 +32,22 @@ class FeedBehaviorTests(unittest.TestCase):
     def test_hf_variant_filter(self):
         self.assertIsNotNone(HF_VARIANT.search("Qwen-Image-2.1-GGUF"))
         self.assertIsNone(HF_VARIANT.search("Qwen-Image-2.1"))
+
+    def test_existing_items_survive_source_failure(self):
+        with tempfile.TemporaryDirectory() as temp:
+            original_dir = run_all.FEED_DIR
+            run_all.FEED_DIR = Path(temp)
+            try:
+                item = make_item("Qwen", "Qwen4 发布", "https://example.com/qwen4",
+                                 run_all.NOW.isoformat())
+                path = Path(temp) / "china-ai-official.xml"
+                path.write_bytes(render_feed("国产 AI｜重大官方动态",
+                                             run_all.FEED_INFO["official"][1], [item]))
+                before = path.read_bytes()
+                self.assertEqual(run_all.write_feed("official", []), 1)
+                self.assertEqual(path.read_bytes(), before)
+            finally:
+                run_all.FEED_DIR = original_dir
 
 
 if __name__ == "__main__":
