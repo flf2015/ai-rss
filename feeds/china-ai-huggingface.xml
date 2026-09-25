@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>国产 AI｜Hugging Face 新模型</title>
+    <link>https://github.com/</link>
+    <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Sep 2026 18:18:40 +0000</lastBuildDate>
+    <item>
+      <title>[HF XiaomiMiMo] XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B</title>
+      <link>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:3f93d1ce366fa79836c6</guid>
+      <pubDate>Mon, 21 Sep 2026 18:18:40 +0000</pubDate>
+      <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF XiaomiMiMo] XiaomiMiMo/MiMo-V2.6-Flash-RL</title>
+      <link>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL</link>
+      <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:35263ae93b4bd058754a</guid>
+      <pubDate>Mon, 21 Sep 2026 15:39:51 +0000</pubDate>
+      <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF XiaomiMiMo] XiaomiMiMo/MiMo-V2.6-Pro-RL</title>
+      <link>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL</link>
+      <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:6f92c274a23e32dd53ed</guid>
+      <pubDate>Mon, 21 Sep 2026 15:39:33 +0000</pubDate>
+      <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF Qwen] Qwen/Qwen-Image-2.1-PE-I2I</title>
+      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Qwen:413e4ee860ab5e965ff1</guid>
+      <pubDate>Sun, 20 Sep 2026 08:46:47 +0000</pubDate>
+      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF Qwen] Qwen/Qwen-Image-2.1-PE-T2I</title>
+      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Qwen:5eedd09eb4922e0c4f48</guid>
+      <pubDate>Sun, 20 Sep 2026 08:45:29 +0000</pubDate>
+      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF Qwen] Qwen/Qwen-Image-2.1</title>
+      <link>https://huggingface.co/Qwen/Qwen-Image-2.1</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Qwen:3cc50d0356230bcbb995</guid>
+      <pubDate>Mon, 14 Sep 2026 03:47:26 +0000</pubDate>
+      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4.1-Flash</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash</link>
+      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:5c348986a15182f2f224</guid>
+      <pubDate>Thu, 10 Sep 2026 02:17:58 +0000</pubDate>
+      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</link>
+      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:20c9f9de702fe722311f</guid>
+      <pubDate>Mon, 31 Aug 2026 06:16:18 +0000</pubDate>
+      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy4-preview</title>
+      <link>https://huggingface.co/tencent/Hy4-preview</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:87553218d4be0ba913af</guid>
+      <pubDate>Thu, 27 Aug 2026 08:52:40 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF Qwen] Qwen/Qwen-Drive-1.0-4B</title>
+      <link>https://huggingface.co/Qwen/Qwen-Drive-1.0-4B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Qwen:8fa15b72d360726f82c6</guid>
+      <pubDate>Thu, 27 Aug 2026 08:14:27 +0000</pubDate>
+      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF zai-org] zai-org/GLM-5.3-Flash</title>
+      <link>https://huggingface.co/zai-org/GLM-5.3-Flash</link>
+      <guid isPermaLink="false">urn:ai-rss:HF zai-org:5302786105ea2e93f144</guid>
+      <pubDate>Tue, 25 Aug 2026 06:43:14 +0000</pubDate>
+      <description>zai-org 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF zai-org] zai-org/GLM-5.3</title>
+      <link>https://huggingface.co/zai-org/GLM-5.3</link>
+      <guid isPermaLink="false">urn:ai-rss:HF zai-org:4424584ee706d4b4f373</guid>
+      <pubDate>Tue, 25 Aug 2026 06:42:50 +0000</pubDate>
+      <description>zai-org 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF Qwen] Qwen/Qwen3.8-Flash-Next</title>
+      <link>https://huggingface.co/Qwen/Qwen3.8-Flash-Next</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Qwen:eb79656c925ccbff0eee</guid>
+      <pubDate>Mon, 24 Aug 2026 08:24:59 +0000</pubDate>
+      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4-Pro-0813</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813</link>
+      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:b96a45c2e08370dfb4cd</guid>
+      <pubDate>Thu, 13 Aug 2026 03:05:06 +0000</pubDate>
+      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>国产 AI｜TokenHub 模型雷达</title>
+    <link>https://github.com/</link>
+    <description>腾讯云 TokenHub 新增支持的国产模型</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[TokenHub] 新增支持 MiMo-V2.6-Pro、MiMo-V2.6-Flash模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:1b5149230c764f8001f9</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 MiMo-V2.6-Pro、MiMo-V2.6-Flash模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Kimi K2.8 Preview 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:1f9b0f0bde87029e1049</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Kimi K2.8 Preview 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4.1-Flash 原厂直供 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:2c6620b7dcc87f7fb45e</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 DeepSeek-V4.1-Flash 原厂直供 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Hy4 preview 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:b5e025f04ddc33a26026</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Hy4 preview 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 GLM-5.3-Flash 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:eef6405b9c62b1ad1c7b</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 GLM-5.3-Flash 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4-Flash 0731 正式版 、DeepSeek-V4-Pro 0813 正式版模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:ac01713ab190c3584756</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 DeepSeek-V4-Flash 0731 正式版 、DeepSeek-V4-Pro 0813 正式版模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4-Flash-Vision-Exp 原厂直供模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:028f45012a161d774623</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 DeepSeek-V4-Flash-Vision-Exp 原厂直供模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 GLM-5.3 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:8af3008f433f7cc67ffe</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Token Plan 企业版：新增模型：新增支持 GLM-5.3 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 MiMo-V2.5-Pro 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:29fcf0eec3441631e91b</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 MiMo-V2.5-Pro 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Kimi K3 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:4f2689add2317a51a7b2</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Kimi K3 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Hy3 模型。 新增文本及多模态 embedding 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:52b5d752b282bd59c2fa</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Hy3 模型。 新增文本及多模态 embedding 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Kimi K2.7 Code HighSpeed 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:788b7ae6839b8886d0a3</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Kimi K2.7 Code HighSpeed 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 GLM-5.2 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:a7295f9713bb6eab3535</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Token Plan 企业版-专业套餐新增模型：新增支持 GLM-5.2 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 GLM-5.2 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:ba3a6fd60bc78f081f87</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 GLM-5.2 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:259d5d8cf9acd7190a9c</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Token Plan 个人版-通用 Token Plan 新增模型：新增支持 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Hy-Role 模型。 原 Hunyuan-role 底层模型能力升级，模型名称变更为 Hy-Role-Latest，调用 model 参数不变。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:7024ffdb7f978e911415</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型及模型名称变更：新增支持 Hy-Role 模型。 原 Hunyuan-role 底层模型能力升级，模型名称变更为 Hy-Role-Latest，调用 model 参数不变。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Kimi K2.7 Code 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:3f233b3d5276aa99c629</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Kimi K2.7 Code 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 Hy-MT2-Plus、Hy-MT2-Lite 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:6a452760e31532a7c895</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Hy-MT2-Plus、Hy-MT2-Lite 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 MiniMax-M3 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:7ac7fe70981814058314</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 MiniMax-M3 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 MiniMax-M3、 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:c010ec96a2a999d3e125</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Token Plan 企业版-专业套餐新增模型：新增支持 MiniMax-M3、 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4-Pro 原厂直供模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:1de08547f0d12926ac43</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 DeepSeek-V4-Pro 原厂直供模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 DeepSeek-V4-Flash 原厂直供模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:cb65bf7b6afce4eb1e80</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 DeepSeek-V4-Flash 原厂直供模型。</description>
+    </item>
+  </channel>
+</rss>
