@@ -62,7 +62,7 @@ FEED_INFO = {
 }
 
 NEGATIVE = re.compile(
-    r"教程|指南|直播|招聘|抽奖|客户案例|获奖|活动预告|"
+    r"教程|指南|直播|招聘|抽奖|客户案例|获奖|活动预告|限时|特惠|促销|"
     r"tutorial|how to|webinar|hiring|giveaway|customer story|case study|"
     r"coding plan|benchmark(?:ing)? only",
     re.I,
@@ -177,7 +177,7 @@ def qwen(s: requests.Session) -> list[Item]:
     return result
 
 
-def kimi(s: requests.Session) -> list[Item]:
+def kimi_research(s: requests.Session) -> list[Item]:
     result = []
     page = soup(s, KIMI_URL)
     for card in page.select(".menu-card"):
@@ -191,6 +191,11 @@ def kimi(s: requests.Session) -> list[Item]:
                          date.get_text(" ", strip=True))
         if item and important(item):
             result.append(item)
+    return result
+
+
+def kimi_platform(s: requests.Session) -> list[Item]:
+    result = []
     page = soup(s, KIMI_PLATFORM_URL)
     for card in page.select(".post-item"):
         anchor = card.select_one("h3 a[href]")
@@ -403,7 +408,8 @@ def main() -> int:
     successes = 0
 
     for name, collector in (
-        ("Qwen", qwen), ("Kimi", kimi), ("MiniMax", minimax),
+        ("Qwen", qwen), ("Kimi Research", kimi_research),
+        ("Kimi Platform", kimi_platform), ("MiniMax", minimax),
         ("智谱", zai), ("DeepSeek", deepseek),
     ):
         try:

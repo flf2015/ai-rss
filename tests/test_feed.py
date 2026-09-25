@@ -27,6 +27,7 @@ class FeedBehaviorTests(unittest.TestCase):
         when = datetime(2026, 9, 20, tzinfo=timezone.utc)
         self.assertFalse(important(Item("1", "[Kimi] PerceptionBench", "x", when, "")))
         self.assertFalse(important(Item("2", "[Qwen] Qwen 操作教程", "x", when, "")))
+        self.assertFalse(important(Item("4", "[Kimi] Kimi API 限时特惠", "x", when, "")))
         self.assertTrue(important(Item("3", "[DeepSeek] DeepSeek-V4 发布", "x", when, "")))
 
     def test_hf_variant_filter(self):
