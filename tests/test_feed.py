@@ -4,6 +4,7 @@ import unittest
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -49,6 +50,25 @@ class FeedBehaviorTests(unittest.TestCase):
                 self.assertEqual(path.read_bytes(), before)
             finally:
                 run_all.FEED_DIR = original_dir
+
+    def test_daily_papers_uses_submission_date_and_stable_paper_link(self):
+        paper = {
+            "paper": {
+                "id": "2609.12345",
+                "title": "A new model",
+                "summary": "Research abstract",
+                "publishedAt": "2026-09-20T00:00:00Z",
+                "submittedOnDailyAt": "2026-09-25T00:00:00Z",
+            }
+        }
+        response = Mock()
+        response.json.side_effect = [[paper], [], [], [], []]
+        with patch.object(run_all, "get", return_value=response):
+            items = run_all.huggingface_papers(Mock())
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].published, datetime(2026, 9, 25, tzinfo=timezone.utc))
+        self.assertEqual(items[0].link, "https://huggingface.co/papers/2609.12345")
+        self.assertEqual(items[0].description, "Research abstract")
 
 
 if __name__ == "__main__":

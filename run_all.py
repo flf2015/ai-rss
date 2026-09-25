@@ -1,4 +1,4 @@
-"""Turn official Chinese AI updates into three stable RSS feeds."""
+"""Turn Chinese AI updates and Hugging Face papers into stable RSS feeds."""
 
 from __future__ import annotations
 
@@ -27,6 +27,7 @@ NOW = datetime.now(UTC)
 OFFICIAL_DAYS = 120
 HF_DAYS = 45
 RADAR_DAYS = 120
+PAPERS_DAYS = 14
 MAX_ITEMS = 100
 
 QWEN_URL = "https://qwen.ai/research"
@@ -38,6 +39,7 @@ ZAI_URL = "https://docs.bigmodel.cn/cn/update/new-releases"
 DEEPSEEK_URL = "https://api-docs.deepseek.com/zh-cn/updates/"
 TOKENHUB_URL = "https://cloud.tencent.com/document/product/1823/130675"
 HF_API = "https://huggingface.co/api/models"
+HF_PAPERS_API = "https://huggingface.co/api/daily_papers"
 HF_ORGS = ("Qwen", "deepseek-ai", "moonshotai", "MiniMaxAI", "zai-org", "tencent", "XiaomiMiMo")
 
 FEED_INFO = {
@@ -58,6 +60,12 @@ FEED_INFO = {
         "腾讯云 TokenHub 新增支持的国产模型",
         "tokenhub-models.xml",
         RADAR_DAYS,
+    ),
+    "papers": (
+        "Hugging Face｜Daily Papers",
+        "Hugging Face Daily Papers 每日收录的研究论文",
+        "huggingface-daily-papers.xml",
+        PAPERS_DAYS,
     ),
 }
 
@@ -327,6 +335,34 @@ def huggingface_org(s: requests.Session, org: str) -> list[Item]:
     return result
 
 
+def huggingface_papers(s: requests.Session) -> list[Item]:
+    """Read recent Daily Papers dates; use the Daily submission date, not arXiv's date."""
+    result = []
+    for offset in range(5):
+        date = (NOW - timedelta(days=offset)).date().isoformat()
+        rows = get(s, HF_PAPERS_API, params={
+            "date": date, "sort": "publishedAt", "limit": 100,
+        }).json()
+        if not isinstance(rows, list):
+            raise ValueError(f"Hugging Face Daily Papers {date} did not return a list")
+        for row in rows:
+            if not isinstance(row, dict) or not isinstance(row.get("paper"), dict):
+                continue
+            paper = row["paper"]
+            paper_id = paper.get("id")
+            if not isinstance(paper_id, str) or not re.fullmatch(r"\d{4}\.\d{4,5}", paper_id):
+                continue
+            item = make_item(
+                "HF Papers", paper.get("title", ""),
+                "https://huggingface.co/papers/" + paper_id,
+                paper.get("submittedOnDailyAt") or row.get("publishedAt"),
+                paper.get("summary", ""), key=paper_id,
+            )
+            if item:
+                result.append(item)
+    return result
+
+
 def read_existing(path: Path) -> list[Item]:
     if not path.exists():
         return []
@@ -439,6 +475,16 @@ def main() -> int:
             print(f"HF {org}: {len(items)} parsed")
         except (requests.RequestException, ValueError, KeyError, TypeError, AttributeError) as exc:
             failures.append(f"HF {org}: {exc}")
+
+    try:
+        items = huggingface_papers(s)
+        if not items:
+            raise ValueError("no papers found")
+        collected["papers"].extend(items)
+        successes += 1
+        print(f"HF Daily Papers: {len(items)} parsed")
+    except (requests.RequestException, ValueError, KeyError, TypeError, AttributeError) as exc:
+        failures.append(f"HF Daily Papers: {exc}")
 
     if not successes:
         print("All sources failed; existing feeds kept", file=sys.stderr)
