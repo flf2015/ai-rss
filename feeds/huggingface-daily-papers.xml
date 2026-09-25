@@ -42,6 +42,13 @@
       <description>Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort sub</description>
     </item>
     <item>
+      <title>[HF Papers] Learning to Discover Interesting Mathematics</title>
+      <link>https://huggingface.co/papers/2609.28603</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:37fbb6120bc2a1dfd978</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the l</description>
+    </item>
+    <item>
       <title>[HF Papers] Training Object Permanence in World Models</title>
       <link>https://huggingface.co/papers/2609.28654</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:385bdd861db0a5f87f6e</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d0671b2b2356435474b2</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
       <description>Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenizer framework that factors orthographic and structural variations into a compositional opcode/operand prefix stream before tokenization: a canonical base token (operand) prefixed by parametric transform</description>
-    </item>
-    <item>
-      <title>[HF Papers] Towards Full Pipeline FP8 Reinforcement Learning for LLMs</title>
-      <link>https://huggingface.co/papers/2609.22870</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d1a2f0ed91dd3161764a</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large language models (LLMs). Although FP8 quantization can accelerate RL training, maintaining stability throughout an FP8 RL pipeline remains challenging. While previous works have focused on resolving train-inference mismatches using correction techniques like TIS, we reveal that full-pipeline FP8 RL still suffers from severe training instability, manifesting as anomalous mid-training e</description>
     </item>
   </channel>
 </rss>
