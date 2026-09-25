@@ -4,13 +4,13 @@ GitHub Actions 每 3 小时抓取一次公开的官方更新，生成三个可�
 
 ## 订阅地址
 
-将下面的 USER 改成你的 GitHub 用户名，仓库名默认是 ai-rss，默认分支是 main：
+仓库地址：[flf2015/ai-rss](https://github.com/flf2015/ai-rss)，默认分支 main：
 
 | Feed | 用途 | GitHub Raw 地址 |
 | --- | --- | --- |
-| 重大官方动态 | 模型发布、开源、API 与价格等重要变化 | https://raw.githubusercontent.com/USER/ai-rss/main/feeds/china-ai-official.xml |
-| Hugging Face 新模型 | 官方组织新建的模型仓库 | https://raw.githubusercontent.com/USER/ai-rss/main/feeds/china-ai-huggingface.xml |
-| TokenHub 模型雷达 | 腾讯云 TokenHub 新增支持的模型 | https://raw.githubusercontent.com/USER/ai-rss/main/feeds/tokenhub-models.xml |
+| 重大官方动态 | 模型发布、开源、API 与价格等重要变化 | https://raw.githubusercontent.com/flf2015/ai-rss/main/feeds/china-ai-official.xml |
+| Hugging Face 新模型 | 官方组织新建的模型仓库 | https://raw.githubusercontent.com/flf2015/ai-rss/main/feeds/china-ai-huggingface.xml |
+| TokenHub 模型雷达 | 腾讯云 TokenHub 新增支持的模型 | https://raw.githubusercontent.com/flf2015/ai-rss/main/feeds/tokenhub-models.xml |
 
 ## 覆盖范围
 
