@@ -202,12 +202,5 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <description>M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only domestic model combining all three Frontier essentials and will be the only open-source one in this class.</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen-VLA：从看懂世界走向执行动作</title>
-      <link>https://qwen.ai/blog?id=qwenvla</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:0e172c682b1dc4570567</guid>
-      <pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
-      <description>过去几年，多模态大模型已经能够越来越好地理解图像、视频和真实世界场景：识别物体、理解空间关系、回答视觉问题，并完成复杂的多模态推理。 但对于具身智能来说，“看懂世界”只是第一步。真正的智能体还需要进一步做到：理解任务目标，在物理世界中执行动作，并在不同机器人形态、不同环境和不同任务中保持泛化能力。</description>
-    </item>
   </channel>
 </rss>
