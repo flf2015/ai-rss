@@ -146,19 +146,5 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <description>Token Plan 企业版-专业套餐新增模型：新增支持 MiniMax-M3、 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 DeepSeek-V4-Pro 原厂直供模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:1de08547f0d12926ac43</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 DeepSeek-V4-Pro 原厂直供模型。</description>
-    </item>
-    <item>
-      <title>[TokenHub] 新增支持 DeepSeek-V4-Flash 原厂直供模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:cb65bf7b6afce4eb1e80</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 DeepSeek-V4-Flash 原厂直供模型。</description>
-    </item>
   </channel>
 </rss>
