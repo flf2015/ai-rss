@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance</title>
+      <link>https://huggingface.co/papers/2609.30192</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0b34e84ee75e3356276f</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration bias, where models are drawn toward locally plausible but structurally unstable branches, and a compounding bias, where small local deviations accumulate across depth and suppress rare rewards. We introduce Symbolic Closure Analysis (SCA) as a theoretical lens characterizing how b</description>
+    </item>
+    <item>
       <title>[HF Papers] Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors</title>
       <link>https://huggingface.co/papers/2609.24385</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:16fc27009e2e9a3fd06d</guid>
@@ -84,11 +91,25 @@
       <description>Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or simply aggregate individual performance, failing to isolate and highlight genuine collaboration capabilities of LLM-based agents. We introduce AgentWorld, a benchmark of 100 human-annotated tasks (with 100 augmented variants) for evaluating long-horizon, multi-agent collaboration. Tasks span 50+ interaction rounds across a rich MMORPG sandbox and require 3-20 agents with asymmetr</description>
     </item>
     <item>
+      <title>[HF Papers] CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding</title>
+      <link>https://huggingface.co/papers/2609.29474</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:71f66e81b70c4a2f78fb</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Public software repositories, like GitHub and Software Heritage Archive, store billions of files, yet extracting their implicit engineering knowledge ---i.e., the algorithms they implement, the paradigms they follow, the patterns they instantiate, and the application domains they serve--- remains challenging, as current tools are constrained to syntactic and token-level analysis. We present a pipeline for building an open-taxonomy semantic annotation of source code using a code-specialised Large</description>
+    </item>
+    <item>
       <title>[HF Papers] Do Implicit Personalization and Explicit Styles Conflict? PsPLUG: A Lightweight Plug-in for Balancing Personalization and Style in Customized LLMs</title>
       <link>https://huggingface.co/papers/2601.06362</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:75b107d076ab697b0124</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description>Personalized large language models are often expected to follow explicit style instructions, yet we find that such instructions can undermine the user-specific characteristics that personalization methods aim to preserve. We call this failure mode personalization collapse: explicit style control can conflict with implicit user preferences. To address this challenge, we propose PsPLUG, a lightweight plug-in that learns a user-specific residual after accounting for the requested style. PsPLUG also</description>
+    </item>
+    <item>
+      <title>[HF Papers] Softmax Reparameterization for Output-Head Quantization</title>
+      <link>https://huggingface.co/papers/2609.31291</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:79918dd9f03ceef6583f</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparameterization, a post-training method that selects a functionally equivalent output head before quantization. The method subtracts a scalar multiple of the vocabulary-row mean from every output row and selects the coefficient by validation KL separately for RTN, activation-weighted MSE, and full-Hessian GPTQ. This one-dimensional search includes the original head and fixed mean-cen</description>
     </item>
     <item>
       <title>[HF Papers] Paragraph Boundaries Are Not White Space:Compression Depth as the Signature of Hierarchical Structure</title>
@@ -117,6 +138,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ace75f44dcefbd04e2a5</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description>Jev is a fast, low-cost decision model that answers natural-language questions with choices, binary judgments, and scores. As its public ecosystem grows rapidly, it remains unclear how Jev is used across applications and how public attention relates to project distribution. To answer these questions, we conduct a large-scale, data-driven analysis of 2,170 publicly available Jev projects collected from GitHub as of September 22, 2026. We find rapid early growth in Jev's public ecosystem, with bot</description>
+    </item>
+    <item>
+      <title>[HF Papers] LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder</title>
+      <link>https://huggingface.co/papers/2609.28327</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ae6af0b634703f283023</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmentation without a learned stage-wise decoder. LightMIS aligns the outputs of a five-level encoder to a common resolution using Scale-Aligned Projection blocks, aggregates them once, and refines the fused representation with an Adaptive Fusion Cascade. The cascade combines Adaptive Kernel Fusion with the proposed Progressive Receptive Fusion module, which uses temporary channel expa</description>
     </item>
     <item>
       <title>[HF Papers] BoundInk: Boundary-Aware Online Handwriting Generation</title>
@@ -173,6 +201,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e8a1a1b1c9c13d941400</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description>Banking assistants must use account-specific information to answer requests and, in many cases, take actions through tools. Evaluating only the final response misses important errors. An assistant may ask for information it already has, rely on stale context, select the wrong account, or write an invalid value after stating the correct one. We introduce IndicBankBench, a 799-case benchmark for Indian retail banking spanning five operational domains, a capability/refusal domain, and twenty primar</description>
+    </item>
+    <item>
+      <title>[HF Papers] Disaggregated Quantization: Specializing LLM Prefill and Decode</title>
+      <link>https://huggingface.co/papers/2609.26333</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:fed0e07f4a7756b67930</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generation. We propose "disaggregated quantization" (DQ), which specializes computation formats, weights and storage placement to both of these phases. On Qwen 3 and Gemma 3, removing activation quantization specifically on decode improves accuracy on decode-heavy tasks without increasing inference cost. Training separate compu</description>
     </item>
     <item>
       <title>[HF Papers] PUBG Ally: A Conversational Embodied Agent as an AI Teammate</title>
@@ -670,41 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:c8fee8aadc5be7babb6b</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <description>Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLMs). We introduce Bellman Policy Optimization (BPO), a critic-free method derived from Policy Mirror Descent (PMD). For autoregressive generation with terminal rewards, BPO uses the Bellman equations to reformulate PMD as a trajectory-level objective. The reformulation avoids estimating state values at intermediate states. We prove that it has the same unique optimal solution as</description>
-    </item>
-    <item>
-      <title>[HF Papers] GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation</title>
-      <link>https://huggingface.co/papers/2609.24981</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d45672eea681edcee6a0</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically rich space that encodes cross-view structure. Rather than adding geometry as another output, we repara</description>
-    </item>
-    <item>
-      <title>[HF Papers] ImIR: Image-Instruction Tuning for All-in-One Image Restoration</title>
-      <link>https://huggingface.co/papers/2609.25267</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d85f2bc0e553bdac173e</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model. A recent and effective recipe adapts a large pretrained image-editing model to restoration using a small low-rank adapter with a text prompt. We replace that prompt with an instruction derived from the degraded image itself. The image reaches the editor through two paths: its structure comes from the model's VAE, and its semantic instruction comes from a lightweight toke</description>
-    </item>
-    <item>
-      <title>[HF Papers] From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health</title>
-      <link>https://huggingface.co/papers/2609.25186</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f830528423452cc24850</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created an urgent need for accessible and scalable support. Large Language Models (LLMs) have emerged as a transformative technology with strong potential to democratize mental health support through advanced natural language understanding and generation. However, the rapidly expanding, fragmented body of</description>
-    </item>
-    <item>
-      <title>[HF Papers] Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes</title>
-      <link>https://huggingface.co/papers/2609.25247</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f9c971333b8496f78c0d</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions through which they can be operated. We present Segment-Snap, which connects these outputs through the physical relationship between parts and handles. Learned predictors identify broad part surfaces and small handles. A geometric decoder uses planar and upright priors to constrain motion, then selects hinge lines using predicted handle locations, without training a motion regressor</description>
-    </item>
-    <item>
-      <title>[HF Papers] GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay</title>
-      <link>https://huggingface.co/papers/2609.25001</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1643c19d57374ded6e5c</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different</description>
     </item>
   </channel>
 </rss>
