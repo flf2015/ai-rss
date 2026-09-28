@@ -5,7 +5,91 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Hugging Face Daily Papers 每日收录的研究论文</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[HF Papers] CARD: Cluster-level Adaptation with Reward-guided Decoding for Personalized Text Generation</title>
+      <link>https://huggingface.co/papers/2601.06352</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:328409f43d8ce2e5b19d</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Adapting large language models to individual users remains challenging due to the tension between fine-grained personalization and scalable deployment. We present CARD, a hierarchical framework that achieves effective personalization through progressive refinement. CARD first clusters users according to shared stylistic patterns and learns group-specific LoRA adapters, enabling robust generalization and strong low-resource performance. To capture individual differences within each cluster, we pr</description>
+    </item>
+    <item>
+      <title>[HF Papers] Block Sparse Attention with Log-Linear Complexity</title>
+      <link>https://huggingface.co/papers/2609.31093</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3f51b2aad9d5091ee083</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional block selection requires scoring all query-block pairs and therefore remains quadratic in sequence length. To address this issue, we propose PISA, a block-sparse attention mechanism that employs a pyramid Top-K selection strategy. The main idea is to gradually narrow down the candi</description>
+    </item>
+    <item>
+      <title>[HF Papers] FoMo: Forking Moment in Generative Trajectory as a Perceptual Distance</title>
+      <link>https://huggingface.co/papers/2609.25716</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4cc88fbe63dae0bf80b9</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Reference-based image quality assessment (IQA) metrics aim to reflect how humans perceive the perceptual distance between a pair of images. To learn how the human visual system (HVS) operates, recent reference-based IQA metrics heavily rely on human-annotated data. Mean opinion score (MOS)-based pointwise scoring, which assigns a scalar quality value per image, is preferable for annotation but is prohibitively expensive to collect at scale and is known to be noisy due to inconsistent human judgm</description>
+    </item>
+    <item>
+      <title>[HF Papers] Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy</title>
+      <link>https://huggingface.co/papers/2609.28660</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:6f7dcd1c25fafd0e24fa</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Human hand-object interactions (HOIs) provide a rich source of demonstrations for dexterous manipulation, but learning directly from them presents challenges in bridging morphology gaps, ensuring dynamical feasibility, and sim-to-real deployment. We present Morphometric Imitation, a three-stage framework that transforms reconstructed HOIs into zero-shot sim-to-real visuomotor policies. First, morphometric optimization (MMO) kinematically retargets human motion across hand morphologies while pres</description>
+    </item>
+    <item>
+      <title>[HF Papers] AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs</title>
+      <link>https://huggingface.co/papers/2609.31590</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:70877e1dc082341a4689</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or simply aggregate individual performance, failing to isolate and highlight genuine collaboration capabilities of LLM-based agents. We introduce AgentWorld, a benchmark of 100 human-annotated tasks (with 100 augmented variants) for evaluating long-horizon, multi-agent collaboration. Tasks span 50+ interaction rounds across a rich MMORPG sandbox and require 3-20 agents with asymmetr</description>
+    </item>
+    <item>
+      <title>[HF Papers] Do Implicit Personalization and Explicit Styles Conflict? PsPLUG: A Lightweight Plug-in for Balancing Personalization and Style in Customized LLMs</title>
+      <link>https://huggingface.co/papers/2601.06362</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:75b107d076ab697b0124</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Personalized large language models are often expected to follow explicit style instructions, yet we find that such instructions can undermine the user-specific characteristics that personalization methods aim to preserve. We call this failure mode personalization collapse: explicit style control can conflict with implicit user preferences. To address this challenge, we propose PsPLUG, a lightweight plug-in that learns a user-specific residual after accounting for the requested style. PsPLUG also</description>
+    </item>
+    <item>
+      <title>[HF Papers] Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem</title>
+      <link>https://huggingface.co/papers/2609.30216</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ace75f44dcefbd04e2a5</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Jev is a fast, low-cost decision model that answers natural-language questions with choices, binary judgments, and scores. As its public ecosystem grows rapidly, it remains unclear how Jev is used across applications and how public attention relates to project distribution. To answer these questions, we conduct a large-scale, data-driven analysis of 2,170 publicly available Jev projects collected from GitHub as of September 22, 2026. We find rapid early growth in Jev's public ecosystem, with bot</description>
+    </item>
+    <item>
+      <title>[HF Papers] SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL</title>
+      <link>https://huggingface.co/papers/2609.29050</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c7fd8fab71bc8e750601</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Tool-calling agents produce heterogeneous outputs, interleaving structured tool invocations with user-facing natural language summaries. This output heterogeneity presents a structural failure mode in standard on-policy Reinforcement Learning (RL): algorithms like GRPO indiscriminately broadcast a homogeneous trajectory-level scalar advantage to all tokens. Consequently, gradient noise from summary generation leaks into tool-decision tokens, causing cross-segment credit misattribution and brittl</description>
+    </item>
+    <item>
+      <title>[HF Papers] FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders</title>
+      <link>https://huggingface.co/papers/2609.31620</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:cc360e08cef649733611</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion th</description>
+    </item>
+    <item>
+      <title>[HF Papers] TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations</title>
+      <link>https://huggingface.co/papers/2609.30222</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d60546179f021599df19</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tracker that breaks this trade-off by representing videos as persistent 3D scene tracks in world coordinates. Grounded in the insight that videos are 2D projections of an underlying 3D world, TrackEverything decouples model complexity from video duration, allowing it to scale with u</description>
+    </item>
+    <item>
+      <title>[HF Papers] Game Arena: Strategic LLM Evaluation in Competitive Environments</title>
+      <link>https://huggingface.co/papers/2609.31473</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d857e4f7c8fc78336cfd</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head matchups in structured environments where the gameplay strength naturally increases as models evolve, preventing performance saturation. This technical report details the infrastructure behind Game Arena and describes the three pilot game environments: Chess, Poker, and Werewolf. Th</description>
+    </item>
+    <item>
+      <title>[HF Papers] InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data</title>
+      <link>https://huggingface.co/papers/2609.31394</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:de93de132f7d8d3593a8</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-Δ, a unified WAM pretrained on a heterogeneous corpus that outperforms prior methods across simulation benchmarks and real-robot platforms. InternW0-Δ combines pre</description>
+    </item>
     <item>
       <title>[HF Papers] PUBG Ally: A Conversational Embodied Agent as an AI Teammate</title>
       <link>https://huggingface.co/papers/2609.29837</link>
@@ -621,90 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:4d804a47a2ea3ad2ff36</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
       <description>An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d</description>
-    </item>
-    <item>
-      <title>[HF Papers] VideoGen-Agent: Reinforcing Video Generation Agents</title>
-      <link>https://huggingface.co/papers/2609.24997</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:50077735f04f59a5755b</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through</description>
-    </item>
-    <item>
-      <title>[HF Papers] Streaming Video Editing with Easy Adaptation</title>
-      <link>https://huggingface.co/papers/2609.24788</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5781eea1cc1794f7cce0</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in an auto-regressive fashion. To tackle this problem, we first systematically revisit existing video-to-video diffusion approaches and identify two key principles for such streaming adaptation: backbone feature disentanglement and conditional frame independence. Building on these insights, we develop a novel paradigm for</description>
-    </item>
-    <item>
-      <title>[HF Papers] UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing</title>
-      <link>https://huggingface.co/papers/2609.23169</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:668aeee72d4dae23d660</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view diffusion methods have shown promising results for image-guided 3D texturing, but they are typically constrained to low operating resolutions such as 512 or 768, making it difficult to preserve high-frequency details from high-resolution reference images. Scaling this paradigm to 2048 resolution is computationally prohibitive, as the unified multi-view sequence exceeds 212K token</description>
-    </item>
-    <item>
-      <title>[HF Papers] Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents</title>
-      <link>https://huggingface.co/papers/2609.23986</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:76c88f5c281b5cade3b2</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Agentic memory is becoming essential for long-horizon AI agents, yet many existing systems rely on autoregressive LLMs to control how memories are organized, retrieved, and used, placing expensive generation on the critical path of memory operations. We introduce \method, a new agentic memory architecture inspired by System-One/System-Two cognition. System One captures fast, lightweight decision-making, whereas System Two performs slower, deliberative reasoning. Jev-Mem brings this division of l</description>
-    </item>
-    <item>
-      <title>[HF Papers] One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents</title>
-      <link>https://huggingface.co/papers/2609.23377</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:79e4a56ba6f476edfd4b</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivated by this category see-saw, we develop a category-aware expert-training and policy-integration framework. Executable task construction and SWE Labeler, an evidence-grounded multi-axis labeling system, organize the traini</description>
-    </item>
-    <item>
-      <title>[HF Papers] Harness-Zero: Harness Distillation via Agent-as-Harness</title>
-      <link>https://huggingface.co/papers/2609.24974</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8515363b549a53b8a234</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time gui</description>
-    </item>
-    <item>
-      <title>[HF Papers] SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness</title>
-      <link>https://huggingface.co/papers/2609.06052</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8d841b86781e45c3f006</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge and domain expertise. These artifacts typically bundle free-form instructions with heterogeneous resources. However, ensuring their correctness remains challenging. Their failure modes transcend conventional code defects to subtle semantic inconsistencies such as intent conflicts, which manifest as silent failures masked by the underlying model. Moreover, skill correctness must be</description>
-    </item>
-    <item>
-      <title>[HF Papers] OmniEdu: Open Foundation Models for Learning and Teaching</title>
-      <link>https://huggingface.co/papers/2609.23088</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a3dca371db680d2e3e00</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning and teaching. Its instruction-tuning corpus combines over 100 educational resources and general instr</description>
-    </item>
-    <item>
-      <title>[HF Papers] TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision</title>
-      <link>https://huggingface.co/papers/2609.20869</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a9b51f76419674367f81</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements before recognition. Instead of operating directly on pixel tensors, the system uses a shared TAPe representation and a modular recognition architecture for image classification, object detection, and instance segmentation. TAPe+ML v3 combines background and contour processing, local object localization, prototype-based c</description>
-    </item>
-    <item>
-      <title>[HF Papers] Grounded Action Model: 3D Grounding as a Foundation for Robotics</title>
-      <link>https://huggingface.co/papers/2609.23863</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b12b65c0d3e0e514a0a4</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (GAMs), a new paradigm of robot foundation models built with 3D grounding. GAM can be conditioned usin</description>
-    </item>
-    <item>
-      <title>[HF Papers] Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation</title>
-      <link>https://huggingface.co/papers/2609.20758</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ba460a797742a0ed4127</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population and seek accurate point and interval estimates of each domain mean. Direct estimators, including prediction-powered inference (PPI), use only a domain's own labels and are imprecise where labels are</description>
-    </item>
-    <item>
-      <title>[HF Papers] The Functionalizer: Lossless Functional Decomposition for Subword Tokenization</title>
-      <link>https://huggingface.co/papers/2609.15991</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d0671b2b2356435474b2</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenizer framework that factors orthographic and structural variations into a compositional opcode/operand prefix stream before tokenization: a canonical base token (operand) prefixed by parametric transform</description>
     </item>
   </channel>
 </rss>
