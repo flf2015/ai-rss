@@ -188,12 +188,5 @@
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
       <description>In the M3 release post, we reported the performance of the M3 model on two international mathematical olympiad benchmarks: IMO 2025 and USAMO 2026. With the MaxProof framework, M3 exceeded the human gold-medal threshold on both. This article further elaborates on our technical path toward advancing mathematical proof capabilities, including base model enhancement, verifier alignment, refinement capability building, and the design of the test-time scaling framework MaxProof.</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen3.7-Plus：多模态智能体</title>
-      <link>https://qwen.ai/blog?id=qwen3.7-plus</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:1809664d20064a1ba891</guid>
-      <pubDate>Mon, 01 Jun 2026 02:00:00 +0000</pubDate>
-      <description>&lt;style&gt; / 本页内表格统一最大宽度并居中 / table { width: 85% !important; max-width: 1100px; margin: 0 auto; } &lt;/style&gt; 今天，我们正式发布 Qwen3.7-Plus——将视觉与语言统一为一体化智能体基座的多模态模型。在 Qwen3.7 强大文本能力的基础上，Qwen3.7-Plus 全面升级了视觉-语言能力，同时保持了在编码、工具使用和生产力工作流方面的完整智能体能力。</description>
-    </item>
   </channel>
 </rss>
