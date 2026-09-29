@@ -195,12 +195,5 @@
       <pubDate>Mon, 01 Jun 2026 02:00:00 +0000</pubDate>
       <description>&lt;style&gt; / 本页内表格统一最大宽度并居中 / table { width: 85% !important; max-width: 1100px; margin: 0 auto; } &lt;/style&gt; 今天，我们正式发布 Qwen3.7-Plus——将视觉与语言统一为一体化智能体基座的多模态模型。在 Qwen3.7 强大文本能力的基础上，Qwen3.7-Plus 全面升级了视觉-语言能力，同时保持了在编码、工具使用和生产力工作流方面的完整智能体能力。</description>
     </item>
-    <item>
-      <title>[MiniMax] MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model</title>
-      <link>https://www.minimax.io/blog/minimax-m3</link>
-      <guid isPermaLink="false">urn:ai-rss:MiniMax:d466ccc68189e7a5951d</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <description>M3 reaches frontier capability on coding and agentic tasks, introduces the brand-new MSA (MiniMax Sparse Attention) supporting up to 1M context, and is a natively multimodal model. It is the only domestic model combining all three Frontier essentials and will be the only open-source one in this class.</description>
-    </item>
   </channel>
 </rss>

@@ -132,19 +132,5 @@
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型：新增支持 Hy-MT2-Plus、Hy-MT2-Lite 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 MiniMax-M3 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:7ac7fe70981814058314</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 MiniMax-M3 模型。</description>
-    </item>
-    <item>
-      <title>[TokenHub] 新增支持 MiniMax-M3、 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:c010ec96a2a999d3e125</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Token Plan 企业版-专业套餐新增模型：新增支持 MiniMax-M3、 DeepSeek-V4-Flash 原厂直供、DeepSeek-V4-Pro 原厂直供模型。</description>
-    </item>
   </channel>
 </rss>
