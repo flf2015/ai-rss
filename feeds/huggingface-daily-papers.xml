@@ -70,6 +70,13 @@
       <description>Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations materialize frame-by-vocabulary activations in memory, making CTC training with native LLM vocabularies prohibitively memory-intensive. A key observation is that every valid CTC alignment uses only target tokens and blank, and their union across a batch typically forms a small subset of the full vocabulary. We introduce Pruned</description>
     </item>
     <item>
+      <title>[HF Papers] ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis</title>
+      <link>https://huggingface.co/papers/2609.32630</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1ca0c21450fb546b602b</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Learning from experience in LLM agents has become a key paradigm for developing self-evolving agents that continuously learn and expand their capabilities. Within this paradigm, synthesizing the agent skill has emerged as a promising solution for transforming accumulated experience into reusable procedural knowledge, serving as an important layer for the harness system that supplies agents at runtime. Despite its potential, existing approaches largely abstract past experience into fixed procedur</description>
+    </item>
+    <item>
       <title>[HF Papers] Rolling-WAM: World Action Models with Rolling Imagination</title>
       <link>https://huggingface.co/papers/2609.30247</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2256c0583e50efa82701</guid>
@@ -208,6 +215,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:5973aff433e5cb7ce03a</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       <description>Guard models support the safe deployment of language model agents, but fixed risk taxonomies limit their ability to accommodate requirements that vary across applications and tasks. Under user-defined policies, detecting violations requires interpreting both the applicable rules and the agent's behavior, since identical actions can receive different judgments under different policies. To support learning this capability, we introduce AdaptiveSafety, a dataset of 10,939 training examples and 1,00</description>
+    </item>
+    <item>
+      <title>[HF Papers] Can We Trust the Teacher? Decoupled Credit Direction-Magnitude for Self-Distillation</title>
+      <link>https://huggingface.co/papers/2609.34848</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5a66220e44a7e1e19478</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>RLVR provides reliable trajectory-level credit, while OPSD offers dense supervision for token-level credit. This exposes a fundamental coupling when updating step-level credit direction and magnitude with teacher supervision, preventing steps from receiving reliable credit directions and contribution magnitudes, while making both vulnerable to teacher judgment errors and preference variance, as supported by our theoretical analysis. To separate credit direction from its contribution magnitude, w</description>
     </item>
     <item>
       <title>[HF Papers] In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion</title>
@@ -462,6 +476,13 @@
       <description>Interactive world models require responding in real time to versatile controls and maintaining long-horizon consistency. However, modeling heterogeneous controls remains difficult, while explosive contexts and unstable distillation impede achieving both long-horizon consistency and real-time responsiveness. In this paper, we present WorldPlay2, an interactive world model that couples a factorized hybrid control interface with a co-design of compressed memory and stable distillation. 1) Our facto</description>
     </item>
     <item>
+      <title>[HF Papers] Allspark: Weak to Strong Transfer via Alternating Chain of Thought</title>
+      <link>https://huggingface.co/papers/2609.32913</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b9adfe19c5ffd2e5c589</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Recent progress in frontier models has renewed interest in large-scale reinforcement learning (RL), but the cost of generating large-model rollouts makes even testing RL recipes expensive. We ask whether reasoning improvements learned by a small, weak model can benefit a larger, stronger model without using the strong model's rollouts during training. We introduce Allspark, a training and inference framework for weak-to-strong transfer through alternating chains of thought. A weak teacher is tra</description>
+    </item>
+    <item>
       <title>[HF Papers] SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning</title>
       <link>https://huggingface.co/papers/2609.33616</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:bcd5f761cfc206812637</guid>
@@ -684,27 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:0b34e84ee75e3356276f</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <description>Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration bias, where models are drawn toward locally plausible but structurally unstable branches, and a compounding bias, where small local deviations accumulate across depth and suppress rare rewards. We introduce Symbolic Closure Analysis (SCA) as a theoretical lens characterizing how b</description>
-    </item>
-    <item>
-      <title>[HF Papers] Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors</title>
-      <link>https://huggingface.co/papers/2609.24385</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:16fc27009e2e9a3fd06d</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under visual occlusion. While pre-trained image encoders are standard in robot learning pipelines, tactile encoders are still commonly trained from scratch from raw, noisy signals, which might limit their expressivity. Existing self-supervised learning (SSL) approaches focus predominantly on vision-based tactile sensors, leaving distributed electronic skins largely unaddressed. These</description>
-    </item>
-    <item>
-      <title>[HF Papers] ZooWork-ShopRanker: An Open, Preference-Aligned E-Commerce Reranker</title>
-      <link>https://huggingface.co/papers/2609.31002</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1a2f52d0c4b09d59e983</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Open rerankers trained for general web retrieval transfer imperfectly to e-commerce, where ranking decisions depend not only on topical relevance but also on user preferences, product constraints, and comparative product fit. These preference signals are difficult to supervise at scale: real search traffic provides authentic queries and candidates but no clean pairwise labels. We present ZooWork-ShopRanker, a family of e-commerce rerankers (0.6B, 4B, and 8B) aligned to judge-labeled shopping pre</description>
-    </item>
-    <item>
-      <title>[HF Papers] TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding</title>
-      <link>https://huggingface.co/papers/2609.30670</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1c33473a7058e2ea40a0</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often report task scores without specifying when evidence becomes valid, how visual history is maintained, or how responses are triggered. As a result, similar scores may correspond to different workloads, failure modes, and operational behavior. We introduce TRACE (Temporal Audit and Condition-aware Evaluation), a condition-aware benchmark and evaluation framework that makes these factors</description>
     </item>
   </channel>
 </rss>
