@@ -28,6 +28,13 @@
       <description>LLM agents often operate over multi-turn interactions in which user intent changes before execution. We study intent drift: the failure mode in which superseded parts of the user's intent continue to influence the final answer or tool action. We introduce IntentFlux, an executable benchmark that converts verifiable tasks into dialogues with controlled intent changes while preserving their original graders. In a 627-case calibration, mean task score falls from 0.476 to 0.384 as dialogues contain</description>
     </item>
     <item>
+      <title>[HF Papers] Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It</title>
+      <link>https://huggingface.co/papers/2609.36585</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0c23866c10487b5b476d</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program li</description>
+    </item>
+    <item>
       <title>[HF Papers] AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines</title>
       <link>https://huggingface.co/papers/2610.01108</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:131e2083fea093430edf</guid>
@@ -61,6 +68,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:19ab6bfece4a2c17425a</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <description>Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such as</description>
+    </item>
+    <item>
+      <title>[HF Papers] MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization</title>
+      <link>https://huggingface.co/papers/2609.36435</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1c959274b55dbb9a286c</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which preferences still hold, which were revised, and which constraints apply now. Retaining that information is not the same as acting on it, and the two are usually optimized as if they were. Keeping the information as text makes the reader's input grow with the retained history, while compressing it into a fixed number of latent vectors bounds the interface but is typically trained to re</description>
     </item>
     <item>
       <title>[HF Papers] Latent-Foresight: End-to-End Learning Predictable Representations for Latent World Models</title>
@@ -399,6 +413,13 @@
       <description>We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully continuous modeling avoids these trade-offs and enables a shared generative process, but remains undere</description>
     </item>
     <item>
+      <title>[HF Papers] Video Generation Models: A Survey of Post-Training and Alignment</title>
+      <link>https://huggingface.co/papers/2610.00812</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c09de75cbe750e0c84fe</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, maintain temporal coherence, or satisfy physical and safety constraints. Compared with image and text generation, alignment in video generation presents unique challenges, including error accumulation over</description>
+    </item>
+    <item>
       <title>[HF Papers] Controlled Decoding Attacks on Black-Box LLMs</title>
       <link>https://huggingface.co/papers/2609.36956</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:c13d8fd92451b07a8f59</guid>
@@ -530,6 +551,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ee34f901839e036cb325</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <description>On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation setting, by independently varying rollout policy, token-level KL direction, and learning rate acros</description>
+    </item>
+    <item>
+      <title>[HF Papers] Persona Dosing: Calibrated Activation Steering for Graded Trait Control</title>
+      <link>https://huggingface.co/papers/2609.36388</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f3ced3add79b420b47d6</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression requires a behavioral scale. We study persona dosing: controlling a language model through a trait description and a requested mean intensity. PersonaDose specializes a shared, description-conditioned FLAS controller on persona responses, then calibrates its flow time against measured trait expression. Training responses are not paired with requested target intensities. Across</description>
     </item>
     <item>
       <title>[HF Papers] CorrGRPO: Correlation-Normalized GRPO for Multi-Reward Learning</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:23d0275cdfd3b4eaad1a</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <description>Long-horizon robot manipulation reuses skills across many task compositions, but improving these compositions with additional end-to-end demonstrations is costly. A practical self-improving system must decide both what to teach next and where to apply that supervision. We present ROBOCOACH, a world-model-guided coaching framework that uses imagined failures to guide demonstration requests and expert updates. Its Route-Imagine-Diagnose-Improve (RIDI) loop executes reusable skill experts inside CO</description>
-    </item>
-    <item>
-      <title>[HF Papers] False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents</title>
-      <link>https://huggingface.co/papers/2609.39102</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2af208d941316c5ba96c</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label correc</description>
-    </item>
-    <item>
-      <title>[HF Papers] The Endless Exam: Mathematical Constructions from Today's Models toward Superintelligence</title>
-      <link>https://huggingface.co/papers/2609.24555</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:311c35a8e20015fc7789</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We introduce the Endless Exam, a benchmark spanning fourteen parameterised families of mathematical construction problems, with verifiable scores that distinguish progress before and beyond published mathematical frontiers. Each submitted object is checked automatically for validity and assigned a relative quality score against a published frontier or construction baseline, without capping improvements at 1. The benchmark draws long-term challenges from open mathematical problems and generates l</description>
-    </item>
-    <item>
-      <title>[HF Papers] Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems</title>
-      <link>https://huggingface.co/papers/2609.35928</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:36e230c9698df29d605b</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model identity to its peers significantly impairs cooperation. We show that when agents are aware of each other's model family, the group splits into clusters, where agents prefer interacting with others carrying their same label, although nothing in the task rewards or asks for such a split. We argue that the label itself causes this split, which we define as factionalism. We show and me</description>
-    </item>
-    <item>
-      <title>[HF Papers] CheatBench: Measuring Reward Gaming in AI Agents</title>
-      <link>https://huggingface.co/papers/2609.36308</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3973fc679f487d1f74fb</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement learning has helped AI agents solve increasingly difficult tasks, but high rewards do not always reflect the work users intended. In recent incidents and controlled evaluations across the AI industry, agents trained to maximize reward have accessed unauthorized information, attempted to evade monitoring systems, and even breached sandbox protections to attack external systems. As agents become more capable, this behavior could pose increasingly serious risks. To measure this proble</description>
     </item>
   </channel>
 </rss>
