@@ -455,6 +455,13 @@
       <description>Recent video-based world models pair the scalability of autoregressive (AR) prediction with the visual quality of diffusion models. The choice of scene tokenizer is paramount for the optimal performance of each of these, both in terms of fidelity and semantics. Flexible-length, coarse-to-fine tokenizers yield exactly that: the first coarse tokens carry the clip's global semantics while later tokens further specify details. Existing flexible tokenizers only apply a representation-alignment (REPA)</description>
     </item>
     <item>
+      <title>[HF Papers] Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation</title>
+      <link>https://huggingface.co/papers/2610.01092</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ce647b423e8b9b9cebe8</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how environments dynamically evolve when executing goal-directed actions. While evaluating these capabilities is crucial, existing benchmarks focus mainly on single short actions or step-by-step instructions. This leaves multi-step physical reasoning underexplored, especially in egocen</description>
+    </item>
+    <item>
       <title>[HF Papers] E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models</title>
       <link>https://huggingface.co/papers/2609.37533</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d10baf4d236d4e124cb2</guid>
@@ -488,6 +495,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d8b164d3962b6f6f7afe</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <description>Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-specified world events. We introduce PROWBench, comprising 170 programmatically constructed episodes and</description>
+    </item>
+    <item>
+      <title>[HF Papers] Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration</title>
+      <link>https://huggingface.co/papers/2609.22753</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d9214d9a3b453d1b1059</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Natural-language service requests can require a language-model decision before execution starts, consuming part of the request's latency budget. We integrate Jev's decision-oriented application programming interface (API) into edge service orchestration to reduce this overhead while retaining service completion. The integration extracts four to eight bounded intent fields and applies a shared validator, admission policy, and scheduler, accounting for decision waiting throughout the request timel</description>
     </item>
     <item>
       <title>[HF Papers] Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?</title>
@@ -691,20 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:220c81e989cd65aa40f8</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <description>Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally a structured choice among predefined candidate items. Specifically, we conduct a controlled empirical study of Jev, described by TypeSafe AI as a ``System One Model,'' for personalized recommendation</description>
-    </item>
-    <item>
-      <title>[HF Papers] Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?</title>
-      <link>https://huggingface.co/papers/2609.39578</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:22a7227de2e3843b1660</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Agent harnesses often improve language models with human-designed workflows, but as models grow more capable, unreliable guidance can increasingly constrain their execution. We call the ability to benefit from useful guidance while overriding unreliable guidance thinking outside the box. We introduce Box^2-Bench, which holds the model and task fixed while varying workflow reliability to isolate how models regulate their reliance on guidance. On Box^2-Bench, frontier models often benefit from rel</description>
-    </item>
-    <item>
-      <title>[HF Papers] RoboCoach: World Models as Active Coaches for Compositional Robot Skills</title>
-      <link>https://huggingface.co/papers/2609.39685</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:23d0275cdfd3b4eaad1a</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Long-horizon robot manipulation reuses skills across many task compositions, but improving these compositions with additional end-to-end demonstrations is costly. A practical self-improving system must decide both what to teach next and where to apply that supervision. We present ROBOCOACH, a world-model-guided coaching framework that uses imagined failures to guide demonstration requests and expert updates. Its Route-Imagine-Diagnose-Improve (RIDI) loop executes reusable skill experts inside CO</description>
     </item>
   </channel>
 </rss>
