@@ -104,12 +104,5 @@
       <pubDate>Tue, 25 Aug 2026 06:42:50 +0000</pubDate>
       <description>zai-org 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF Qwen] Qwen/Qwen3.8-Flash-Next</title>
-      <link>https://huggingface.co/Qwen/Qwen3.8-Flash-Next</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Qwen:eb79656c925ccbff0eee</guid>
-      <pubDate>Mon, 24 Aug 2026 08:24:59 +0000</pubDate>
-      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
