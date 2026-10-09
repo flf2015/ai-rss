@@ -90,19 +90,5 @@
       <pubDate>Thu, 27 Aug 2026 08:14:27 +0000</pubDate>
       <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF zai-org] zai-org/GLM-5.3-Flash</title>
-      <link>https://huggingface.co/zai-org/GLM-5.3-Flash</link>
-      <guid isPermaLink="false">urn:ai-rss:HF zai-org:5302786105ea2e93f144</guid>
-      <pubDate>Tue, 25 Aug 2026 06:43:14 +0000</pubDate>
-      <description>zai-org 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
-    <item>
-      <title>[HF zai-org] zai-org/GLM-5.3</title>
-      <link>https://huggingface.co/zai-org/GLM-5.3</link>
-      <guid isPermaLink="false">urn:ai-rss:HF zai-org:4424584ee706d4b4f373</guid>
-      <pubDate>Tue, 25 Aug 2026 06:42:50 +0000</pubDate>
-      <description>zai-org 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
