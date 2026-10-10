@@ -125,12 +125,5 @@
       <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型：新增支持 Kimi K2.7 Code 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 Hy-MT2-Plus、Hy-MT2-Lite 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:6a452760e31532a7c895</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 Hy-MT2-Plus、Hy-MT2-Lite 模型。</description>
-    </item>
   </channel>
 </rss>
