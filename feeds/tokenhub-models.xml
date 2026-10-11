@@ -118,12 +118,5 @@
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型及模型名称变更：新增支持 Hy-Role 模型。 原 Hunyuan-role 底层模型能力升级，模型名称变更为 Hy-Role-Latest，调用 model 参数不变。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 Kimi K2.7 Code 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:3f233b3d5276aa99c629</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 Kimi K2.7 Code 模型。</description>
-    </item>
   </channel>
 </rss>
