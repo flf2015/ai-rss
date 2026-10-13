@@ -5,7 +5,49 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Hugging Face Daily Papers 每日收录的研究论文</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[HF Papers] ARCS: Towards Precise Text-to-SQL via Structured Disambiguation</title>
+      <link>https://huggingface.co/papers/2610.09396</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:04dcc16d385ee08a888f</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a primary source of errors. Such ambiguities are often subtle, domain- or data-specific, and can silently cause system outputs to deviate from the user's true intent. Ambiguity is traditionally addressed through conversational clarification, which is often inefficient, cognitively demanding, and poorly aligned with real-world user workflows. We propose structured disambiguation, a</description>
+    </item>
+    <item>
+      <title>[HF Papers] SpatialASM: Internalizing Active Mentalization for Spatial Reasoning</title>
+      <link>https://huggingface.co/papers/2610.13832</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1983aa740819c4c87afe</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalization (ASM), an intrinsic component of visual intelligence that remains substantially underdeveloped in current LVLMs. To bridge this gap, we introduce SpatialASM, a scalable framework to</description>
+    </item>
+    <item>
+      <title>[HF Papers] Thinking Inertia: LLMs Keep Thinking When Told Not To</title>
+      <link>https://huggingface.co/papers/2610.11765</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:38229835f7987b47955e</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) increasingly ship with explicit "thinking modes", yet their counterpart, "no-thinking", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinking modes may still emit reasoning, while long traces may contain filler rather than genuine inference</description>
+    </item>
+    <item>
+      <title>[HF Papers] Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method</title>
+      <link>https://huggingface.co/papers/2609.35965</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8a74c54552348ad9a4f0</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individual agent. We present Systematic Multi-Agent Vision-and-Language Navigation, providing, to our knowledge, the first systematic formalization of multi-agent VLN as a constrained coordination problem: each mission consists of subtasks carrying dependency and resource constraints (pre</description>
+    </item>
+    <item>
+      <title>[HF Papers] Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</title>
+      <link>https://huggingface.co/papers/2609.33304</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ce0015ea22b109af23e9</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience relevant to a task remains useful for each decision within it. We find that this help is largely spent at the first decision: retrieved history strongly improves the opening step of an episode, yet provides</description>
+    </item>
+    <item>
+      <title>[HF Papers] Multi-Stream Attention Residuals</title>
+      <link>https://huggingface.co/papers/2610.13630</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f9bbccb3d762e20ca0d8</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR), an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial performance gains with minimal additional overhead. MSAR draws stream diversity from sequence context</description>
+    </item>
     <item>
       <title>[HF Papers] The value of information and the emergence of communication in evolved e-puck robots</title>
       <link>https://huggingface.co/papers/2610.13118</link>
@@ -28,7 +70,7 @@
       <description>Process reward models (PRMs) have become a key component for LLMs, as their step-level feedback supports both post-training and test-time reasoning. However, training strong PRMs remains costly: human step annotation is difficult to scale, while Monte Carlo estimation is computationally expensive and can drift from the intrinsic correctness of steps. To get effective PRMs at low cost, we introduce TIPS (Thinking-Induced Process Supervision), an outcome-only reinforcement learning (RL) framework</description>
     </item>
     <item>
-      <title>[HF Papers] Here the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation</title>
+      <title>[HF Papers] Hear the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation</title>
       <link>https://huggingface.co/papers/2609.38748</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:0e5b2e9dc92e99c2a2b0</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
@@ -173,6 +215,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:59d2f5424e58ae23a599</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
       <description>Visual representations are largely developed for understanding, yet what makes them useful for generation remains unclear. We study this question in pixel diffusion transformers and uncover two key insights. First, better representation quality does not necessarily translate into greater generative utility, as externally aligned semantics can be progressively lost during pixel synthesis. Second, architectural separation with specialized pixel decoders mainly redistributes semantic and spatial mo</description>
+    </item>
+    <item>
+      <title>[HF Papers] Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models</title>
+      <link>https://huggingface.co/papers/2610.08966</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5c3d569fc49b9f973901</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of video reveals who holds authority in a room; and a fleeting clip highlights subtle abstract patterns like unwritten rules or hidden labels. This capacity reflects a form of humanity's sixth sense: an intuitive reasoning mechanism that recovers implicit information beyond raw senso</description>
     </item>
     <item>
       <title>[HF Papers] VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs</title>
@@ -656,55 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:75fc3ca497f844c97b19</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <description>In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this des</description>
-    </item>
-    <item>
-      <title>[HF Papers] TestPrism: Rethinking Test Evaluation Beyond a Single Reference</title>
-      <link>https://huggingface.co/papers/2610.12289</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7a27c2c9e7ad98d9eff1</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and invalid solutions. Its primary metric, Joint Success Function, requires the generated tests to fail o</description>
-    </item>
-    <item>
-      <title>[HF Papers] SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation</title>
-      <link>https://huggingface.co/papers/2610.08941</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7bb08d1c2a621e5d0463</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training. Existing panoramic generators follow predefined trajectories, and interactive world models act through low-level actions in perspective views. We propose SPW-Nav, a streaming panoramic world model that understands movement instructions and streams one minute of 2K 360-degree video in real time from a single panora</description>
-    </item>
-    <item>
-      <title>[HF Papers] A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization</title>
-      <link>https://huggingface.co/papers/2610.12183</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7edbb2608c28da821b7e</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining task semantics, computation, optimization tools, and feedback-driven decision making, showing great potential due to the integration with mathematically rigorous tools. However, existing agentic BBO studies use different task domains and system configurations, making their resul</description>
-    </item>
-    <item>
-      <title>[HF Papers] From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation</title>
-      <link>https://huggingface.co/papers/2610.06100</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:82ea44272ad13571b0b7</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Realistic environment replicas are increasingly valuable for training and evaluating LLM agents, yet the original systems may be inaccessible or impractical to reproduce. We explore agentic language world modeling: rather than rebuilding an executable environment, a world model agent serves as the environment for a task agent and supports faithful and stateful simulation. We instantiate this paradigm with Trace2Env, a learning-free framework for settings where the original system is unavailable</description>
-    </item>
-    <item>
-      <title>[HF Papers] REMORY: Learning Residual Memory for Context Compaction</title>
-      <link>https://huggingface.co/papers/2610.11287</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:830c3425e4dba96c9d89</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a bounded sequence of soft memory tokens. Given the history and summary, the network learns to generate tokens that help a frozen LLM approximate the continuation it would produce with the full history. The tokens are conditioned on the summary and appended after</description>
-    </item>
-    <item>
-      <title>[HF Papers] A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2606.03335</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:873547b36c8f44cbcac6</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac Lab benchmark that enables efficient joint training and evaluation of a single policy across all 40 heterogeneous tasks. Scaling experiments show that increasing parallel replicas per task improves success under a fixed w</description>
-    </item>
-    <item>
-      <title>[HF Papers] V-CoLA: Vision Token Compression with Linear Attention</title>
-      <link>https://huggingface.co/papers/2610.11251</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:87b5b9a04219e85b2c4a</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Vision-language models (VLMs) have demonstrated impressive capabilities but suffer from substantial computational overhead, as vision tokens dominate the input sequence. This motivates vision token compression as a key direction to alleviate the burden. However, with the emergence of hybrid architectures incorporating linear attention (\eg, Qwen3.5), prior methods designed for softmax attention struggle to generalize. Our analysis reveals that both attention- and similarity-based approaches suff</description>
     </item>
   </channel>
 </rss>

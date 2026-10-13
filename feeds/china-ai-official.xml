@@ -174,12 +174,5 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <description>​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠</description>
     </item>
-    <item>
-      <title>[腾讯 HY] 新增支持 Hy-Role 模型。 原 Hunyuan-role 底层模型能力升级，模型名称变更为 Hy-Role-Latest，调用 model 参数不变。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:腾讯 HY:7024ffdb7f978e911415</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型及模型名称变更：新增支持 Hy-Role 模型。 原 Hunyuan-role 底层模型能力升级，模型名称变更为 Hy-Role-Latest，调用 model 参数不变。</description>
-    </item>
   </channel>
 </rss>
