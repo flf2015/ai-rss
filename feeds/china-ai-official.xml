@@ -139,12 +139,5 @@
       <pubDate>Tue, 23 Jun 2026 03:30:30 +0000</pubDate>
       <description>今天，我们正式发布 Qwen-AgentWorld——首个原生语言世界模型（Language World Model, LWM），能够在七大领域中模拟智能体交互环境： 原生世界建模。 我们从预训练阶段开始就引入"理解和模拟环境"这一训练目标，贯穿 CPT → SFT → RL 全流程，而非等到后训练阶段才做适配。 七大领域，一个模型。 单一模型同时覆盖文本类环境（MCP、Search、Terminal、S</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen-Robot Suite：迈向物理世界智能的基础模型套件</title>
-      <link>https://qwen.ai/blog?id=qwen-robotsuite</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:cd4aa99af2bc48545c52</guid>
-      <pubDate>Tue, 16 Jun 2026 02:00:00 +0000</pubDate>
-      <description>Qwen 系列基础模型已在物理世界的感知与理解上展现出强大能力，但看懂不等于能行动——从视觉语言理解到物理控制，这道鸿沟仍是具身智能的核心瓶颈。Qwen-Robot Suite 用三个基础模型来弥补这一鸿沟——Qwen-RobotNav、Qwen-RobotManip 与 Qwen-RobotWorld。Nav 通过自适应视觉分配策略将五类导航任务统一到单一模型；Manip 将异构机器人数据对齐到统一空间，实现大规模跨机型训练；World 以自然语言作为动作接口，将 20 余种机器人本体纳入同一世界模型联合训练。三者协同，使通用智能直接驱动物理行动成为可能。</description>
-    </item>
   </channel>
 </rss>
