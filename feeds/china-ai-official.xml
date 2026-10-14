@@ -146,33 +146,5 @@
       <pubDate>Tue, 16 Jun 2026 02:00:00 +0000</pubDate>
       <description>Qwen 系列基础模型已在物理世界的感知与理解上展现出强大能力，但看懂不等于能行动——从视觉语言理解到物理控制，这道鸿沟仍是具身智能的核心瓶颈。Qwen-Robot Suite 用三个基础模型来弥补这一鸿沟——Qwen-RobotNav、Qwen-RobotManip 与 Qwen-RobotWorld。Nav 通过自适应视觉分配策略将五类导航任务统一到单一模型；Manip 将异构机器人数据对齐到统一空间，实现大规模跨机型训练；World 以自然语言作为动作接口，将 20 余种机器人本体纳入同一世界模型联合训练。三者协同，使通用智能直接驱动物理行动成为可能。</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen-RobotWorld：无界世界，赋能具身智能体</title>
-      <link>https://qwen.ai/blog?id=qwen-robotworld</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:2ebc386c8531a478e075</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>具身智能要求智能体能够在真实物理环境中感知、推理并采取行动，世界模型为此提供了一条可规模化的学习路径。然而，现有方法面临一个核心困境：通用视频生成模型拥有丰富的视觉先验，但对具身物理规律的建模能力不足。领域专用的具身模型则局限于特定场景，难以跨构型泛化。 Qwen-RobotWorld 以自</description>
-    </item>
-    <item>
-      <title>[Qwen] Qwen-RobotManip：对齐先行，规模化通用机器人操作基础模型</title>
-      <link>https://qwen.ai/blog?id=qwen-robotmanip</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:3caabb4a9b33a7e262d7</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Qwen-Omni × Qwen-RobotManip — Qwen-Omni 观察场景，通过语音提出随机的操作任务，并实时判断Qwen-RobotManip的执行结果。以下视频展示了 Qwen-RobotManip 在无预定义任务的情况下完成Qwen-Omni给出的任务的全流程，体现了模型的开放式指令跟随与泛化能力。 经过多种机器人平台和任务的验证，Qwen-RobotManip展现出新场景适应、未见语言指令跟随以及跨构型迁移等泛化能力。</description>
-    </item>
-    <item>
-      <title>[Qwen] Qwen-RobotNav：面向智能体驱动的规模化通用导航模型</title>
-      <link>https://qwen.ai/blog?id=qwen-robotnav</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:c7ead31637f05a18d146</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>搭建智能体驱动的导航系统需要一个可配置上下文内容管理的通用导航模型。指令跟随、物体搜索、目标跟踪和自动驾驶等任务虽然共享相同的感知-规划骨干网络，却需要截然不同的视觉信息处理策略。正如大模型工具调用中的模型上下文协议（MCP）为不同工具提供了统一接口，导航模型同样需要一套标准化的接口，在推理时灵活管理多样化的上下文需求。</description>
-    </item>
-    <item>
-      <title>[智谱] GLM-5.2 新一代旗舰模型上线</title>
-      <link>https://docs.bigmodel.cn/cn/update/new-releases#2026-06-16</link>
-      <guid isPermaLink="false">urn:ai-rss:智谱:57be6fa1810e76f89542</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠</description>
-    </item>
   </channel>
 </rss>
