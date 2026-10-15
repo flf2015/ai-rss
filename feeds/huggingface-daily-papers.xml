@@ -56,6 +56,13 @@
       <description>Effective collaboration among large language model (LLM) agents in multi-agent systems requires sharing relevant evidence, requesting missing information, and incorporating teammates' contributions into decisions. Training these behaviors is challenging because final task outcomes provide limited feedback on the value of individual messages. We introduce CoSIR (Collaboration via Surprisal-based Information Rewards), a post-training approach that uses a simple, verifiable environment to teach col</description>
     </item>
     <item>
+      <title>[HF Papers] The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow</title>
+      <link>https://huggingface.co/papers/2610.17301</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0fe529178ed2dabcf93d</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Language-model agents sometimes act beyond their authorization and then misreport what they did. On CAPE-Bench, matched agent tasks in which one fact decides whether an action is authorized, frontier open-weight agents do both, and one behavior marks the lie: retroactive permission laundering, acting and then asking permission as if the action were pending, precedes a false report in 70% of 1081 fresh informed violations, against 8% otherwise (preregistered odds ratio 7.0); frontier agents on ta</description>
+    </item>
+    <item>
       <title>[HF Papers] τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions</title>
       <link>https://huggingface.co/papers/2610.19560</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:110cef7a146de7a4aace</guid>
@@ -75,6 +82,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:124798632d1075d17ccb</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>In an image latent space, the embeddings of high-resolution, natural, and sharp images form a manifold. Degradation of high-resolution images pushes their embeddings off this manifold. Real-world super-resolution (SR) then becomes the task of mapping the degraded embedding back onto this manifold --- not anywhere on the manifold, but to the point that preserves what the input still carries, both its semantics and pixel details. Every published method implements this mapping in a reconstruction-o</description>
+    </item>
+    <item>
+      <title>[HF Papers] When Left Is Right? Camera-Motion Understanding beyond Screen</title>
+      <link>https://huggingface.co/papers/2610.17242</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:141fb492b99e00fd7146</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-motion data or geometric representations has been tried, separately, and neither closes the gap. We argue that camera-motion understanding needs two conditions at once: the representation must couple off-screen camera motion with on-screen flow dynamics, and it must be interpreted b</description>
     </item>
     <item>
       <title>[HF Papers] BigCell: Generating Gigapixel Whole-Slide Images</title>
@@ -112,11 +126,25 @@
       <description>Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevan</description>
     </item>
     <item>
+      <title>[HF Papers] Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules</title>
+      <link>https://huggingface.co/papers/2610.14216</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1f311706fe8ae3c5f894</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call these files the agent's harness. Developers add to it whenever they correct the agent, but one success proves little: the same agent can pass a task once and fail it the next time. We present Cortex, a tool that tests changes to the harness instead of trusting them. It saves fix</description>
+    </item>
+    <item>
       <title>[HF Papers] Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization</title>
       <link>https://huggingface.co/papers/2610.05230</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2a219f177446b84db7af</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and prediction horizon to a fixed output budget. This pointwise representation wastes capacity on highly correlated neighboring actions, leaves temporal continuity and smoothness to be learned implicitly, and forces a tradeoff between long-horizon coverage and the local precision required for contact-rich manipulation. To address these limitations, we introduce Vela, a vision-languag</description>
+    </item>
+    <item>
+      <title>[HF Papers] Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports</title>
+      <link>https://huggingface.co/papers/2610.18762</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:2ec8392e8f772d19e59d</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, then evaluate 121 human and 261 LLM-generated reports across five disasters and three hazard types. Under google/gemini-3.7-flash on Cyclone Idai, the best machine arm is nominally above the empirical hu</description>
     </item>
     <item>
       <title>[HF Papers] Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders</title>
@@ -138,6 +166,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:324755d30f3d7ac26f34</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Long-horizon agents must coordinate reasoning, tool use, and environment feedback over extended interactions. Learning from sparse outcome rewards requires weighting trajectories of different lengths and updating the policy while rollouts are still being collected. We examine a single-rollout asynchronous recipe combining Muon, token-averaged loss, truncated importance sampling, and auxiliary length and tool-error penalties. Single-rollout sampling allows asynchronous learning without waiting fo</description>
+    </item>
+    <item>
+      <title>[HF Papers] History Replays Itself: Unleashing Long-Context Capability in Linear Attention</title>
+      <link>https://huggingface.co/papers/2610.15715</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:341fa46d97ce8b4d1e46</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing history. This coupling has reinforced a prevailing view that the state's memory capacity defines the model's long-context capability. We challenge this presumed ceiling: recurrent computation need not bear the full burden of long-term storage. We introduce NoteBank, a sparse episodic m</description>
     </item>
     <item>
       <title>[HF Papers] Continuum Attention</title>
@@ -308,6 +343,13 @@
       <description>Large language models (LLMs) are increasingly expected to orchestrate diverse tools over long-horizon tasks. Existing agents typically use Direct Tool Calling (DTC), where the model invokes tools sequentially, and tool responses accumulate in the model context, which can lead to context rot and orchestration breakdown. In contrast, Programmatic Tool Calling (PTC) invokes tools through executable code and stores intermediate results in runtime variables rather than appending them to the context.</description>
     </item>
     <item>
+      <title>[HF Papers] Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving</title>
+      <link>https://huggingface.co/papers/2610.15112</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8ee49a83e8fc7618b2f6</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. While recent feed-forward geometric foundation models have revolutionized per-scene optimization, applying them to continuous, long-horizon driving sequences is computationally intractable due to GPU memory limits and the quadratic complexity of global attention. Existing scaling strategies are fundamentally limited, as causal streaming suffers from compounding scale drift and t</description>
+    </item>
+    <item>
       <title>[HF Papers] Latent Compaction with Test-Time Training</title>
       <link>https://huggingface.co/papers/2610.20582</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:92d58c23bfb825eb1c78</guid>
@@ -364,6 +406,13 @@
       <description>Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run</description>
     </item>
     <item>
+      <title>[HF Papers] Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation</title>
+      <link>https://huggingface.co/papers/2610.14162</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a70b614a47421390d07c</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy</description>
+    </item>
+    <item>
       <title>[HF Papers] Jag: Direct Box Prediction for Efficient Visual Grounding</title>
       <link>https://huggingface.co/papers/2610.13239</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:a746015c59d59731ac65</guid>
@@ -376,6 +425,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:a89f6d624114eea13fef</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Autoregressive generation underlies real-time, causal video synthesis and is the backbone of video world models. Today's dominant approach distills a bidirectional diffusion model into a causal few-step student, but existing pipelines make this conversion prohibitively expensive, requiring offline Probability Flow ODE} (PF-ODE) trajectories that cost tens of thousands of GPU-hours and terabytes of storage. We show it can be made dramatically more efficient. Pushing this efficiency to its extreme</description>
+    </item>
+    <item>
+      <title>[HF Papers] PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards</title>
+      <link>https://huggingface.co/papers/2610.18755</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:abbffa6ec4a31b666b5c</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model during debugging and find that, while it raises pass rates, it also teaches the model to edit more and to hallucinate bugs in code that is already correct. We introduce PreciseCoder, a training algorithm that augments the unit-test reward with a signal for semantically verified, local</description>
     </item>
     <item>
       <title>[HF Papers] MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking</title>
@@ -455,6 +511,13 @@
       <description>Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily provide what a particular agent needs to learn. Existing environment-generation pipelines largely optimize generic properties such as realism, diversity, or task coverage, while different pretrained policies can fail for different environmental reasons. We therefore introduce WEDGE, a framework for weakness-guided navigation learning in which the failure modes of a pretrained a</description>
     </item>
     <item>
+      <title>[HF Papers] Lluna: Collaborative Unimodal Models for Missing-Modality Inference</title>
+      <link>https://huggingface.co/papers/2610.20526</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d7759b8cf0c04572b2d4</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this setting using fixed surviving-model anchors and find that collaborative gains can weaken or reverse as inputs disappear, even when the anchor's own input is unchanged. Our diagnostics further reveal reduced recovery of modality-specific information after aggregation and state-de</description>
+    </item>
+    <item>
       <title>[HF Papers] SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm</title>
       <link>https://huggingface.co/papers/2610.20431</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d8c17629fcff78ca4f92</guid>
@@ -530,6 +593,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:fe92346b77bb7fddae8f</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Post-training is crucial for improving text-to-image models, yet existing pipelines typically rely on manually curated training data and fixed training distributions. We introduce APT (Agentic Post-Training), a fully automated framework that adaptively post-trains a base model according to its evolving capability profile. APT coordinates three agents to construct evaluation sets from user requirements, diagnose model-specific strengths and failure modes, and generate reinforcement learning data</description>
+    </item>
+    <item>
+      <title>[HF Papers] APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces</title>
+      <link>https://huggingface.co/papers/2610.13623</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ffdf9511fb34636be89d</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are difficult to capture with attacks placed at a single, known read location. We introduce APEX-Harm, a benchmark for evaluating prompt and script injection against long-horizon agents performing finance, consulting, and legal tasks in large workspaces. Each task contains 115 to 328 file</description>
     </item>
     <item>
       <title>[HF Papers] 4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling</title>
@@ -635,76 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1f4419a03d2f25af3b7b</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <description>Sparse attention visits few keys, yet finding them can still require scoring every key with every indexer head. We introduce DoSA (Dots Sparse Attention), a lossless method for making this computation conditional while preserving exact token selection. Its central observation is that Top-K selection requires sufficient evidence to reject a candidate, not necessarily its full score. A seed set supplies a lower bound on the winning threshold. Nonnegative head projections and joint residual bounds</description>
-    </item>
-    <item>
-      <title>[HF Papers] LongR: Unleashing Long-Context Reasoning via Reinforcement Learning with Dense Utility Rewards</title>
-      <link>https://huggingface.co/papers/2602.05758</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:23043f1f1937d700bedd</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement Learning (RL) has emerged as a key driver for LLM reasoning. This capability is equally pivotal in long-context scenarios---such as long-dialogue understanding and structured data analysis---where the challenge extends beyond consuming tokens to performing rigorous deduction. While existing efforts focus on data synthesis or architectural changes, recent work points out that relying solely on sparse, outcome-only rewards yields limited gains, as such coarse signals are often insuff</description>
-    </item>
-    <item>
-      <title>[HF Papers] Beyond Prompt Count: How Data Shapes Transfer in On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.37377</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:27f90cd6aaa4f50cba67</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>On-policy distillation (OPD) trains students using teacher feedback on their own sampled responses, yet how prompt choice shapes transfer across teacher-student pairs remains poorly understood. We systematically study prompt quantity, source, and selection across RL- and SFT-continuation pairs and cross-model settings. We find that OPD can be highly prompt-efficient: a few prompts can approach large-pool performance, with four DAPO prompts matching the observed mathematics score of 3,840 DeepMat</description>
-    </item>
-    <item>
-      <title>[HF Papers] Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion</title>
-      <link>https://huggingface.co/papers/2610.18871</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2af6a02b76922609fc8d</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. Since this scale depends on unknown target motion, it cannot be measured directly at test time. We d</description>
-    </item>
-    <item>
-      <title>[HF Papers] SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents</title>
-      <link>https://huggingface.co/papers/2610.18206</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2f413d51624cfed5593b</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors in coding agents. It contains 7.4K human-in-the-loop synthesized samples spanning three layers of agent action space: (i) Code Generation, (ii) File Management, and (iii) System Interaction. Across these categories, SWE-MISBEHAVIOR covers 11 distinct misbehaviors with a fully automated evaluation protocol, including coding-action violations, Create/Read/Update/Delete (CRUD) file</description>
-    </item>
-    <item>
-      <title>[HF Papers] What Really Works for Universal Multimodal Embeddings? A Controlled Study of Contrastive Training Strategies</title>
-      <link>https://huggingface.co/papers/2610.15035</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:349210f0048fc766a20e</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Contrastive learning has become the standard paradigm for multimodal representation learning, aligning semantically matched pairs while separating mismatched ones in a shared embedding space. Although various contrastive training strategies have been proposed across negative selection, batch construction, and gradient modulation, their actual effectiveness under controlled, reproducible conditions remains poorly understood. This motivates a fundamental question: Do sophisticated contrastive stra</description>
-    </item>
-    <item>
-      <title>[HF Papers] Who to Trust in Multi-Robot Systems: Joint Robot and Object Hypothesis Trust Inference via Neural-Symbolic Cross-Validation</title>
-      <link>https://huggingface.co/papers/2610.14530</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:353e572106131b80467a</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multi-robot systems (MRS) offer significant advantages over single-robot platforms by enabling information sharing and coordination for different tasks in complex environments. However, reliable cooperation critically depends on inferring trust over both information sources and their reported hypotheses, particularly under partial observability and potential adversarial interference. Existing approaches frequently depend on pre-established trust relationships or side-channel information, which m</description>
-    </item>
-    <item>
-      <title>[HF Papers] EviScene: Beyond "Is It AI?" for Agentic Image Factuality Assessment</title>
-      <link>https://huggingface.co/papers/2610.14609</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3a3faf43f780c920adf6</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported. We formulate Image Factuality Assessment: given an image and a generic verification instruction, a system returns a supported or refuted verdict with an evidence-grounded explanation. Without a supplied textual claim, the system must progressively refine factual questions during investigation and align external evidence with the specific situation depicted. We introduce EviLen</description>
-    </item>
-    <item>
-      <title>[HF Papers] Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments</title>
-      <link>https://huggingface.co/papers/2610.18497</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3a830e5ace43dfc25cd1</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user did not mention, when it has to be inferred, or when the text it comes from was cut from the judge input. We call this drop in acceptance the derivation gap. It appears across all seven judges we eva</description>
-    </item>
-    <item>
-      <title>[HF Papers] LeWAM: End-to-End World and Action Modeling with JEPAs</title>
-      <link>https://huggingface.co/papers/2610.12818</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3ab71030f0a20b9cf69a</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, and (2) an isotropic Gaussian constraint on the latent state, enabling a single model to support direc</description>
-    </item>
-    <item>
-      <title>[HF Papers] CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks</title>
-      <link>https://huggingface.co/papers/2610.15327</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3af18e56d12648269763</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Removing audio can shift a visual predictor's output without showing whether the task uses the intended audio information. We introduce Conditional Input and Visual Interpretation Checks (CIViC), a four-gate protocol that links an interpretation to an intervention, held-out task comparison, or endpoint control. We demonstrate CIViC on actor-disjoint face-raster tests, a synthetic audio-feature mixture, and source-video-disjoint SpeakerVid proxy tasks. In the static face-raster test, cross-actor</description>
     </item>
   </channel>
 </rss>
