@@ -97,12 +97,5 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <description>Token Plan 企业版-专业套餐新增模型：新增支持 GLM-5.2 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 GLM-5.2 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:ba3a6fd60bc78f081f87</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 GLM-5.2 模型。</description>
-    </item>
   </channel>
 </rss>
