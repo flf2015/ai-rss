@@ -76,12 +76,5 @@
       <pubDate>Thu, 10 Sep 2026 02:17:58 +0000</pubDate>
       <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</title>
-      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</link>
-      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:20c9f9de702fe722311f</guid>
-      <pubDate>Mon, 31 Aug 2026 06:16:18 +0000</pubDate>
-      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
