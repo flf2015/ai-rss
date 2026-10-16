@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Oct 2026 04:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:52:00 +0000</lastBuildDate>
+    <item>
+      <title>[HF tencent] tencent/Hy-Memory-30B-A3B</title>
+      <link>https://huggingface.co/tencent/Hy-Memory-30B-A3B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:12b3f8153ee100f80e6a</guid>
+      <pubDate>Thu, 15 Oct 2026 09:52:00 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF Qwen] Qwen/Qwen-Image-2.1-Turbo</title>
       <link>https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo</link>
