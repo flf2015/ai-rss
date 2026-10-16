@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization</title>
+      <link>https://huggingface.co/papers/2610.22127</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0047b1ef2623d4c695d7</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it. We propose to personalize Mixture-of-Experts (MoE) LLMs, which sparsely route each token to a few specialized experts, reducing polysemanticity and enabling such localization. We ad</description>
+    </item>
+    <item>
       <title>[HF Papers] Gen4P: Video Generators are 4D Perceivers</title>
       <link>https://huggingface.co/papers/2610.22371</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:02211598703fa6aabbf4</guid>
@@ -14,11 +21,25 @@
       <description>We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decoder. The on-demand query formulation enables flexible spatial sampling, and our proposed continuous-ti</description>
     </item>
     <item>
+      <title>[HF Papers] Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR</title>
+      <link>https://huggingface.co/papers/2610.16105</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:040eb8f72cb626072c18</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward variation and weakening group-relative advantage signals. Existing remedies such as higher sampling temperature, entropy bonuses, asymmetric clipping, and larger rollout budgets broaden sampling or modify policy updates but leave rollout conditioning unchanged. In this paper, we propo</description>
+    </item>
+    <item>
       <title>[HF Papers] FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention</title>
       <link>https://huggingface.co/papers/2610.17901</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:050072a2bc300469e1f9</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description>Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck. FlashMask's column-wise sparse mask compresses them from O(n^2) to O(n) via four query-axis boundary vectors, covering broad structured patterns. Implemented for Ampere GPUs, it neither exploits FlashAttention-3's TMA/WGMMA warp-specialized pipeline on Hopper</description>
+    </item>
+    <item>
+      <title>[HF Papers] Copy-Paste Language Models</title>
+      <link>https://huggingface.co/papers/2610.19247</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0734988187aef2bb1596</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional language modeling (LM) head. CPLMs improve training efficiency, downstream performance, and offer new operating points in long-context and retrieval setups. We validate our approach by pretraining models</description>
     </item>
     <item>
       <title>[HF Papers] H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression</title>
@@ -54,6 +75,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:186cd79fc501fe70aa36</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description>We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representa</description>
+    </item>
+    <item>
+      <title>[HF Papers] PAIR: Bridging Perception and Action in Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.09016</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1b309fad39e844e6166c</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to representations that support action generation. Many continuous-action VLAs leave this transition implicit and supervise it mainly through the final action-prediction loss. We introduce PAIR, a framework that learns a shared perception-action representation between these two spaces. Durin</description>
     </item>
     <item>
       <title>[HF Papers] Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling</title>
@@ -159,6 +187,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:416594c757d1bacadee9</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description>Language model agents increasingly automate post-training, but when given the full training stack they converge on supervised fine-tuning and spend most effort revising training data. Existing systems give the agent one kind of control, selecting rows from a fixed pool or calling a generator, whereas a human data engineer adjusts proportions, prunes, repairs, replaces and synthesizes the data. We design a data action space for these changes and ask whether an automated system can make the full r</description>
+    </item>
+    <item>
+      <title>[HF Papers] Learning to Read Out: Unembedding Dynamics in Language Model Pretraining</title>
+      <link>https://huggingface.co/papers/2610.21025</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:42fd28761a8ed1540d3b</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout, which is itself still being learned during pretraining. We show that a model's hidden states can encode task information before its own readout expresses it, so timelines read from outputs conflate what the model encodes with what its readout expresses. To track the readout dire</description>
     </item>
     <item>
       <title>[HF Papers] CoDA: Co-Evolution of Data Engines and Action Policies</title>
@@ -670,41 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:341fa46d97ce8b4d1e46</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing history. This coupling has reinforced a prevailing view that the state's memory capacity defines the model's long-context capability. We challenge this presumed ceiling: recurrent computation need not bear the full burden of long-term storage. We introduce NoteBank, a sparse episodic m</description>
-    </item>
-    <item>
-      <title>[HF Papers] Continuum Attention</title>
-      <link>https://huggingface.co/papers/2610.20586</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:34555c654ad8fee38aa0</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token boundary contributions. The gradients follow analytically from moments of order at most two, enablin</description>
-    </item>
-    <item>
-      <title>[HF Papers] KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization</title>
-      <link>https://huggingface.co/papers/2610.14448</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:366ee271da8887dc9d82</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this KV concentration and find that KV cache quantization delivers substantially greater acceleration than weight-only and weight-activation quantization in our matched-workload comparisons. However, IN</description>
-    </item>
-    <item>
-      <title>[HF Papers] Rethinking Projector Training in Multimodal LLMs</title>
-      <link>https://huggingface.co/papers/2610.18598</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3695d943bd192d55a3d0</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multimodal LLMs are typically trained by first aligning a vision encoder with a language model via projector training on large image-caption datasets, followed by joint training of the full multimodal model. Despite its widespread use, the role of the projector training stage remains poorly understood. We find that (i) using only 10 to 20% of the data for training the projector already recovers most downstream performance gains, and (ii) projectors trained on different datasets can be linearly i</description>
-    </item>
-    <item>
-      <title>[HF Papers] Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models</title>
-      <link>https://huggingface.co/papers/2610.19696</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:371f64c2458d96e93ed3</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multi-agent systems allow language models to solve tasks collaboratively by sharing complementary information. These systems typically communicate through text, while recent approaches also explore exchanging internal model states. However, sharing these states across architectures often requires learned translators or assumptions about model compatibility. We introduce SYNC (Symbol-Indexed Neural Communication), a word-indexed interface that connects heterogeneous models without fine-tuning or</description>
-    </item>
-    <item>
-      <title>[HF Papers] LensErase: A Foundation Model for Erase Anything</title>
-      <link>https://huggingface.co/papers/2610.18072</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:373345c59264a6ecea62</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We introduce LensErase, a general-purpose mask-based Erase Anything foundation model designed to cover a broad spectrum of real-world erase scenarios. LensErase supports diverse objects, visual text, watermarks, associated visual effects, multiple-object removal, and a wide range of object scales, aspect ratios, and image resolutions. First, to enable such broad coverage, we construct LensErase-100M, a large-scale dataset containing 101.07 million paired source-mask-target examples spanning dive</description>
     </item>
   </channel>
 </rss>
