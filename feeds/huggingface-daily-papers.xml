@@ -168,6 +168,13 @@
       <description>AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck. A learned verifier could check proofs cheaply, but training one requires a correctness label on every step, and such labels are hard to obtain for open-ended proofs. Existing methods take them from human annotators, which is costly, or derive them from final answers, which proofs do not have, and formalizing each proof in Lean requires expert effort. We introduce LeanPR</description>
     </item>
     <item>
+      <title>[HF Papers] Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models</title>
+      <link>https://huggingface.co/papers/2610.21185</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3c4879ef23e69a36fca1</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so. We introduce MINE-SAMPLE-RENDER (MSR), a test-time approach that externalizes the diversity into an explicit, corpus-derived sampling procedure. Our pipeline (i) mines an interpretable categorical schema from a corpus of real artifacts and supplies statistics for sampling; (ii) samples attribute configurations from the corpus-derived statistics; (iii) uses</description>
+    </item>
+    <item>
       <title>[HF Papers] Virtual Head Attention</title>
       <link>https://huggingface.co/papers/2610.17959</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:3cb4f2f3adbbf3e3518c</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1bdc2b02484cf9059958</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <description>Evaluating model uncertainty on real-world data is challenging because each instance provides only a single observed label, leaving true conditional class probabilities unknown. To address this, we introduce ProbabilityBench, a benchmark that provides exact, instance-level class probabilities across three simulated text-based domains: peer review, covert information transfer, and credit risk. By explicitly defining the full data-generating process for each environment, we analytically compute bo</description>
-    </item>
-    <item>
-      <title>[HF Papers] Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation</title>
-      <link>https://huggingface.co/papers/2610.20571</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1e37f5bf7cfac9821303</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevan</description>
     </item>
   </channel>
 </rss>
