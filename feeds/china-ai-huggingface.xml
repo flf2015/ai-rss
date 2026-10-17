@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:52:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 02:40:38 +0000</lastBuildDate>
+    <item>
+      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
+      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:cac24968e5aa0d5bf28d</guid>
+      <pubDate>Sat, 17 Oct 2026 02:40:38 +0000</pubDate>
+      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF tencent] tencent/Hy-Memory-30B-A3B</title>
       <link>https://huggingface.co/tencent/Hy-Memory-30B-A3B</link>

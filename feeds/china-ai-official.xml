@@ -5,7 +5,21 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[DeepSeek] DeepSeek-V4.1-Flash-1017 更新</title>
+      <link>https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新</link>
+      <guid isPermaLink="false">urn:ai-rss:DeepSeek:01f3554305ab17d45b82</guid>
+      <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
+      <description>DeepSeek V4.1 Flash 已升级至 DeepSeek-V4.1-Flash-1017，官方网页端与 APP 模型也已同步更新至新版本。API 调用方式与价格保持不变，仍使用 deepseek-flash 即可访问最新模型。</description>
+    </item>
+    <item>
+      <title>[DeepSeek] 开放自研搜索 API</title>
+      <link>https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api</link>
+      <guid isPermaLink="false">urn:ai-rss:DeepSeek:c49080bf442d273e1c9a</guid>
+      <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
+      <description>DeepSeek 网页端与 API 端的搜索能力均由自研 DeepSeek 搜索引擎提供底层支持，稳定处理每天来自全球各地的数亿次搜索请求。DeepSeek 搜索是 AI 原生的通用搜索引擎，索引了全球千亿级网页，支持多语言搜索，实时返回高相关、高权威、高时效的优质结果。针对 SEO 作弊、GEO 操纵和低质 AIGC，我们通过严格的识别机制进行过滤，确保向用户与 LLM 呈现权威可信的信息。使用方式请参考 网页搜索与抓取指南 。</description>
+    </item>
     <item>
       <title>[Qwen] Qwen-Image-2.1：小模强效，创改一体</title>
       <link>https://qwen.ai/blog?id=qwen-image-2.1</link>
