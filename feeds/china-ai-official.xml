@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 17 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[MiniMax] MiniMax M3.1 Flash: Redefining Agent Performance and Cost</title>
+      <link>https://www.minimax.io/blog/minimax-m31f</link>
+      <guid isPermaLink="false">urn:ai-rss:MiniMax:b984a5c544e6313764dd</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.</description>
+    </item>
     <item>
       <title>[DeepSeek] DeepSeek-V4.1-Flash-1017 更新</title>
       <link>https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新</link>
