@@ -28,6 +28,20 @@
       <description>Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-grained region understanding. A key reason is that text-only supervision never specifies which regions support an answer. To close this gap, we present Xiaomi-Lens-0, a 4B MLLM built on Qwen3.5 that predicts masks from its own visual representations. Specifically, a lightweight decoder combines vision-encoder patch features with visual latents, the language model's mask-token stat</description>
     </item>
     <item>
+      <title>[HF Papers] Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards</title>
+      <link>https://huggingface.co/papers/2610.22448</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1655ffa39446dd741c2d</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on high-level outcome rewards, with minimal consideration of low-level toolcall and mid-level workflow-stage rewards, which makes the training less effective. To overcome this limitation, we propose **Lean</description>
+    </item>
+    <item>
+      <title>[HF Papers] EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications</title>
+      <link>https://huggingface.co/papers/2610.16402</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:187c3112d2cfc1148cb8</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Web application development often proceeds through successive requests that extend an existing implementation. Yet web-generation benchmarks primarily evaluate development toward fixed specifications. We introduce EvoWeb, a novel benchmark comprising 320 cumulative requests over 32 web applications, grounded in real-world product features and structured by functional dependency graphs. Agents iteratively modify a persistent codebase, while a multimodal web agent tests each intermediate applicati</description>
+    </item>
+    <item>
       <title>[HF Papers] MOSS-Image Technical Report</title>
       <link>https://huggingface.co/papers/2610.23374</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1aad120bf18c8772d870</guid>
@@ -63,6 +77,13 @@
       <description>Dynamic Gaussian representations have made high-quality, real-time volumetric video increasingly practical, yet challenging motion can still break their reconstruction: small fast-moving objects may disappear, and fine textures in highly dynamic regions are often lost. In particular, simply training longer or using more Gaussians may still fail to recover small, fast-moving objects. We argue that the key bottleneck is not representational capacity itself, but where and when Gaussian primitives a</description>
     </item>
     <item>
+      <title>[HF Papers] GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations</title>
+      <link>https://huggingface.co/papers/2610.22708</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:2608d92f5b1b6f830c7e</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases. However, no standardized benchmark exists to compare, study and improve these models. Through this paper, we attempt to solve this problem by building GlobeBench, a novel benchmark with 1,632 tasks across five separate domains and nineteen simulation skills. The tasks check whether models can predict the environment's response to a specific action given the f</description>
+    </item>
+    <item>
       <title>[HF Papers] Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation</title>
       <link>https://huggingface.co/papers/2610.23121</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2b8e86a990e37666d048</guid>
@@ -75,6 +96,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:397621c41a1ec9138cb3</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <description>World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths. This coupling hinders selective visual-feature use and introduces redundant computation. We introduce Bridge-of-Experts (BoE), instantiated as BridgeWAM, which aggregates visual, language, and proprioceptive priors through 32 Latent Bridge Queries (LBQs) into a shared,</description>
+    </item>
+    <item>
+      <title>[HF Papers] DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss</title>
+      <link>https://huggingface.co/papers/2610.17644</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3c3f284ed4e84d83ed1e</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teachers that fit. DisaggKD separates them across nodes: teacher replicas stream hidden states to the student, a KD loss over row windows and vocabulary shards equals the full-vocabulary loss in exact arithmetic without forming the full-vocabulary logits, and a prefetch ring paces producer and trainer. Closed-form memory and traffic models locate the memory limits of each layout. On th</description>
     </item>
     <item>
       <title>[HF Papers] DuET: Note-Frame Dual Encoding for Piano Performance-to-Score Transcription</title>
@@ -182,6 +210,13 @@
       <description>Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically,</description>
     </item>
     <item>
+      <title>[HF Papers] BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking</title>
+      <link>https://huggingface.co/papers/2610.07052</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:9170341b904c72cace89</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject r</description>
+    </item>
+    <item>
       <title>[HF Papers] LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
       <link>https://huggingface.co/papers/2610.09872</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:93d2315de5d8202e46c5</guid>
@@ -266,6 +301,20 @@
       <description>Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our preliminary experiments show that larger chunks improve video quality and better utilize GPU parallelism, allowing more latents to be sampled with only a modest increase in sampling time. Motivated by these observations, we propose Speculative Sampling, a strategy that combines the modeling power of large bidirectional windows with the low-latency interaction of small ones. It expands t</description>
     </item>
     <item>
+      <title>[HF Papers] Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries</title>
+      <link>https://huggingface.co/papers/2610.22273</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b90fb9f7416dd8dd3f5c</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to efficiently serve di</description>
+    </item>
+    <item>
+      <title>[HF Papers] Relational Learning as World Modeling</title>
+      <link>https://huggingface.co/papers/2610.16763</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b9b47ef306c21dbec1d2</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Relational learning typically predicts from a database state, but decision making asks a different question: how will that state change under an action? In operational systems, the answer depends on system-specific dynamics that may not be visible in the database itself. We view each such system as a relational "world" and ask whether a model can infer how it behaves from observed executions. We introduce TabWM (Tabular World Model) and WorldRel, a generator of executable relational worlds for p</description>
+    </item>
+    <item>
       <title>[HF Papers] FC-SWE: Failure-Conditioned RL for Long-Horizon Software Engineering Agents</title>
       <link>https://huggingface.co/papers/2610.07898</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b9c61e151e4039582ca8</guid>
@@ -320,6 +369,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:dec37eb71e75f8ce22a1</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <description>On-policy distillation (OPD) improves language-model by supervising a student on prefixes sampled from its own policy, but its supervision remains confined to the output space. Consequently, OPD transfers what a teacher predicts without supervising the intermediate computation that produces those predictions. Simply distilling intermediate representations like representation matching is insufficient since teacher and student representations may differ geometrically, and even well-aligned hidden</description>
+    </item>
+    <item>
+      <title>[HF Papers] OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing</title>
+      <link>https://huggingface.co/papers/2610.22744</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:dfe1b2697db23051dace</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Creative intent in video editing can be expressed through text instructions (e.g., "remove the people"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above. We introduce OmniXRef, a unified framework for multimodal multi-reference video editing that allows users to combine variable numbers of text, image, and video references to control diverse attributes of a source video. We first devise a unified input design with a reference-b</description>
     </item>
     <item>
       <title>[HF Papers] BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business</title>
@@ -649,62 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:4ec5590d649f6418233d</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <description>Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground where a weak agent acts by default and hands control to a strong one only when needed. The core challenge is deciding when to escalate, which requires an uncertainty signal cheap enough to check at every step. However, even after handoff, the strong agent can still get lost, but a bl</description>
-    </item>
-    <item>
-      <title>[HF Papers] SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes</title>
-      <link>https://huggingface.co/papers/2610.21359</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5626e0d8d38c4bf0fe6f</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>As coding agents become increasingly capable, robust evaluation requires a broader and more diverse supply of verifiable software engineering (SWE) tasks. However, real-world tasks are constrained by the natural frequency of issue reporting and the substantial cost of manual curation. Furthermore, existing synthetic approaches rely primarily on the pretrained knowledge of large models coupled with heuristic prompting, often failing to capture the authentic, complex mechanics of software failures</description>
-    </item>
-    <item>
-      <title>[HF Papers] DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding</title>
-      <link>https://huggingface.co/papers/2610.19849</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5971411ca143f5c10054</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe, remember, and investigate. Streaming video understanding requires a system to retain evidence before knowing which details future queries will need. Existing approaches often obscure event transitions and omit relevant details when compressing video history, and cannot recover missing visual evidence. DeltaStreamer addresses these limitations by combining change-aware memory with</description>
-    </item>
-    <item>
-      <title>[HF Papers] PathFM: Fast Generative Forecasting of Multivariate Trajectories</title>
-      <link>https://huggingface.co/papers/2610.22358</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5978f223f4711bfacfdd</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model this dependence, we introduce PathFM, a trajectory-based forecasting model that uses flow matching to g</description>
-    </item>
-    <item>
-      <title>[HF Papers] CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation</title>
-      <link>https://huggingface.co/papers/2610.20603</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5d9b10e0e02aa01fb8fc</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop Agent (PERL-Agent) distills heterogeneous SKU metadata into concise selling-point text lists through an iterative closed loop of VLM and LLM roles scored by a reference-free rubric. Layout Thinker Op</description>
-    </item>
-    <item>
-      <title>[HF Papers] OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use</title>
-      <link>https://huggingface.co/papers/2610.22200</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:659d09efaf40c4ef900d</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. W</description>
-    </item>
-    <item>
-      <title>[HF Papers] A team of Gemini 4 Argon agents beats Minecraft</title>
-      <link>https://huggingface.co/papers/2610.22319</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:6a700e4dbec8a995e95f</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugged every program themselves. Researchers could watch the run on a live dashboard and pause or stop it at any time, but they had no cause to int</description>
-    </item>
-    <item>
-      <title>[HF Papers] Scalable Weak-to-Strong Verifier Hardening for Agent Environments</title>
-      <link>https://huggingface.co/papers/2610.15924</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:6b871126a40673cf1529</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn complex outcomes into rewards. Verifiers can be attacked into awarding full credit to cheating agents without completing the intended task, causing inaccurate evaluation and misalignment in training. As agent environments scale in numbers and difficulty, so must the repairing of exploitable verifiers. To this end, we ask whether today's model with scaled compute can automatically</description>
-    </item>
-    <item>
-      <title>[HF Papers] Can World and Action Modeling Benefit Each Other under Unified Causal Training?</title>
-      <link>https://huggingface.co/papers/2610.21095</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:6c8943a5b3cecc9bc42c</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description>World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both conditions for world prediction and targets for policy learning within a shared video-action architecture. Using this framework, we investigate whether learning forward dynamics conditioned on specified actions improves action learning, and whether learning to generate actions in t</description>
     </item>
   </channel>
 </rss>
