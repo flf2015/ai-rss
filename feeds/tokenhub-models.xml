@@ -5,7 +5,21 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>腾讯云 TokenHub 新增支持的国产模型</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[TokenHub] 新增支持 MiniMax-M3.1-Flash 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:8c603d21247e5f7aa9e2</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 MiniMax-M3.1-Flash 模型。</description>
+    </item>
+    <item>
+      <title>[TokenHub] 新增支持 MiMo-V2.6-Pro、MiMo-V2.6-Flash 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:003c3181f8392d6a2036</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 MiMo-V2.6-Pro、MiMo-V2.6-Flash 模型。</description>
+    </item>
     <item>
       <title>[TokenHub] 新增支持 MiMo-V2.6-Pro、MiMo-V2.6-Flash模型。</title>
       <link>https://cloud.tencent.com/document/product/1823/130675</link>
