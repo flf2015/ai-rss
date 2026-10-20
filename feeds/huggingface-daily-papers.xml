@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] Vision as Proprioception: Estimating Humanoid Robot Pose from Video</title>
+      <link>https://huggingface.co/papers/2610.25288</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:06169b23db9c5d380e28</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints. Meanwhile, online and AI-generated robot videos provide rich sources of data but typically lack corresponding joint configurations, limiting their direct use in robot learning. To address these issues, we present HumanoidPose, a new fra</description>
+    </item>
+    <item>
       <title>[HF Papers] Competence-Based Evaluation of Logical Reasoning in Large Language Models</title>
       <link>https://huggingface.co/papers/2610.22894</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:065e3e64a54dc314c7d7</guid>
@@ -26,6 +33,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:11e2aa98ef0a3dbb991d</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Large language model agents increasingly undertake long-horizon tasks in complex environments characterized by fragmented evidence, partially completed states, and dependencies across resources and artifacts. Existing agents may satisfy individual requirements while failing to maintain these relationships, producing locally correct but incomplete outcomes. These failures arise because task completion depends on relationships among environmental evidence, consequential decisions, and required eff</description>
+    </item>
+    <item>
+      <title>[HF Papers] A Language-Informed Loss for Visual Generation</title>
+      <link>https://huggingface.co/papers/2610.23653</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:127465282c3d44f095dc</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>End-to-end visual generation with pixel-space loss has recently achieved competitive performance without the need for learned image tokenizers. In this work, we study whether language-informed supervision can provide a richer training signal than pixel loss for visual generation. We introduce LILIE (pronounced "lily"), a Language-Informed and Lossless Image Encoder. LILIE is an invertible image transform trained such that a vision-language model can recover captions from noised features. The enc</description>
     </item>
     <item>
       <title>[HF Papers] Co-Evolving Acting and Forecasting for Language Agents</title>
@@ -392,6 +406,13 @@
       <description>Open-ended search combined with foundation models has produced advances such as faster algorithms, new results on open mathematical problems, and self-improving agents. We extend this paradigm to recommendation for decision-making, focusing on decisions where the set of possible choices is fixed but the reasons for choosing them are not. In high-stakes decisions, e.g., which company to acquire or which customer to target, comparing diverse, well-reasoned options can be more useful than a single</description>
     </item>
     <item>
+      <title>[HF Papers] Harness-Delta Attribution: Dissecting Gains From Harness Evolution</title>
+      <link>https://huggingface.co/papers/2610.22466</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c068048dc75fecae99bb</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this work, we introduce Harness-Delta Attribution (HDA</description>
+    </item>
+    <item>
       <title>[HF Papers] Heterogeneous Agentic Coevolution</title>
       <link>https://huggingface.co/papers/2610.16078</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:c32dd0311407ebf07afc</guid>
@@ -488,6 +509,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:f048b8657c9034254539</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right. We introduce StopLoss, a small external monitor that learns failure recognition from completed trajectories and their verifier outcomes. The name is inspired by the stop-loss order in finance: StopLoss ends a run early when the run is likely to fail, which saves resources. Final outcomes label earlier local windows, so a fine-tuned language model can score</description>
+    </item>
+    <item>
+      <title>[HF Papers] TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning</title>
+      <link>https://huggingface.co/papers/2610.26754</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f0f838c6994b49996831</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to</description>
     </item>
     <item>
       <title>[HF Papers] N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:6c2d8408b7e317748b43</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <description>Looped language models reuse physical Transformer blocks across logical depth, but established architectures entangle recurrence placement, input injection, and recurrent state organization. We isolate these axes in models trained from scratch at matched parameter scale, logical depth, and token budgets, and then test whether the resulting design principles transfer to resident- and active-parameter-matched Mixture-of-Experts (MoE) models. The prelude-recurrent block-coda sandwich architecture c</description>
-    </item>
-    <item>
-      <title>[HF Papers] Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.23181</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7a026038d3a47e3438fa</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models. However, training agents over long-horizon interactions presents two challenges: using only terminal rewards makes turn-level credit assignment sparse and high-variance, while sequential mini-batch updates on a fixed rollout batch introduce policy staleness as the current policy drifts from the behavior policy. Existing approaches obtain denser credit via learned critics, proces</description>
-    </item>
-    <item>
-      <title>[HF Papers] DLite: History-free Speculative Decoding for Agentic AI</title>
-      <link>https://huggingface.co/papers/2610.23787</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:80fdfe6a346506ef56fa</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cac</description>
-    </item>
-    <item>
-      <title>[HF Papers] Learning to Think and Explore in 3D World</title>
-      <link>https://huggingface.co/papers/2610.21783</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8882a92e0fc10e115464</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and observations (rendered images). Each rollout begins from an initial first-person view and</description>
-    </item>
-    <item>
-      <title>[HF Papers] Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2610.22602</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:889e351a21436cf244f8</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relevant images or texts in a collection, often using a shared embedding space. Reliable retrieval requires these embeddings to capture not only which concepts are present, but also how they are composed. One key compositional challenge is attribute--object binding: encoding which attributes belong to which objects. Existing benchmarks provide a limited view of this capability, typic</description>
     </item>
   </channel>
 </rss>
