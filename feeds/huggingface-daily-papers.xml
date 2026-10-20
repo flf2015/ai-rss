@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] Competence-Based Evaluation of Logical Reasoning in Large Language Models</title>
+      <link>https://huggingface.co/papers/2610.22894</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:065e3e64a54dc314c7d7</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recent advances in large language models (LLMs) have brought impressive performance across diverse tasks; however, shortcomings remain in logical reasoning, including inconsistencies under linguistic variation. To improve the reasoning capacity of LLMs, we must be able to accurately measure their reasoning capacity. Current benchmarks primarily report single accuracy numbers on selected reasoning tasks. Such a performance-based evaluation methodology says little about a model's generalization ca</description>
+    </item>
+    <item>
       <title>[HF Papers] Learning to Discriminate Scene Structures Makes Self-Supervised Depth Learning Scalable</title>
       <link>https://huggingface.co/papers/2610.23600</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:07129d379493337aaf3d</guid>
@@ -47,6 +54,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1690d7dd250076d7c58b</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Industrial manipulation in flexible manufacturing, e.g., high-mix, low-volume (HMLV) electronics assembly, requires robot policies to adapt to changing products and production conditions. Such settings impose industrial process constraints, including product variants, moving material flows, finite execution windows, and tight geometric tolerances. However, existing evaluation frameworks do not systematically capture these constraints when assessing generalist robot policies. To address this gap,</description>
+    </item>
+    <item>
+      <title>[HF Papers] Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness</title>
+      <link>https://huggingface.co/papers/2610.22636</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:19251e457e51cd75d47c</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations makes reliable and interpretable uncertainty quantification essential. We introduce the concept of mechanistic uncertainty, which characterizes uncertainty through the stability of the internal mechanisms supporting a model's response. We propose the causal robustness margin, defined as the minimum internal intervention required to deviate the model's output, and operationalize it</description>
     </item>
     <item>
       <title>[HF Papers] OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners</title>
@@ -140,6 +154,13 @@
       <description>We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from</description>
     </item>
     <item>
+      <title>[HF Papers] Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations</title>
+      <link>https://huggingface.co/papers/2610.25159</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4c794ec56648b69d13a2</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>People ask conversational AI models about their legal rights, obligations, procedures, and personal situations that may have legal consequences. To study this behavior, we first need to distinguish requests for legal guidance from other legally themed discussions and unrelated conversations. We contribute a multi-axis taxonomy of legal queries capturing whether legal guidance is sought, how a request is formulated, and which legal domains it concerns; apply it to 2,122 naturally occurring WildCh</description>
+    </item>
+    <item>
       <title>[HF Papers] AnyGoal: On World Model Generalization Beyond Expert Rollouts</title>
       <link>https://huggingface.co/papers/2610.26844</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:4e83d1bddac13d103c0f</guid>
@@ -222,6 +243,20 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:7380855edf4f96ded652</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>We ask how much an autoregressive transformer retains of its prompt after generating t tokens. Consider two different prompts followed by the same continuation text, so that any difference in their hidden states comes from the prompt alone, and we find that the distance between their hidden states decays approximately as a power law t^{-α}, where α=1 is the rate at which a fixed prompt's share of uniform attention shrinks and smaller values mean longer memory. Trained models forget fast (αapprox</description>
+    </item>
+    <item>
+      <title>[HF Papers] Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents</title>
+      <link>https://huggingface.co/papers/2610.19439</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7a22dd73d94d51644dda</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>While LLM-based agent systems have demonstrated remarkable proficiency in reasoning and solving complex real-world tasks, they also come with substantial token consumption and inference latency, limiting their practical deployment. To enhance the efficiency of agent systems, recent efforts have focused on transferring agentic capabilities from large-scale models to small language models (SLMs) via supervised fine-tuning-based distillation. Nevertheless, as interaction trajectories grow longer, i</description>
+    </item>
+    <item>
+      <title>[HF Papers] HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention</title>
+      <link>https://huggingface.co/papers/2610.06563</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7b4796546b2c86114c02</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approaches typically optimize a model or agent harness against a fixed set of tasks, leading to limited generalization to unseen failure modes. We introduce HERA, a framework for harness-environment co-evoluti</description>
     </item>
     <item>
       <title>[HF Papers] Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation</title>
@@ -329,6 +364,13 @@
       <description>Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise f</description>
     </item>
     <item>
+      <title>[HF Papers] Predicting Privileged Information Effectiveness for On-Policy Self-Distillation</title>
+      <link>https://huggingface.co/papers/2610.22512</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b9a92ad37e2b5b806f7d</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>On-policy self-distillation (OPSD) enables large language models (LLMs) to learn from privileged information (PI) without a separate teacher model. However, prior work largely treats PI as a fixed design choice, leaving the effects of its content and construction poorly understood. This challenge is particularly important in multi-turn agentic settings, where trajectories contain actions, observations, and reasoning that can be transformed into PI in many ways. We systematically evaluate 16 PI c</description>
+    </item>
+    <item>
       <title>[HF Papers] ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models</title>
       <link>https://huggingface.co/papers/2610.25861</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:bbce6ea5e719c13fd6b0</guid>
@@ -350,6 +392,20 @@
       <description>Open-ended search combined with foundation models has produced advances such as faster algorithms, new results on open mathematical problems, and self-improving agents. We extend this paradigm to recommendation for decision-making, focusing on decisions where the set of possible choices is fixed but the reasons for choosing them are not. In high-stakes decisions, e.g., which company to acquire or which customer to target, comparing diverse, well-reasoned options can be more useful than a single</description>
     </item>
     <item>
+      <title>[HF Papers] Heterogeneous Agentic Coevolution</title>
+      <link>https://huggingface.co/papers/2610.16078</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c32dd0311407ebf07afc</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence. However, many domain-specific applications rely on specialized foundation models that possess strong domain expertise but remain dependent on human-designed improvements. Extending recursive self-improvement to these models presents a key challenge: as a specialist improves, the strategies used to advance it must also adapt. To address this challenge, we propose Heterogen</description>
+    </item>
+    <item>
+      <title>[HF Papers] Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale</title>
+      <link>https://huggingface.co/papers/2604.11331</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:cb7724d271c36866f851</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models. Typically, these 2D-based approaches perform scene generation in a 2D latent space, which introduces two fundamental issues: (i) representing 3D scenes via 2D views leads to significant representation redundancy, and (ii) latent space rooted in 2D inherently limits the spatial consistency of the generated scenes. In this paper, we propose to perform 3D scene generation directly within a high-dimensional</description>
+    </item>
+    <item>
       <title>[HF Papers] CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat</title>
       <link>https://huggingface.co/papers/2610.19005</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ce959388d824511902a3</guid>
@@ -362,6 +418,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d1ae73ec3ef99685c361</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following</description>
+    </item>
+    <item>
+      <title>[HF Papers] First Passage Attention</title>
+      <link>https://huggingface.co/papers/2610.22714</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d42c83ce01514d913a2e</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query path. Because such accumulation is monotonic, these mechanisms cannot selectively erase intermediate context while preserving older, structurally relevant tokens. We propose First Passage Attention (FPA), which shifts from path summation to path extrema by lowering a key's logit proportionally to the deepest dip of a learned scalar field below that key's level over the intervening</description>
     </item>
     <item>
       <title>[HF Papers] Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning</title>
@@ -418,6 +481,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ebd75a5abb1ed6114f1f</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain largely constrained by predefined factories and APIs, limiting their ability to create novel asset t</description>
+    </item>
+    <item>
+      <title>[HF Papers] StopLoss: Teaching Agents to Predict Failure and Stop Early</title>
+      <link>https://huggingface.co/papers/2610.25525</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f048b8657c9034254539</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right. We introduce StopLoss, a small external monitor that learns failure recognition from completed trajectories and their verifier outcomes. The name is inspired by the stop-loss order in finance: StopLoss ends a run early when the run is likely to fail, which saves resources. Final outcomes label earlier local windows, so a fine-tuned language model can score</description>
     </item>
     <item>
       <title>[HF Papers] N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models</title>
@@ -635,76 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:889e351a21436cf244f8</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <description>Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relevant images or texts in a collection, often using a shared embedding space. Reliable retrieval requires these embeddings to capture not only which concepts are present, but also how they are composed. One key compositional challenge is attribute--object binding: encoding which attributes belong to which objects. Existing benchmarks provide a limited view of this capability, typic</description>
-    </item>
-    <item>
-      <title>[HF Papers] Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?</title>
-      <link>https://huggingface.co/papers/2610.18834</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:89f4cfd33fc402af3ceb</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Visual reasoning is an important capability for vision-language models (VLMs) to understand visual evidence, spatial structure, constraints, and state changes. Existing evaluations mainly rely on real-world data or procedurally generated tasks. Real-world data preserve natural complexity, while procedural games provide controllable generation and verifiable solutions. However, it remains unclear whether abilities measured in toy games correspond to real-world visual reasoning and whether game ex</description>
-    </item>
-    <item>
-      <title>[HF Papers] GeoState: Learning View-Decoupled Geometry States for 3D World Modeling</title>
-      <link>https://huggingface.co/papers/2610.22343</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:90c403f7815a9fd90150</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically,</description>
-    </item>
-    <item>
-      <title>[HF Papers] BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking</title>
-      <link>https://huggingface.co/papers/2610.07052</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9170341b904c72cace89</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject r</description>
-    </item>
-    <item>
-      <title>[HF Papers] LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
-      <link>https://huggingface.co/papers/2610.09872</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:93d2315de5d8202e46c5</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs operate along continuous trajectories under matched Tool Use, Persistent Memory,</description>
-    </item>
-    <item>
-      <title>[HF Papers] Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents</title>
-      <link>https://huggingface.co/papers/2610.18784</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:94ffddd828c00a04ed37</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task objects. Rather than treating compressed histories or reconstructed accounts of</description>
-    </item>
-    <item>
-      <title>[HF Papers] LEV: Thinking Fast and Deep with Looped Decision Models</title>
-      <link>https://huggingface.co/papers/2610.20951</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:97197fa70a55d7a9abff</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its lay</description>
-    </item>
-    <item>
-      <title>[HF Papers] RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars</title>
-      <link>https://huggingface.co/papers/2610.23230</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9984449abdc01cc0f7f8</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which exercises summarization, visual design, and code implementation at once, using nothing beyond the paper itself. Yet benchmarks for this task in the context of visual coding remain scarce: existing resources are small and annotated only with layout boxes, so evaluation must fall back on VLM-as-judge or human checklists rather than objective render-and-compare, and the generation</description>
-    </item>
-    <item>
-      <title>[HF Papers] StopWatch: Goal Grounding for Object-goal Navigation</title>
-      <link>https://huggingface.co/papers/2610.23841</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a2bc3cb0ace98ad6d868</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice that the goal is already in view or to estimate how far away it is. To address this failure, we grou</description>
-    </item>
-    <item>
-      <title>[HF Papers] AI-Driven Disaster Response and Displacement Monitoring</title>
-      <link>https://huggingface.co/papers/2610.21482</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a796f998b5f4bff8b8c9</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalable and data-driven solutions to some of the world's most pressing challenges. For instance, in addressing climate change, AI-powered models are being used for faster and more accurate global weather forecasting, control and design of renewable energy, and monitoring deforestation. Machine learning algorithms analyze satellite imagery and socioeconomic data to predict poverty and</description>
-    </item>
-    <item>
-      <title>[HF Papers] MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing</title>
-      <link>https://huggingface.co/papers/2610.23751</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ac11d9823fe2b0e3a0ba</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with human-AI collaborative creation than single-turn editing. However, constructing high-quality multi-turn training data remains challenging, as conventional sequential rollout accumulates errors and introduces visual-quality drift across editing turns. To address this challenge, we introduce MTEdit, a multi-turn image editing dataset built through a pipeline centered on packed tr</description>
     </item>
   </channel>
 </rss>
