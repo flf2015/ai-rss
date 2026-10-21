@@ -105,6 +105,13 @@
       <description>We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. However, making these selections with existing language Gaussian splatting methods poses two challenges: adjacent parts and garments are hard to separate and may be referred to indirectly (region ambiguity), while fine-grained mo</description>
     </item>
     <item>
+      <title>[HF Papers] What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?</title>
+      <link>https://huggingface.co/papers/2610.23010</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:454e2d025b4faed54de5</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-continuous formulations that explicitly expose combinatorial structure, such as contact modes or discrete primitive actions. Existing methods typically rely on human-defined symbol sets or symbols derived from language supervision, without asking what makes a symbol computationally useful. In this paper, we take an inference-algorithm--centric view to define usefulness: a good symbol</description>
+    </item>
+    <item>
       <title>[HF Papers] Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience</title>
       <link>https://huggingface.co/papers/2610.26855</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:491d4cb816a16a37aa09</guid>
@@ -187,6 +194,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:80992bcf7bbb2cba05a7</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchroni</description>
+    </item>
+    <item>
+      <title>[HF Papers] Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2603.19233</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:80cecb055462da679ba0</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as it saw during fine-tuning. However, if the basket is shifted five centimeters to the left, it drops the soup off the table. We developed an interpretability pipeline to investigate what such a policy is computing. Injecting task A's activations into the action expert while the policy looks at task B's scene makes pi0.5 execute task A's motor trajectory in 99.6\% of episodes (n{=}</description>
     </item>
     <item>
       <title>[HF Papers] Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics</title>
@@ -313,6 +327,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b259e2351a31c016ce92</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration</description>
+    </item>
+    <item>
+      <title>[HF Papers] BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks</title>
+      <link>https://huggingface.co/papers/2610.25459</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b425b0c1b7e144299041</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. However, few studies have developed benchmarks specifically tailored for dexterous manipulation, leaving the dexterous manipulation capabilities of existing models insufficiently characterized. In this paper, we present BiDex-100, a simulation benchmark for bimanual dexterous manipulation that combines broad task coverage, multi-dimensional evaluation, and high-DoF hand embodiments. C</description>
     </item>
     <item>
       <title>[HF Papers] LLM2R: From Large Language Models to 3D Reassemblers</title>
@@ -684,27 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:7b4796546b2c86114c02</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approaches typically optimize a model or agent harness against a fixed set of tasks, leading to limited generalization to unseen failure modes. We introduce HERA, a framework for harness-environment co-evoluti</description>
-    </item>
-    <item>
-      <title>[HF Papers] Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2610.25874</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7bb663bcfe466a756e06</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Robotic manipulation is not merely observation-to-action generation, but the realization of task-specified state changes in the physical world. Existing vision-language-action (VLA) methods directly learn observation-to-action mappings, imposing a substantial learning burden due to the gap between semantic understanding and action execution. Although world-action models (WAMs) improve control through future prediction, modeling complete future states wastes capacity on static appearance and acti</description>
-    </item>
-    <item>
-      <title>[HF Papers] Scaling Parameter-Efficient Fine-Tuning for Brain Encoding</title>
-      <link>https://huggingface.co/papers/2610.26802</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8c70f13be5b43cbe12df</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it c</description>
-    </item>
-    <item>
-      <title>[HF Papers] HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs</title>
-      <link>https://huggingface.co/papers/2610.26770</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8fcc64f651828766fab0</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this setting, candidate harnesses are evaluated using LLM-generated tests without access to ground-truth solutions or official tests. Specialized agents</description>
     </item>
   </channel>
 </rss>
