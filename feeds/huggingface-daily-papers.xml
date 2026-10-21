@@ -21,6 +21,20 @@
       <description>Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video rende</description>
     </item>
     <item>
+      <title>[HF Papers] Evolving Agent Interfaces</title>
+      <link>https://huggingface.co/papers/2610.28601</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0d57caa52bcb3d92c11a</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models. We argue that interface design should itself be an agent capability. We introduce Agent S4, an autonomous computer-use scien</description>
+    </item>
+    <item>
+      <title>[HF Papers] Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning</title>
+      <link>https://huggingface.co/papers/2610.22444</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:122792e9d5482ba1d1cc</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query. Despite continued advances, existing STVG benchmarks remain largely centered on localizing targets through instance-specific descriptions, leaving them largely decoupled from long-form reasoning increasingly emphasized in multimodal large language models (MLLMs). In this paper, we introduce Event-STVG, a task that shifts STVG from locating what is described toward event-leve</description>
+    </item>
+    <item>
       <title>[HF Papers] DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems</title>
       <link>https://huggingface.co/papers/2610.28522</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1fc9591295f23ac05d7e</guid>
@@ -33,6 +47,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2043283bce4f5f89ad04</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>LLM agents can improve across tasks without updating model parameters by storing experience from their own executions in external memory and reusing it to guide later decisions. A central design question is whether to retain only observed trajectories and outcomes or also the rules, summaries, and skills inferred from them. Retaining these abstractions allows agents to reuse strategies without repeatedly deriving them from raw trajectories. However, errors in stored abstractions can propagate to</description>
+    </item>
+    <item>
+      <title>[HF Papers] SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration</title>
+      <link>https://huggingface.co/papers/2610.26837</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:22ce334b51d06e244215</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Diffusion Transformers (DiTs) achieve high-fidelity image and video generation, but they suffer from substantial inference costs due to repeated transformer evaluations across many denoising steps. Feature caching reduces this cost by reusing features across denoising steps. Recent forecasting methods extend this idea by extrapolating features to skipped steps instead of reusing them. However, existing forecasting methods extrapolate the features they predict uniformly, even though the spatial-f</description>
     </item>
     <item>
       <title>[HF Papers] EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning</title>
@@ -54,6 +75,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:3a6d2ecbbbe5009c042e</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak denoiser's prediction, amplifying components that remain underfit. The weak guide can be an early tr</description>
+    </item>
+    <item>
+      <title>[HF Papers] CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?</title>
+      <link>https://huggingface.co/papers/2610.25078</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3e79666732af69663ddb</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesses. We introduce CoEvo-RSI, a RSI framework that advances model--harness co-evolution through agent-d</description>
     </item>
     <item>
       <title>[HF Papers] HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time</title>
@@ -84,11 +112,25 @@
       <description>Continuous flow language models offer a path to parallel generation with tools for control and acceleration unavailable to discrete diffusion, yet effective techniques for building them at the billion-parameter scale remain less established. We present Lafa (Large flow language model), a fast, high-performing flow language model scaled to 8B parameters in a data-efficient manner. Lafa is a blockwise flow model with causal attention on the prefix and bidirectional, asynchronous flow within each b</description>
     </item>
     <item>
+      <title>[HF Papers] Painting Change Map as guidance for generating painting processes</title>
+      <link>https://huggingface.co/papers/2610.25369</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:64d3b13c2f3c51284434</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Digital art generation has undergone a massive paradigm shift, moving from static image synthesis to dynamic video generation that can mimic the human painting process. While existing models can synthesize visually stunning time-lapses of paintings being created or "unpainted," they largely treat the creative process as a black box. Current conditioning mechanisms are either too rigid, relying on static geometric cues like Canny edges or depth maps, or too holistic, utilizing simple scalar progr</description>
+    </item>
+    <item>
       <title>[HF Papers] HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents</title>
       <link>https://huggingface.co/papers/2610.24899</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:680cb27a0e0a8efbe126</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>While LLM agents are increasingly capable of gathering and synthesizing evidence from a single homogeneous source, such as structured tables or unstructured data, real-world analytical questions frequently span heterogeneous sources. For example, answering one enterprise question may require both a result computed over an internal database and evidence found on the web. Recent evaluations on benchmarks like HybridDeepResearch show that even frontier agents struggle when evidence must cross this</description>
+    </item>
+    <item>
+      <title>[HF Papers] Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success</title>
+      <link>https://huggingface.co/papers/2610.24649</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7208be3b249d1ff3585e</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agent scaffolds increasingly delegate small decisions (whether to stop, verify, or change approach) to cheaper models. We ask whether a typed decision model, Jev 1.13, consulted only at deterministic decision points, makes a Claude Sonnet 5.5 terminal agent cheaper without making it worse. In a pre-specified study on Terminal-Bench 2.1, we hold one agent loop fixed and vary only the controller: none, deterministic rules, a small LLM (Claude Haiku 5.5) answering the same questions, Jev, and a pla</description>
     </item>
     <item>
       <title>[HF Papers] VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse</title>
@@ -105,6 +147,41 @@
       <description>Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras,</description>
     </item>
     <item>
+      <title>[HF Papers] OverSeer: Multi-Agent World Models Beyond What Agents See</title>
+      <link>https://huggingface.co/papers/2610.28554</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7caadaa27597c368c13f</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents. To address this gap, we introduce OverSeer, a multi-agent world model that augments egocentric agent views with auxiliary camera views. We suggest that, by fixing the auxiliary views in space, they act as a proxy for a world-centric representation: Unlike the agents' views, which can change en</description>
+    </item>
+    <item>
+      <title>[HF Papers] λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation</title>
+      <link>https://huggingface.co/papers/2610.18950</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:80992bcf7bbb2cba05a7</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchroni</description>
+    </item>
+    <item>
+      <title>[HF Papers] Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics</title>
+      <link>https://huggingface.co/papers/2610.27327</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:84040bc9f6fc717b55ad</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one. Tool evolution, which automatically builds and refines reusable tools across tasks, is a natural fit for this repetition. Since a ground-truth label for a data-lake question requires an expert to solve it first, we consider the unsupervised setting. We propose TEAL (Tool Evolution for</description>
+    </item>
+    <item>
+      <title>[HF Papers] On the Limits of Scale: Inverse Scaling in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2610.27360</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:86f6551829605f096c8c</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Scaling laws suggest that increasing model size, training data, and compute generally yields monotonic performance improvements. While this often holds at the aggregate level, we present systematic evidence that vision-language models (VLMs) exhibit inverse scaling at the subtask level: specific question categories on which larger models perform worse than smaller counterparts within the same model family. We evaluate 19 models from four distinct model families across eight multimodal benchmarks</description>
+    </item>
+    <item>
+      <title>[HF Papers] On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models</title>
+      <link>https://huggingface.co/papers/2610.27190</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8a27cff71c29ecf7d2cc</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving each task correctly while integrating the resulting answers into a coherent response. In this paper, we identify a fundamental limitation in this process, where models make substantially more errors when tasks are composed, even when they can solve every constituent task reliably in isolation. This degradation cannot be fully explained by the accumulation of independent errors.</description>
+    </item>
+    <item>
       <title>[HF Papers] Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds</title>
       <link>https://huggingface.co/papers/2610.27999</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:8b7bab08d9d016ebb685</guid>
@@ -119,11 +196,46 @@
       <description>Accurate inpatient risk prediction requires modeling heterogeneous clinical evidence that accumulates irregularly over time. This challenge spans in-hospital mortality, prolonged length of stay, and readmission, each with task-specific observation windows. Existing multimodal approaches combine structured health record data, chest x-rays, and clinical text, but primarily focus on modality fusion or missing-modality compensation, with limited attention to temporal trajectories over an admission.</description>
     </item>
     <item>
+      <title>[HF Papers] HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL</title>
+      <link>https://huggingface.co/papers/2610.26426</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:98036f765b4b24be4759</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as rewards, but these rewards can become ineffective as training progresses. We identify two failure modes. Under non-discriminative rewards, scores collapse to uniformly low or high values due to insufficient exploration or a mismatch between task difficulty and policy capability. Under spurious rewards, higher scores do not correspond to better responses. Both reflect a training co</description>
+    </item>
+    <item>
+      <title>[HF Papers] PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation</title>
+      <link>https://huggingface.co/papers/2610.07609</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:983f8399ff28bcac5317</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. Long-horizon prediction for high-resolution 3D volumetric meshes is hard: autoregressive methods are prone to error accumulation, while direct multi-frame prediction at native resolution is computationally prohibitive. This motivates a compact spatiotemporal latent representation, which is largely unexplored for mesh-based volumetric physics. Meanwhile, it remains unclear whethe</description>
+    </item>
+    <item>
       <title>[HF Papers] PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</title>
       <link>https://huggingface.co/papers/2610.26067</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:9f16a683bdda18440c4e</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspaces. Specifically, we propose a Neural Skinning Fields Autoencoder that predicts shape-dependent deformation subspaces without per-object network training. To learn these subspaces without simulation tr</description>
+    </item>
+    <item>
+      <title>[HF Papers] Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading</title>
+      <link>https://huggingface.co/papers/2511.14102</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a0c8146eb4662bd65b6e</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently on device while preserving high-fidelity expert activation patterns. This provides accurate multi-ste</description>
+    </item>
+    <item>
+      <title>[HF Papers] Muse Glimmer 30B: An On-Device Agentic Model</title>
+      <link>https://huggingface.co/papers/2610.24628</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a0f20aa59ae70b9c2f2d</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs, was trained on data from over a hundred languages, and is quantized to approximate</description>
+    </item>
+    <item>
+      <title>[HF Papers] Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research</title>
+      <link>https://huggingface.co/papers/2610.24944</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a130711154b74154f0d6</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. Épi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs. Épi produced 120 record-setting results, comprising 20</description>
     </item>
     <item>
       <title>[HF Papers] Focused Omni-Modal GUI Agents</title>
@@ -140,11 +252,39 @@
       <description>Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requires agents to reason over sufficient evidence, resolve cross-source and temporal conflicts, and recognize when the available evidence is insufficient to establish an answer. To systematically evaluate</description>
     </item>
     <item>
+      <title>[HF Papers] PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements</title>
+      <link>https://huggingface.co/papers/2610.26711</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b03fedcacc9bd22f7f3d</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly measured. Physical plausibility asks whether generated objects obey geometry, kinematics, dynamics, and conservation laws. Existing benchmarks rely on coarse visual-language model judgments or target embodied world models rather than video generation itself. We introduce PVBench, a physical video benchmark that quantitatively measures the plausibility of generated videos across 46 d</description>
+    </item>
+    <item>
+      <title>[HF Papers] Multimodal Reranking Is a System One Decision</title>
+      <link>https://huggingface.co/papers/2610.28435</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b090f69f849bd09fa723</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score the candidates of a query. Scoring options is not specific to reranking. System One decision models such as Jev map a state and a typed question to one probability per option without generating text, and general models can make such decisions with little or no training. Reranking is one such decision, with the query and its candidates as the state and the candidates as the optio</description>
+    </item>
+    <item>
       <title>[HF Papers] PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking</title>
       <link>https://huggingface.co/papers/2610.27628</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b259e2351a31c016ce92</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration</description>
+    </item>
+    <item>
+      <title>[HF Papers] LLM2R: From Large Language Models to 3D Reassemblers</title>
+      <link>https://huggingface.co/papers/2610.18604</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b48e3ec7d06871289d60</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) transformation for each part. Because the placement of a part is rarely determined by its own geometry, the task demands reasoning over the entire part set, and existing methods, which rely on pairwise relations or iterative generation and verification, scale poorly to objects with many parts. We present LLM2R, which casts part assembly as sequence modeling with a pretrained decoder-</description>
+    </item>
+    <item>
+      <title>[HF Papers] Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
+      <link>https://huggingface.co/papers/2610.28632</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b6385d2a03844525eecd</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D motion for any supplied rig, along with a camera that registers this motion to the sc</description>
     </item>
     <item>
       <title>[HF Papers] Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization</title>
@@ -168,6 +308,13 @@
       <description>Recent works show that LLMs can generate kernels with strong performance on server GPUs. Edge deployment presents distinct challenges because the hardware is heterogeneous, the software stacks are fragmented, and the resource budgets are tight. LLM kernel generation across diverse edge backends has yet to be studied systematically. We introduce EdgeKernelBench, which combines a unified IR deployment framework with a hierarchical benchmark for edge workloads. The unified IR captures reusable comp</description>
     </item>
     <item>
+      <title>[HF Papers] OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning</title>
+      <link>https://huggingface.co/papers/2610.09513</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:da2f4281c8d585f3dda9</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Camera trajectories control viewpoint changes in video generation, scene reconstruction, and robotic perception. Generating them from language requires both scene geometry and target-aware framing. We introduce OmniCam, an autoregressive model that generates camera pose sequences from a single panorama and textual trajectory descriptions. Its geometry-grounded pose token learning combines three components: a panoramic point-cloud encoder for omnidirectional geometric context; hybrid absolute-rot</description>
+    </item>
+    <item>
       <title>[HF Papers] Correction Training for Diffusion Models</title>
       <link>https://huggingface.co/papers/2610.14136</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:df052a515c735faa7bdf</guid>
@@ -180,6 +327,20 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e8d01f67bc29fe48793e</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>MLLM-based detectors formulate vision-language grounding as autoregressive coordinate generation, yet in dense scenes, they often collapse into a box repetition loop, repeatedly emitting identical boxes until the decoding budget is exhausted. We trace this failure to historical-answer attention takeover: Under full-history autoregression, repeated coordinate tokens in the growing answer history attract disproportionate attention, crowding out the attention sinks needed to attend to new visual ev</description>
+    </item>
+    <item>
+      <title>[HF Papers] Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach</title>
+      <link>https://huggingface.co/papers/2610.19425</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ea4d0b76cdc5ca1736e6</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. Existing approaches typically rely on static trajectory-derived tasks or likelihood-based proxies, which are lightweight but provide limited visibility into how base models behave in interactive environments. We introduce ASAP (Agent Scaffold Adaptation for Pretraining Evaluation), a lightweight framework for eliciting and evaluating agentic behavior from pretrained base models o</description>
+    </item>
+    <item>
+      <title>[HF Papers] FlowState: Execution State as Memory for Long-Horizon LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.34565</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ec5782073ba512db640b</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Long-horizon tasks require LLM agents to continually draw on information from earlier interactions. However, retaining the full history increases context costs, while compressing it risks losing details needed later, and the relevance of historical information often becomes apparent as the task progresses. To address these challenges, we propose FlowState, which treats execution state as memory that can be retained and revisited across requests, unifying current decision-making with the reuse of</description>
     </item>
     <item>
       <title>[HF Papers] From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping</title>
@@ -544,167 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:addf72e8b77bdc3c2dd8</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL thr</description>
-    </item>
-    <item>
-      <title>[HF Papers] HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference</title>
-      <link>https://huggingface.co/papers/2610.24611</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b3da5313bd92fd551962</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Evaluating software agents on a full benchmark is expensive. A small task subset can preserve agent rankings while yielding inaccurate scores. Historical responses provide useful structure, but tasks with identical source responses can have different outcomes for a new target agent. We introduce Hierarchical Score Posterior Recovery (HSPR), which combines source-fitted response factors with uncertain group success rates. Observed target outcomes update the posteriors over the target latent state</description>
-    </item>
-    <item>
-      <title>[HF Papers] ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction</title>
-      <link>https://huggingface.co/papers/2610.24766</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b4e0f561c8fefcfa257e</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Existing Multi-token prediction (MTP) methods are auxiliary by design: the multi-horizon loss mostly trains modules attached to the backbone, and each added horizon costs another module and another pass. We propose Efficient Causal Self-Recursion (ECHO), which removes both costs. The backbone's own final layer predicts every horizon, so the supervision lands on the parameters that generate the next token, and Dynamic Depth Sampling (DDS) keeps deeper horizons affordable by drawing the training d</description>
-    </item>
-    <item>
-      <title>[HF Papers] SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum</title>
-      <link>https://huggingface.co/papers/2610.26824</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b89e4a7f4e19d59baa2f</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise f</description>
-    </item>
-    <item>
-      <title>[HF Papers] Predicting Privileged Information Effectiveness for On-Policy Self-Distillation</title>
-      <link>https://huggingface.co/papers/2610.22512</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b9a92ad37e2b5b806f7d</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>On-policy self-distillation (OPSD) enables large language models (LLMs) to learn from privileged information (PI) without a separate teacher model. However, prior work largely treats PI as a fixed design choice, leaving the effects of its content and construction poorly understood. This challenge is particularly important in multi-turn agentic settings, where trajectories contain actions, observations, and reasoning that can be transformed into PI in many ways. We systematically evaluate 16 PI c</description>
-    </item>
-    <item>
-      <title>[HF Papers] ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models</title>
-      <link>https://huggingface.co/papers/2610.25861</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:bbce6ea5e719c13fd6b0</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Game world models have made rapid progress toward real-time interactive generation. Yet action control is still predominantly implemented as feature conditioning, leaving the model to learn from training data how each action should move the visual world. This formulation is poorly matched to a broad class of planar-camera worlds, such as top-down and isometric games. In these worlds, player motion induces a geometrically well-defined planar camera displacement. We observe that the key to spatial</description>
-    </item>
-    <item>
-      <title>[HF Papers] Self-Evolving Coding Agents via Harness-Policy Optimization</title>
-      <link>https://huggingface.co/papers/2610.22791</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:bcaff372755bf37d38ca</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy learning remains limited to the trajectories elicited by a fixed harness. In ligh</description>
-    </item>
-    <item>
-      <title>[HF Papers] QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity</title>
-      <link>https://huggingface.co/papers/2610.23470</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:bccbc9de31adb0196e11</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Open-ended search combined with foundation models has produced advances such as faster algorithms, new results on open mathematical problems, and self-improving agents. We extend this paradigm to recommendation for decision-making, focusing on decisions where the set of possible choices is fixed but the reasons for choosing them are not. In high-stakes decisions, e.g., which company to acquire or which customer to target, comparing diverse, well-reasoned options can be more useful than a single</description>
-    </item>
-    <item>
-      <title>[HF Papers] Harness-Delta Attribution: Dissecting Gains From Harness Evolution</title>
-      <link>https://huggingface.co/papers/2610.22466</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c068048dc75fecae99bb</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this work, we introduce Harness-Delta Attribution (HDA</description>
-    </item>
-    <item>
-      <title>[HF Papers] Heterogeneous Agentic Coevolution</title>
-      <link>https://huggingface.co/papers/2610.16078</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c32dd0311407ebf07afc</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelligence. However, many domain-specific applications rely on specialized foundation models that possess strong domain expertise but remain dependent on human-designed improvements. Extending recursive self-improvement to these models presents a key challenge: as a specialist improves, the strategies used to advance it must also adapt. To address this challenge, we propose Heterogen</description>
-    </item>
-    <item>
-      <title>[HF Papers] Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale</title>
-      <link>https://huggingface.co/papers/2604.11331</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:cb7724d271c36866f851</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models. Typically, these 2D-based approaches perform scene generation in a 2D latent space, which introduces two fundamental issues: (i) representing 3D scenes via 2D views leads to significant representation redundancy, and (ii) latent space rooted in 2D inherently limits the spatial consistency of the generated scenes. In this paper, we propose to perform 3D scene generation directly within a high-dimensional</description>
-    </item>
-    <item>
-      <title>[HF Papers] CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat</title>
-      <link>https://huggingface.co/papers/2610.19005</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ce959388d824511902a3</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world. Current benchmarks mostly evaluate agents in isolation against static targets. Real cyber operations, however, are dynamic and coupled: security postures constantly change as attackers and defenders adapt to each other in real time. Static benchmarks quickly saturate and miss an agent's ability to attack and defend simultaneously under live pressure. To address this gap, we prese</description>
-    </item>
-    <item>
-      <title>[HF Papers] MemT-1.0: Towards Memory-Native Evolution</title>
-      <link>https://huggingface.co/papers/2610.26825</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d1ae73ec3ef99685c361</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following</description>
-    </item>
-    <item>
-      <title>[HF Papers] First Passage Attention</title>
-      <link>https://huggingface.co/papers/2610.22714</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d42c83ce01514d913a2e</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query path. Because such accumulation is monotonic, these mechanisms cannot selectively erase intermediate context while preserving older, structurally relevant tokens. We propose First Passage Attention (FPA), which shifts from path summation to path extrema by lowering a key's logit proportionally to the deepest dip of a learned scalar field below that key's level over the intervening</description>
-    </item>
-    <item>
-      <title>[HF Papers] Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning</title>
-      <link>https://huggingface.co/papers/2610.26851</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:dab50ca92202dfa43cee</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task in</description>
-    </item>
-    <item>
-      <title>[HF Papers] Remembering Has a Price: Learning Memory Worth under Resource Constraints</title>
-      <link>https://huggingface.co/papers/2610.26453</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:db2d993344714b393aa2</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Lifelong agents continually accumulate and reuse experience to improve after deployment, yet in practice they often operate under tight generation, interaction, and memory budgets. Under such stringent joint constraints, we find that existing lifelong-memory methods can become ineffective, with several sophisticated approaches offering little advantage over simple retrieval or even no-memory agents. This reveals a more fundamental problem: resource scarcity makes each memory decision more conseq</description>
-    </item>
-    <item>
-      <title>[HF Papers] MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion</title>
-      <link>https://huggingface.co/papers/2610.25404</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e042466ded038ed694c8</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unintended changes to preserved regions and prior edits. To address these challenges, we propose MT Forc</description>
-    </item>
-    <item>
-      <title>[HF Papers] Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips</title>
-      <link>https://huggingface.co/papers/2610.25666</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e62436c1c1132e90b35b</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Streaming video world models generate the future chunk by chunk, conditioned on their own past and a stream of actions. Trained on short clips, they drift once a rollout exceeds the training horizon, as prediction errors re-enter the context and compound. A common remedy is to train the model on its own rollouts via distribution matching distillation (DMD). For action-conditioned world models, the teacher becomes a bottleneck: an external video model is agnostic to the actions, whereas the model</description>
-    </item>
-    <item>
-      <title>[HF Papers] Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of "Unsafe" You Trained On</title>
-      <link>https://huggingface.co/papers/2610.25060</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e8b916929c925613ceff</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>A guardrail classifier is reported as if unsafe were a property of text. It is not: it is a property of a policy, and the policy enters the model through its labels. We exploit an accident of an industrial deployment in which the same ~53k prompts were labelled twice, under two operational definitions ("is this a request for harmful content?" and "would a moderator block this?"), and used to train ten guardrail arms sharing architecture, codebase and optimiser family, at two model scales. First,</description>
-    </item>
-    <item>
-      <title>[HF Papers] Holi-World: Building Holistic World Intelligence from Human-Ego Experience</title>
-      <link>https://huggingface.co/papers/2610.26549</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ea6b5a3f739987921a40</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, aut</description>
-    </item>
-    <item>
-      <title>[HF Papers] AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments</title>
-      <link>https://huggingface.co/papers/2610.25950</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:eb823ab96481ddec4f8e</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments. By instantiating environmental dynamics</description>
-    </item>
-    <item>
-      <title>[HF Papers] InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation</title>
-      <link>https://huggingface.co/papers/2610.26853</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ebd75a5abb1ed6114f1f</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain largely constrained by predefined factories and APIs, limiting their ability to create novel asset t</description>
-    </item>
-    <item>
-      <title>[HF Papers] StopLoss: Teaching Agents to Predict Failure and Stop Early</title>
-      <link>https://huggingface.co/papers/2610.25525</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f048b8657c9034254539</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right. We introduce StopLoss, a small external monitor that learns failure recognition from completed trajectories and their verifier outcomes. The name is inspired by the stop-loss order in finance: StopLoss ends a run early when the run is likely to fail, which saves resources. Final outcomes label earlier local windows, so a fine-tuned language model can score</description>
-    </item>
-    <item>
-      <title>[HF Papers] TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning</title>
-      <link>https://huggingface.co/papers/2610.26754</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f0f838c6994b49996831</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to</description>
     </item>
   </channel>
 </rss>
