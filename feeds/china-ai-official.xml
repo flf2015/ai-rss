@@ -153,12 +153,5 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型：新增支持 Hy3 模型。 新增文本及多模态 embedding 模型。</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen-AgentWorld: 面向通用智能体的语言世界模型</title>
-      <link>https://qwen.ai/blog?id=qwen-agentworld</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:c95c66e90efeaf3c7cb1</guid>
-      <pubDate>Tue, 23 Jun 2026 03:30:30 +0000</pubDate>
-      <description>今天，我们正式发布 Qwen-AgentWorld——首个原生语言世界模型（Language World Model, LWM），能够在七大领域中模拟智能体交互环境： 原生世界建模。 我们从预训练阶段开始就引入"理解和模拟环境"这一训练目标，贯穿 CPT → SFT → RL 全流程，而非等到后训练阶段才做适配。 七大领域，一个模型。 单一模型同时覆盖文本类环境（MCP、Search、Terminal、S</description>
-    </item>
   </channel>
 </rss>
