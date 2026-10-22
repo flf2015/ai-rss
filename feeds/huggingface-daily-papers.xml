@@ -91,11 +91,32 @@
       <description>Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target o</description>
     </item>
     <item>
+      <title>[HF Papers] Language Models Learn to Improve Language Models</title>
+      <link>https://huggingface.co/papers/2610.23344</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:35f4fa21a77de54c48f3</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, training such an ability with real feedback is expensive: reinforcement learning (RL) requires evaluating tens of thousands of proposals, each potentially requiring a full model-tra</description>
+    </item>
+    <item>
       <title>[HF Papers] RealMe: Immersive Volumetric Video from Minimal Captures</title>
       <link>https://huggingface.co/papers/2610.30023</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:37a9cfae15518a76068e</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resources. Conventional dense multi-view reconstruction methods can produce high-quality volumetric videos, but their reliance on costly capture setups makes them impractical in real-world scenarios. Recent approaches use generative models to relax capture requirements, but still suffer from limited resolution and 4D inconsistency. To overcome these constraints, we propose RealMe, a un</description>
+    </item>
+    <item>
+      <title>[HF Papers] StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion</title>
+      <link>https://huggingface.co/papers/2610.28940</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:47141a28c1a5f96b8b79</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but remained limited in two ways: approximately 1s end-to-end latency on consumer hardware, and the lack of a text-based interface for designing or editing target voices. We present StyleStream 2.0, a fast and controllable stre</description>
+    </item>
+    <item>
+      <title>[HF Papers] VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents</title>
+      <link>https://huggingface.co/papers/2610.28679</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4cae2a042a32eb112aed</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training data. We study verifier generation: from the instruction and environment available for solving a task, an agent writes an executable verifier that must accept every valid solution and reject invalid ones. We introduce VerifierBench, a benchmark of 222 tasks from six agent benchmarks spanning tool-call, state-based, and code verification, with 4,993 hidden test cases that include</description>
     </item>
     <item>
       <title>[HF Papers] Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents</title>
@@ -201,6 +222,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:a3b10b3da78b836c1ab8</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framework that retains experience about these decisions while keeping its vision-language backbone fixed. The key distinction is between evidence about a scene and experience about how to reason with that evidence. 3DFusionMemory fuses current-scene observations into queryable spatial</description>
+    </item>
+    <item>
+      <title>[HF Papers] FrontierCS 2: A Benchmark for Computer Science R&amp;D</title>
+      <link>https://huggingface.co/papers/2610.29932</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a5a923ed1f0c853d1c14</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Can LLM agents make contributions to frontier computer science R&amp;D? We introduce FrontierCS 2, a benchmark of 48 open-ended tasks. We take a paper and the code its authors released and delete the paper's contribution. The deleted code becomes the human reference that sets the bar. Earlier open-ended benchmarks give each agent a problem statement and grade one program after the run. FrontierCS 2 places the agent inside a research environment. The agent inherits a working repository and may submit</description>
     </item>
     <item>
       <title>[HF Papers] Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b090f69f849bd09fa723</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score the candidates of a query. Scoring options is not specific to reranking. System One decision models such as Jev map a state and a typed question to one probability per option without generating text, and general models can make such decisions with little or no training. Reranking is one such decision, with the query and its candidates as the state and the candidates as the optio</description>
-    </item>
-    <item>
-      <title>[HF Papers] PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking</title>
-      <link>https://huggingface.co/papers/2610.27628</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b259e2351a31c016ce92</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration</description>
-    </item>
-    <item>
-      <title>[HF Papers] BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks</title>
-      <link>https://huggingface.co/papers/2610.25459</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b425b0c1b7e144299041</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. However, few studies have developed benchmarks specifically tailored for dexterous manipulation, leaving the dexterous manipulation capabilities of existing models insufficiently characterized. In this paper, we present BiDex-100, a simulation benchmark for bimanual dexterous manipulation that combines broad task coverage, multi-dimensional evaluation, and high-DoF hand embodiments. C</description>
-    </item>
-    <item>
-      <title>[HF Papers] LLM2R: From Large Language Models to 3D Reassemblers</title>
-      <link>https://huggingface.co/papers/2610.18604</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b48e3ec7d06871289d60</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) transformation for each part. Because the placement of a part is rarely determined by its own geometry, the task demands reasoning over the entire part set, and existing methods, which rely on pairwise relations or iterative generation and verification, scale poorly to objects with many parts. We present LLM2R, which casts part assembly as sequence modeling with a pretrained decoder-</description>
-    </item>
-    <item>
-      <title>[HF Papers] Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
-      <link>https://huggingface.co/papers/2610.28632</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:b6385d2a03844525eecd</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D motion for any supplied rig, along with a camera that registers this motion to the sc</description>
     </item>
   </channel>
 </rss>
