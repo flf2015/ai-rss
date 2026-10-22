@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[MiniMax] Introducing MiniMax Code Mini App</title>
+      <link>https://www.minimax.io/blog/minimax-code-mini-app-1792650729</link>
+      <guid isPermaLink="false">urn:ai-rss:MiniMax:97cbb004cc8c64e79245</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.</description>
+    </item>
     <item>
       <title>[MiniMax] MiniMax M3.1 Flash: Redefining Agent Performance and Cost</title>
       <link>https://www.minimax.io/blog/minimax-m31f</link>
