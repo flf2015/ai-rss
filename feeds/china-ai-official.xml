@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[Kimi] Kimi K3.1 Pro</title>
+      <link>https://www.kimi.com/en/blog/kimi-k3-1-pro</link>
+      <guid isPermaLink="false">urn:ai-rss:Kimi:ef4497dcc2f95d726ac4</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Kimi 官方更新</description>
+    </item>
     <item>
       <title>[MiniMax] Introducing MiniMax Code Mini App</title>
       <link>https://www.minimax.io/blog/minimax-code-mini-app-1792650729</link>

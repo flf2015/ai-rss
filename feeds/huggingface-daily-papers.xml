@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2610.24383</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0010b4c2bc722562cf08</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for s</description>
+    </item>
+    <item>
       <title>[HF Papers] Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks</title>
       <link>https://huggingface.co/papers/2610.28889</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:02e5f28938e19ee63543</guid>
@@ -210,6 +217,13 @@
       <description>Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha matte</description>
     </item>
     <item>
+      <title>[HF Papers] Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems</title>
+      <link>https://huggingface.co/papers/2610.30418</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ac82d7b41eb76858cec7</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign queries designed to be answ</description>
+    </item>
+    <item>
       <title>[HF Papers] Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
       <link>https://huggingface.co/papers/2610.12586</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b0ee10e3bf898281776d</guid>
@@ -257,6 +271,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e5946b76a272c726807c</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <description>High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples instruction-guided image editing with controllable generation of reusable RGBA layers. At i</description>
+    </item>
+    <item>
+      <title>[HF Papers] Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization</title>
+      <link>https://huggingface.co/papers/2610.24385</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:e75ff4ffc6cf9cdc4535</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neural dueling-bandit framework for large discrete persona spaces. ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer, and transfers comparison evidence across related queries</description>
     </item>
     <item>
       <title>[HF Papers] FilmFlow: Agentic System for 3D Virtual Film Cinematography</title>
@@ -684,27 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:f742b61bbdbf4fda280c</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons. Designers follow briefs specifying goals, constraints, and deliverables, with later work building on earlier decisions. Recent work reuses design experience across tasks, yet alignment among artifacts within one project remains challenging. Agents therefore need to preserve and apply this intent across domains and as projects grow. We introduce Design Anything</description>
-    </item>
-    <item>
-      <title>[HF Papers] PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States</title>
-      <link>https://huggingface.co/papers/2610.29545</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f7616847b0a440d8c0d1</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\par We introduce PACE, a post-hoc four-bit state q</description>
-    </item>
-    <item>
-      <title>[HF Papers] Exploring The Empirical Privacy Landscape of Synthetic Data</title>
-      <link>https://huggingface.co/papers/2610.22659</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:fae4cd83695da53a2b6a</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information. In this paper, we present a controlled comparison of data-level and training-level interventions for navigating the capability-privacy tradeoff on synthetic medical records with canaries to probe for leakage. Direct finetuning performs best on capability metrics but leads to the most privacy leakage, while DP-SGD reduces leakage at substantial cost t</description>
-    </item>
-    <item>
-      <title>[HF Papers] Memory-Centric Continual Learning for AI Agents</title>
-      <link>https://huggingface.co/papers/2610.29357</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:fc98fe8b24fca18c6069</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can drive genuine continual learning remains an open question. In this paper, we introduce Memory-Centric Co</description>
     </item>
   </channel>
 </rss>
