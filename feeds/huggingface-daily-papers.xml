@@ -56,11 +56,25 @@
       <description>Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisi</description>
     </item>
     <item>
+      <title>[HF Papers] RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
+      <link>https://huggingface.co/papers/2610.31372</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:32d01cc9fa0db0d93b8b</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framew</description>
+    </item>
+    <item>
       <title>[HF Papers] TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models</title>
       <link>https://huggingface.co/papers/2610.25376</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:350482a3256f38a99f9b</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <description>Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation. To transfer these capabilities from pretrained EFMs to policies without action pretraining, we introduce TILDE (Teacher-In-the-Loop Distillation from EFMs), which synergizes on-policy distillation at student-induced states with learnin</description>
+    </item>
+    <item>
+      <title>[HF Papers] HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second</title>
+      <link>https://huggingface.co/papers/2610.28950</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3d2be49df063990c2020</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-tracing engine that supports Nvidia OptiX, Vulkan, Apple Metal and WebGPU backends that takes full advantage of modern ray-tracing hardware, capable of running both components entirely on the GPU. HyperLux renders RGB, depth,</description>
     </item>
     <item>
       <title>[HF Papers] Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation</title>
@@ -119,6 +133,13 @@
       <description>AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality visuals with characters, motion detail, and effects. Throughout, it keeps the layout, camera, and every entity's position and timing intact. Our AnyGameRenderer generalizes across a wide range of genres that</description>
     </item>
     <item>
+      <title>[HF Papers] Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans</title>
+      <link>https://huggingface.co/papers/2610.27148</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:63860ad86d9f41287f78</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone cannot tell the two apart. We study this systematically by placing an agent and a person under a shared objective while varying who holds the advantage: the human has a clear advantage, neither does, or the agent does. T</description>
+    </item>
+    <item>
       <title>[HF Papers] RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting</title>
       <link>https://huggingface.co/papers/2610.27712</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:63b0874d975378395773</guid>
@@ -154,6 +175,13 @@
       <description>Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autonomous-research systems read papers, draft hypotheses, and write code, but are limited by short fixed templates, low executability, and weak traceability, and none has been demonstrated end-to-end in a live computer-vision subfield with intense activity. SplatLab is an autonomous research system for 3D Gaussian Splatting that addresses these limitations. Given a research prompt, a</description>
     </item>
     <item>
+      <title>[HF Papers] BrickWright: Agentic Creation of Physically Feasible Brick Builds</title>
+      <link>https://huggingface.co/papers/2610.31651</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:70f039246de44563867c</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds,</description>
+    </item>
+    <item>
       <title>[HF Papers] Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought</title>
       <link>https://huggingface.co/papers/2610.30755</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:734ac53ed7f80df80993</guid>
@@ -180,6 +208,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:92bded471e6211544246</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <description>Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha matte</description>
+    </item>
+    <item>
+      <title>[HF Papers] Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
+      <link>https://huggingface.co/papers/2610.12586</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b0ee10e3bf898281776d</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event sequences as a conditional generative modeling problem. We evaluate forecasts not only for prediction accuracy, but also for distributional realism. To this end, we present a benchmark comprising metrics f</description>
     </item>
     <item>
       <title>[HF Papers] Deep Search in Real-World Web Environments</title>
@@ -222,6 +257,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e5946b76a272c726807c</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <description>High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples instruction-guided image editing with controllable generation of reusable RGBA layers. At i</description>
+    </item>
+    <item>
+      <title>[HF Papers] FilmFlow: Agentic System for 3D Virtual Film Cinematography</title>
+      <link>https://huggingface.co/papers/2610.30753</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ea8b5897c88284a3acff</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly</description>
     </item>
     <item>
       <title>[HF Papers] Self-Distilling Future Video Representations for World Action Models</title>
@@ -663,48 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:fc98fe8b24fca18c6069</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can drive genuine continual learning remains an open question. In this paper, we introduce Memory-Centric Co</description>
-    </item>
-    <item>
-      <title>[HF Papers] World Models with Configurable Perception</title>
-      <link>https://huggingface.co/papers/2610.27914</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0220b4b4c31a395409da</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models are typically non-adaptive, leading to state representations that are easily distracted by task-irrelevant information. As a result, the model may not selectively filter observations to cater to different task demands. To</description>
-    </item>
-    <item>
-      <title>[HF Papers] Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition</title>
-      <link>https://huggingface.co/papers/2610.28578</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:092bf273bcc3d9d4d180</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task d</description>
-    </item>
-    <item>
-      <title>[HF Papers] EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents</title>
-      <link>https://huggingface.co/papers/2610.16523</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0a892f1a96437436b9d7</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not only on the agent, but also on the user simulator and environment, which jointly shape the agent's experience. Simulated users can be stochastic or inconsistent, while environments may contain unreliable tools, incomplete state coverage, and incorrect verifiers. Prior work mainly addresses the resulting instability through reward shaping or denser supervision, while treating thes</description>
-    </item>
-    <item>
-      <title>[HF Papers] SolarRenderer: Few-Step Generative Reference Rendering</title>
-      <link>https://huggingface.co/papers/2610.28630</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0c5d06773c865fff8add</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video rende</description>
-    </item>
-    <item>
-      <title>[HF Papers] Evolving Agent Interfaces</title>
-      <link>https://huggingface.co/papers/2610.28601</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0d57caa52bcb3d92c11a</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models. We argue that interface design should itself be an agent capability. We introduce Agent S4, an autonomous computer-use scien</description>
-    </item>
-    <item>
-      <title>[HF Papers] Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning</title>
-      <link>https://huggingface.co/papers/2610.22444</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:122792e9d5482ba1d1cc</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query. Despite continued advances, existing STVG benchmarks remain largely centered on localizing targets through instance-specific descriptions, leaving them largely decoupled from long-form reasoning increasingly emphasized in multimodal large language models (MLLMs). In this paper, we introduce Event-STVG, a task that shifts STVG from locating what is described toward event-leve</description>
     </item>
   </channel>
 </rss>
