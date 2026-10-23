@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 17 Oct 2026 02:40:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:37:50 +0000</lastBuildDate>
+    <item>
+      <title>[HF MiniMaxAI] MiniMaxAI/MiniMax-M3.1-Flash</title>
+      <link>https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash</link>
+      <guid isPermaLink="false">urn:ai-rss:HF MiniMaxAI:2eb678169a42e5138185</guid>
+      <pubDate>Sat, 17 Oct 2026 06:37:50 +0000</pubDate>
+      <description>MiniMaxAI 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
       <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
