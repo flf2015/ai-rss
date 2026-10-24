@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Oct 2026 02:17:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 05:45:20 +0000</lastBuildDate>
+    <item>
+      <title>[HF tencent] tencent/Hy-Nomas-Diffusers</title>
+      <link>https://huggingface.co/tencent/Hy-Nomas-Diffusers</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:5c74d58a4b897136c5c1</guid>
+      <pubDate>Sat, 24 Oct 2026 05:45:20 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF tencent] tencent/Hy-Nomas</title>
       <link>https://huggingface.co/tencent/Hy-Nomas</link>
