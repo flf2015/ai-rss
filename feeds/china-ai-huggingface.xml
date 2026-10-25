@@ -104,12 +104,5 @@
       <pubDate>Mon, 14 Sep 2026 03:47:26 +0000</pubDate>
       <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF deepseek-ai] deepseek-ai/DeepSeek-V4.1-Flash</title>
-      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash</link>
-      <guid isPermaLink="false">urn:ai-rss:HF deepseek-ai:5c348986a15182f2f224</guid>
-      <pubDate>Thu, 10 Sep 2026 02:17:58 +0000</pubDate>
-      <description>deepseek-ai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
