@@ -14,6 +14,20 @@
       <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
     <item>
+      <title>[HF tencent] tencent/Hy-SimulMT-30B-A3B-Interleave</title>
+      <link>https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:9f011fc07ea5d69c8e9c</guid>
+      <pubDate>Thu, 22 Oct 2026 07:44:33 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy-SimulMT-30B-A3B</title>
+      <link>https://huggingface.co/tencent/Hy-SimulMT-30B-A3B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:a1256d3bfaf174ed7e44</guid>
+      <pubDate>Thu, 22 Oct 2026 07:29:17 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
       <title>[HF tencent] tencent/Hy-Nomas</title>
       <link>https://huggingface.co/tencent/Hy-Nomas</link>
       <guid isPermaLink="false">urn:ai-rss:HF tencent:9521b60b04aa1cbbec89</guid>

@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>腾讯云 TokenHub 新增支持的国产模型</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[TokenHub] 新增支持 Kimi K3.1 Pro、Kimi K3.1 Pro HighSpeed 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:ca2417b9893a1cbf662f</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Kimi K3.1 Pro、Kimi K3.1 Pro HighSpeed 模型。</description>
+    </item>
     <item>
       <title>[TokenHub] 按量付费和 Token Plan 企业版新增支持 DeepSeek-V4.1-Flash-1017 模型。</title>
       <link>https://cloud.tencent.com/document/product/1823/130675</link>
