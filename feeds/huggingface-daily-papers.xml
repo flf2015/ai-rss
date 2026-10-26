@@ -5,7 +5,91 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Hugging Face Daily Papers 每日收录的研究论文</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[HF Papers] Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models</title>
+      <link>https://huggingface.co/papers/2610.31569</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1454bbbb233136dfeb68</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can require fine-grained supervision, external monitoring models, or complex architectural designs. Moreover, the potential of task status signals to directly guide action generation remain</description>
+    </item>
+    <item>
+      <title>[HF Papers] Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding</title>
+      <link>https://huggingface.co/papers/2610.29552</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:46c75fd43986e6294fd7</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Fine-grained multimodal intelligence requires models to both understand a designated region and localize it from language. Existing methods learn these directions with separate objectives and task-specific annotations. We present Generalized CycleGRPO, the first unified reinforcement learning framework coupling region understanding and localization across spatial, temporal, and spatio-temporal domains. Given a region, a multimodal large language model generates candidate descriptions and then lo</description>
+    </item>
+    <item>
+      <title>[HF Papers] Dual Exam: Controlled Evaluation of Multimodal Agents and World Models</title>
+      <link>https://huggingface.co/papers/2610.31066</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:55d75af80f998e1e7ca1</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in</description>
+    </item>
+    <item>
+      <title>[HF Papers] Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs</title>
+      <link>https://huggingface.co/papers/2610.27103</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:64e08a559fb1b2e7224a</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations. To address this issue, we propose Omni-Woodpecker (OWP), a training-free framework that shifts hallucination mitigation from output-level manipulation to conflict-conditioned repr</description>
+    </item>
+    <item>
+      <title>[HF Papers] FLOMSS: Generative Music Source Separation by Flow Matching</title>
+      <link>https://huggingface.co/papers/2610.17821</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:9435e9a6480e704254f4</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Music source separation (MSS) has been conventionally addressed by discriminative methods. Recently, flow matching has emerged as a strong generative paradigm for modeling complex data distributions, with successful applications across diverse domains. These advances motivate us to systematically investigate flow matching for MSS in a four-source (Vocals, Bass, Drums, Other) setting in full-band stereo. Specifically, we investigate prediction targets, flow paths, single-source versus multi-sourc</description>
+    </item>
+    <item>
+      <title>[HF Papers] UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents</title>
+      <link>https://huggingface.co/papers/2610.30932</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:97921c5c2831fd64b7d2</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real</description>
+    </item>
+    <item>
+      <title>[HF Papers] DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model</title>
+      <link>https://huggingface.co/papers/2610.31734</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ab2ab7b475448374cb3f</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A live esports broadcast needs a director who chooses which camera goes on air and a caster who talks over that choice, every second and without knowing what comes next. Streaming video language models have learned to commentate, but only over a broadcast that a human director has already produced. We study live broadcast production, in which a model receives the raw camera of every player and must both direct and commentate from the past alone. We present DirCast, a single streaming video langu</description>
+    </item>
+    <item>
+      <title>[HF Papers] RSIHub: A Composable Framework for Agent-Evolution Methods</title>
+      <link>https://huggingface.co/papers/2610.32253</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b6c925a6ea03ebc40e98</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage. Researchers can focus on evolution policy while evaluation stays outside th</description>
+    </item>
+    <item>
+      <title>[HF Papers] Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction</title>
+      <link>https://huggingface.co/papers/2610.32250</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b943044556ab95445ff6</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Single-image 3D scene construction is a fundamental problem in 3D vision. Recent methods such as SAM-3Dfy enable end-to-end reconstruction of 3D assets and their scene layouts, but still struggle with fine-grained scene geometry and asset quality. Meanwhile, specialized 3D object generators provide detailed object geometry, while 3D foundation models offer strong and generalizable spatial understanding. We propose Easy-3Dfy, a compositional workflow that decouples object generation from scene la</description>
+    </item>
+    <item>
+      <title>[HF Papers] RynnUnify: Towards Unified Embodied Brain</title>
+      <link>https://huggingface.co/papers/2610.32965</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:bdf7aada48e51d20e7ad</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selec</description>
+    </item>
+    <item>
+      <title>[HF Papers] HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games</title>
+      <link>https://huggingface.co/papers/2610.31162</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d313dbfc8147eeb30735</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills. To bridge</description>
+    </item>
+    <item>
+      <title>[HF Papers] HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training</title>
+      <link>https://huggingface.co/papers/2610.32909</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d3ec6e326b9610abbe1e</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution. A learned decoder maps 32-dimensional actions to structured target windows, and measured-state imitation initializes the planner before reinforcement learning. Task learning then refines interaction behavior</description>
+    </item>
     <item>
       <title>[HF Papers] IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems</title>
       <link>https://huggingface.co/papers/2610.24383</link>
@@ -621,90 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:be2c5d75f460058be816</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interact</description>
-    </item>
-    <item>
-      <title>[HF Papers] StreamEval: Evaluating Interactive Streaming Video Generation Models</title>
-      <link>https://huggingface.co/papers/2610.28402</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c046e645ab5b0d594ed1</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements</description>
-    </item>
-    <item>
-      <title>[HF Papers] Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills</title>
-      <link>https://huggingface.co/papers/2610.17860</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c1b0b922882b63c3d35b</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator and Skill author, able to question, test, and adapt advice. To test reuse beyond th</description>
-    </item>
-    <item>
-      <title>[HF Papers] RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation</title>
-      <link>https://huggingface.co/papers/2610.27861</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c2ecc57f3209680579b6</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks. We introduce RoboCasa-Shift, a diagnostic robustness benchmark built on RoboCasa365 that combines controlled single-factor shifts, matched clean-perturbed rollouts in which each pair shares the same underlying settings and differs only in the target shift, and simulator-grounded stage-a</description>
-    </item>
-    <item>
-      <title>[HF Papers] RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding</title>
-      <link>https://huggingface.co/papers/2610.29434</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c472fefaaa00f6155277</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Neural speech codecs provide discrete tokens for speech generation. Lower frame rates shorten token sequences, but each token must then carry more linguistic and acoustic information. Variable-frame-rate codecs address this trade-off by adapting token allocation to speech content, but threshold-based allocation lets content determine the token count, so the sequence length a speech generator must produce varies across utterances and datasets at a fixed setting. We present RubatoCodec, a variable</description>
-    </item>
-    <item>
-      <title>[HF Papers] Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</title>
-      <link>https://huggingface.co/papers/2610.30108</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c6c43bfdfc14ca3d3ef0</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use? We</description>
-    </item>
-    <item>
-      <title>[HF Papers] Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?</title>
-      <link>https://huggingface.co/papers/2610.27592</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:c7d1cf98ad20a4156c14</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Aiming to modify textual content while preserving the original style, Scene Text Editing (STE) has significant practical value in many applications. STE typically requires paired images before and after editing for training. However, recent approaches rely heavily on synthetic paired data and complex disentanglement strategies. They struggle to faithfully capture the diversity and complexity of natural scenes, often producing artifacts or hallucinations. In this work, we challenge the common pra</description>
-    </item>
-    <item>
-      <title>[HF Papers] Qwen-Audio-3.1-ASR Technical Report</title>
-      <link>https://huggingface.co/papers/2610.28711</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:cb045011ce3461c32337</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We present Qwen-Audio-3.1-ASR, a family of audio-language models that builds upon its predecesor Qwen-Audio-3.0-ASR with improved speech recognition and expanded capabilities in speaker-diarized transcription and general audio understanding. The family retains support for 30 languages and 16 Chinese dialects, together with instruction-controlled capabilities including historical-context conditioning, hierarchical hotword customization, and native transcription polishing. Speaker-diarized ASR pro</description>
-    </item>
-    <item>
-      <title>[HF Papers] TraceForge: Distilling with Your Own Thinking</title>
-      <link>https://huggingface.co/papers/2610.29680</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:cbf421d578b5b53d4a8d</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still entirely routine; the restriction applies to their own outputs alone. Recent work</description>
-    </item>
-    <item>
-      <title>[HF Papers] ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models</title>
-      <link>https://huggingface.co/papers/2610.27040</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:cd9460e9b837c19147bc</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>General-purpose multimodal models, including GPT-6 Astra and Claude Opus 5.5, demonstrate broad capabilities in embodied manipulation. Our analysis indicates that this generality is accompanied by strong spatial perception, as Astra can determine where to interact with task-relevant entities amid visual distractors. Because spatial perception connects high-level reasoning to the physical scene, we investigate scaling visual grounding to strengthen the perceptual foundation of general embodied op</description>
-    </item>
-    <item>
-      <title>[HF Papers] Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2610.29441</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d28d013f0208243eece4</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize sparsity allocation or rely on heuristic rules or local metrics to guide it. In this work, we observe that sparsifying attention in different layers and at different denoising steps affects final-video fidelity to substantially different degrees. Yet the identities of the most sensiti</description>
-    </item>
-    <item>
-      <title>[HF Papers] Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?</title>
-      <link>https://huggingface.co/papers/2610.28763</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d2a1cca6ed269f199703</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of</description>
-    </item>
-    <item>
-      <title>[HF Papers] DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations</title>
-      <link>https://huggingface.co/papers/2610.29997</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:dad2b998f11ef129df05</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained acro</description>
     </item>
   </channel>
 </rss>
