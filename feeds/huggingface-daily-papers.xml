@@ -56,6 +56,13 @@
       <description>Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A critic can address both limitations, but long-CoT critic training is hindered by insufficient coverage of trajectories with diverse lengths and early gradients dominated by the newly</description>
     </item>
     <item>
+      <title>[HF Papers] Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models</title>
+      <link>https://huggingface.co/papers/2610.35295</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:22956d6c74ca0ad9d1c7</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A fundamental challenge for explainable and accountable language models is revealing how external information influences their answers. This paper examines whether models are self-attributive: that is, whether they indicate when -- and only when -- their responses to questions are influenced by information provided alongside the question. Furthermore, we explore how self-attribution can be improved through counterfactual training, which explicitly teaches models to distinguish between answers th</description>
+    </item>
+    <item>
       <title>[HF Papers] Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL</title>
       <link>https://huggingface.co/papers/2610.33512</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:28229293c930c8615cc6</guid>
@@ -84,11 +91,25 @@
       <description>Many language-model pipelines end in a closed-set decision, such as selecting a tool. Prompting a large language model for it is slow and order-sensitive. We ask how small an encoder for such decisions can be and whether it should read the options jointly or separately. In a three-seed study at 32 million parameters, per-option scoring beats joint scoring on a held-out sample of a 37-benchmark decision suite by 5.8 points of chance-corrected skill at matched optimizer steps and by 2.8 at approxi</description>
     </item>
     <item>
+      <title>[HF Papers] CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments</title>
+      <link>https://huggingface.co/papers/2610.32004</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:371cc879f5ff0ab5b5c9</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer and a real loss. We argue that a deployable-agent benchmark should jointly assess four facets: the outcome an agent reaches, the trajectory it takes, its operational viability, and its policy complianc</description>
+    </item>
+    <item>
       <title>[HF Papers] Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
       <link>https://huggingface.co/papers/2610.35193</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:388472f4270002835c80</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <description>AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabiliti</description>
+    </item>
+    <item>
+      <title>[HF Papers] Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?</title>
+      <link>https://huggingface.co/papers/2610.32046</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:39f1323944644ed4a977</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to explore an efficient test-time adaptation method for scientific discovery. We introd</description>
     </item>
     <item>
       <title>[HF Papers] Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement</title>
@@ -147,11 +168,25 @@
       <description>People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a ke</description>
     </item>
     <item>
+      <title>[HF Papers] ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning</title>
+      <link>https://huggingface.co/papers/2610.34886</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5f6b49ca225a549fcc1a</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answering accuracy, both of which say little about whether a model can still reason through more difficult problems. We present ThinkBit, a strictly scalar two-bit framework built to preserve reasoning, i</description>
+    </item>
+    <item>
       <title>[HF Papers] DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents</title>
       <link>https://huggingface.co/papers/2610.21561</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:5fc5b0337220f7bcb8f2</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <description>Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent and factually plausible utterances while deviating from the intended conversational process. We introduce DialFork, the first benchmark to measure this failure mode on raw dialogue text. DialFork is bui</description>
+    </item>
+    <item>
+      <title>[HF Papers] Rethinking Verification in Agent Harnesses</title>
+      <link>https://huggingface.co/papers/2610.34577</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:649aaaddf9a8b9d929b6</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification as an axis of test-time scaling by examining when to intervene, who checks the work, and how checking leads to revision. Our framework spans four layers of the agent lifecycle: initial instructions, mi</description>
     </item>
     <item>
       <title>[HF Papers] HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction</title>
@@ -203,6 +238,13 @@
       <description>Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlighting the importance of cross-engine numerical execution. We introduce miniTE, a lightweight framework that combines execution diagnostics, cross-engine numerical alignment, and effici</description>
     </item>
     <item>
+      <title>[HF Papers] Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations</title>
+      <link>https://huggingface.co/papers/2610.17117</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:98892c89af8f96f8edc2</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F answers the question on a frozen model with no training. The kernel H^0 is a content subspace: at 20 dimensions it beats the preserved subspace of the concept eraser LEACE on held-out CounterFact fact retrieval across eig</description>
+    </item>
+    <item>
       <title>[HF Papers] Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination</title>
       <link>https://huggingface.co/papers/2610.33503</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:9bf1eb6f28f9f011759d</guid>
@@ -252,6 +294,13 @@
       <description>Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion. Existing methods typically leave view modes implicit in text captions, conflate action with camera motion, and inject controls through fragmented architectural pathways that capture interdependencies only indirectly. In this work, we present World-in-Context, an interactive world modeling framework powered by In-Context Conditioning (ICC). Rather than relying on specialized</description>
     </item>
     <item>
+      <title>[HF Papers] iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents</title>
+      <link>https://huggingface.co/papers/2610.34735</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:acc64f65515e42f15dbf</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for the particular user, an agent must infer some missing information from the user's activity history and ask for other information that only the user can provide, without making unsupported assumptions or</description>
+    </item>
+    <item>
       <title>[HF Papers] CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion</title>
       <link>https://huggingface.co/papers/2610.29915</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b026aec5c42af76b9648</guid>
@@ -287,6 +336,13 @@
       <description>Hallucination detection is increasingly important for evaluating and deploying large language models. However, existing methods are often compared across benchmarks that define and measure hallucination in substantially different ways, making reported scores difficult to interpret across settings. We study hallucination detection as a benchmark-conditioned measurement problem and organize existing benchmarks along three axes: provenance, which describes how model outputs and evidence conditions</description>
     </item>
     <item>
+      <title>[HF Papers] ReGE: Stronger Agents through Experience Synthesis</title>
+      <link>https://huggingface.co/papers/2610.33861</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d271497c1f84aed14beb</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execution. We introduce ReGE, a framework for turning this recorded experience into guidance for a fresh attempt. Its main implementation, ReGE-Syn, uses a single coach call to jointly synthesize bounded execution records and available artifacts into self-contained guidance, connecting task-specific findings with proposed actions and relevant pitfalls. A student starts from the task's</description>
+    </item>
+    <item>
       <title>[HF Papers] Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents</title>
       <link>https://huggingface.co/papers/2610.33956</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:dacf0b88ff7d1f9e3d65</guid>
@@ -320,6 +376,20 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ea60b77ae6aefc35bf9e</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <description>Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow rendering through executable ScenePlans that specify source content, activity, and 3</description>
+    </item>
+    <item>
+      <title>[HF Papers] EnvLunch: The Environment as a Free Lunch for Learning to Interact</title>
+      <link>https://huggingface.co/papers/2610.33817</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:eab421f8c0081aa8c946</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>For agentic data analysis, language-model agents often require a large number of annotated tasks to learn how to interact effectively with executable environments (i.e., databases). While high-quality annotated tasks require heavy manual effort, an executable environment already provides rich interaction structure and verifiable outcomes. In this sense, the environment itself offers a free lunch, an additional set of verifiable tasks that require no human annotation. We propose EnvLunch, a warm-</description>
+    </item>
+    <item>
+      <title>[HF Papers] Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning</title>
+      <link>https://huggingface.co/papers/2610.33877</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:eba4127fcaf54971030b</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations. This work identifies and resolves a previously overlooked structural flaw in explanation-aware CL: pixel-level saliency regularization derives supervision targets from the model's own frozen saliency maps, creating a self-referential drift loop that acti</description>
     </item>
     <item>
       <title>[HF Papers] Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection</title>
@@ -635,76 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e392bd7380b30d92b02c</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <description>The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candidate continuations increasingly concentrate on fewer narrative mechanisms as generation progresses, while conventional retrieval may reinforce trope reuse and overlook historical information essential to future plots. To address these challenges, we pro</description>
-    </item>
-    <item>
-      <title>[HF Papers] Function-Space Temporal Self-Distillation for Policy Optimization</title>
-      <link>https://huggingface.co/papers/2610.19687</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e6d9037bc6c16fe801d1</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves with the student, creating unstable targets and motivating additional regularization. We introduce Function-Space Policy Optimization (FSPO), a single-policy framework that combines</description>
-    </item>
-    <item>
-      <title>[HF Papers] DuoLM: Fast and Effective Personalized Recommendation with Language Models</title>
-      <link>https://huggingface.co/papers/2610.24481</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:fd4a101ad37325a1635e</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Language models can make personalized recommendations from rich item content, user history, and feedback. However, evaluating many candidates with full-text inputs incurs substantial online computation and limits serving throughput. We introduce DuoLM, a framework for fast and effective personalized recommendation that integrates a compact recommendation model with an efficient serving runtime. An encoder LLM learns compact item representations for offline reuse, while a personalized ranker LLM</description>
-    </item>
-    <item>
-      <title>[HF Papers] IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems</title>
-      <link>https://huggingface.co/papers/2610.24383</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0010b4c2bc722562cf08</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for s</description>
-    </item>
-    <item>
-      <title>[HF Papers] Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks</title>
-      <link>https://huggingface.co/papers/2610.28889</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:02e5f28938e19ee63543</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the timestep, then reuse the same rule across inputs and budgets. We introduce Policy-Mask, a budget-con</description>
-    </item>
-    <item>
-      <title>[HF Papers] Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models</title>
-      <link>https://huggingface.co/papers/2610.25100</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:076c5aa6bd3a2ffec86d</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow fusion. We introduce Deep Fusion Memory (DFM), a parametric memory architecture that r</description>
-    </item>
-    <item>
-      <title>[HF Papers] Rethinking Sequence Compression with Test-time Regression</title>
-      <link>https://huggingface.co/papers/2610.31574</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0cc8f479f4e7b774853c</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficie</description>
-    </item>
-    <item>
-      <title>[HF Papers] Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos</title>
-      <link>https://huggingface.co/papers/2610.30866</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:11d43dfe20737a772a16</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to recognize subtle artifacts or reach the correct source decision without faithfully identifying the evidence underlying it. In this work, we systematically investigate how to design and train effective artifact</description>
-    </item>
-    <item>
-      <title>[HF Papers] Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation</title>
-      <link>https://huggingface.co/papers/2610.31305</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1d6fc175f8120ca477b0</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the balance between reconstruction and generation, and continuous-discrete co-adaptation. Cola2 dynamically segments text into semantic spans, controls the compression rate through auxiliary-loss-free negat</description>
-    </item>
-    <item>
-      <title>[HF Papers] SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs</title>
-      <link>https://huggingface.co/papers/2610.31062</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2178a113905cba807549</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisi</description>
-    </item>
-    <item>
-      <title>[HF Papers] RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
-      <link>https://huggingface.co/papers/2610.31372</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:32d01cc9fa0db0d93b8b</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framew</description>
     </item>
   </channel>
 </rss>
