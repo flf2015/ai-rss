@@ -111,12 +111,5 @@
       <pubDate>Sun, 20 Sep 2026 08:45:29 +0000</pubDate>
       <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF Qwen] Qwen/Qwen-Image-2.1</title>
-      <link>https://huggingface.co/Qwen/Qwen-Image-2.1</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Qwen:3cc50d0356230bcbb995</guid>
-      <pubDate>Mon, 14 Sep 2026 03:47:26 +0000</pubDate>
-      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
