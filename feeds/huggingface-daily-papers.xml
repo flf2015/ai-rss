@@ -28,6 +28,13 @@
       <description>Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do n</description>
     </item>
     <item>
+      <title>[HF Papers] TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
+      <link>https://huggingface.co/papers/2610.30161</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:28cf7eb3a545c1fdd4a6</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as obtaining a closure quote before closing a deposit. Adapting models to this domain requires measuring how well they follow the procedure, before and after training. Benchmarks usual</description>
+    </item>
+    <item>
       <title>[HF Papers] Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</title>
       <link>https://huggingface.co/papers/2610.32749</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2b60a11365feb2825e66</guid>
@@ -42,6 +49,20 @@
       <description>Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Ass</description>
     </item>
     <item>
+      <title>[HF Papers] Amortizing Sequential Experimental Design in Reasoning LLMs</title>
+      <link>https://huggingface.co/papers/2610.20832</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:560217658f6c423ac5c5</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards. Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected informa</description>
+    </item>
+    <item>
+      <title>[HF Papers] Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks</title>
+      <link>https://huggingface.co/papers/2610.35671</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:896f03f64aaa19ed2dd6</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. To address this gap, we present an independent safety evaluation of DeepSeek V4.1 Flash-1017, the latest version of V4.1 Flash that departs from V4 with a new architecture, scaled-</description>
+    </item>
+    <item>
       <title>[HF Papers] OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning</title>
       <link>https://huggingface.co/papers/2601.15351</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:90187275b8bd97a79ac0</guid>
@@ -54,6 +75,20 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:cbefcf7515fb11ac27a8</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <description>Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies. To address these challenges, we introduce HuGe, a family of Humanoid Generalist VLAs pre-trained on over 2,000 hour</description>
+    </item>
+    <item>
+      <title>[HF Papers] LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data</title>
+      <link>https://huggingface.co/papers/2610.30132</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d717690f0d71f4ca5a31</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become harder to obtain as the trained models get stronger. Recently, RL from zero data, in which a model l</description>
+    </item>
+    <item>
+      <title>[HF Papers] RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents</title>
+      <link>https://huggingface.co/papers/2610.22507</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:dfec3047edbf77dd57e1</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework, op</description>
     </item>
     <item>
       <title>[HF Papers] TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving</title>
@@ -670,41 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:985d308d9ba205202bd5</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <description>Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlighting the importance of cross-engine numerical execution. We introduce miniTE, a lightweight framework that combines execution diagnostics, cross-engine numerical alignment, and effici</description>
-    </item>
-    <item>
-      <title>[HF Papers] Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations</title>
-      <link>https://huggingface.co/papers/2610.17117</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:98892c89af8f96f8edc2</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F answers the question on a frozen model with no training. The kernel H^0 is a content subspace: at 20 dimensions it beats the preserved subspace of the concept eraser LEACE on held-out CounterFact fact retrieval across eig</description>
-    </item>
-    <item>
-      <title>[HF Papers] Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination</title>
-      <link>https://huggingface.co/papers/2610.33503</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9bf1eb6f28f9f011759d</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Patent examination is a challenging real-world task that requires agents to discover sparse prior art, iteratively refine queries, inspect technical evidence, and produce novelty assessments documented in Office Actions (OAs) across heterogeneous scientific and technical domains. However, existing benchmarks largely focus on static and limited candidate sets, leaving the full search--reasoning--assessment process underexplored. We present PatEx-Gym, the first framework for developing and evaluat</description>
-    </item>
-    <item>
-      <title>[HF Papers] ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.18683</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9bf64d66a673634d52c8</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform credit assignment dilemma that broadcasts trajectory-level advantages equally to all actions. Our analysis reveals that this uniformity inherently reinforces structurally unreasonable actions in preferred trajectories and ignores each action's downstream deviations in unpreferred ones. To resolve this</description>
-    </item>
-    <item>
-      <title>[HF Papers] Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</title>
-      <link>https://huggingface.co/papers/2610.24451</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9d8dcedc94028f69ae53</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in general-purpose AI models and agentic systems have enabled them to perform some CAD tasks. A systematic assessment is now needed to establish what these systems can accomplish and how well their outputs meet engineering requirements. This paper presents an empirical study of GPT-6 Astra, a SOTA general-purpose AI model, across four basic CAD tasks: model understanding, generation, editing, and evaluation. We design test cases spanning different levels of complexity and enginee</description>
-    </item>
-    <item>
-      <title>[HF Papers] Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model</title>
-      <link>https://huggingface.co/papers/2610.32177</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9e08b9ef5f7e41347383</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. We introduce Ψ-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation within a shared reasoning process we call streams of thought. These st</description>
     </item>
   </channel>
 </rss>
