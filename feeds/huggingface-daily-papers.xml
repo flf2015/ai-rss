@@ -98,6 +98,13 @@
       <description>We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bidirectional object-scene interactions insufficiently constrained. We construct the Insert World dataset with strictly aligned Blender-rendered counterfactual pairs and object refer</description>
     </item>
     <item>
+      <title>[HF Papers] Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models</title>
+      <link>https://huggingface.co/papers/2610.38681</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:36b0219f3e01ccf65f50</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Policy Self-Distillation (WISD), which instead constructs a weaker counterpart of the original model and uses the contrast between the two as a training signal without requiring privile</description>
+    </item>
+    <item>
       <title>[HF Papers] WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video</title>
       <link>https://huggingface.co/papers/2610.38352</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:399496a85f212c85a563</guid>
@@ -110,6 +117,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:3cacc3ab34c1c06b5fbf</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <description>Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision from image-generation parameters beyond discrete class labels. FDSML combines FineFractalDB, our refined fractal dataset with higher intra-class variation and more stable structures</description>
+    </item>
+    <item>
+      <title>[HF Papers] EPSBench: Benchmarking LLM Agents for Earnings Forecasting</title>
+      <link>https://huggingface.co/papers/2610.38293</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3cce7d13678c444632d2</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of filings, earnings-call transcripts, and news, then estimate company-specific income-statement drivers with cited evidence. A shared accounting calculator converts these estimates into GAAP diluted ear</description>
     </item>
     <item>
       <title>[HF Papers] WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training</title>
@@ -691,20 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:effe83a9f988bf630460</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <description>Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Refinement Networks (GRN) and introduces a polar style-aware mask that embeds style identities as equal</description>
-    </item>
-    <item>
-      <title>[HF Papers] Timestral</title>
-      <link>https://huggingface.co/papers/2610.37585</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f0c60a8f13ee90dd6cbd</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description>We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction tokens from the causally encoded context, so that longer horizons are trained without masking conte</description>
-    </item>
-    <item>
-      <title>[HF Papers] Harness-Model Collaboration for Long-Horizon Continual Learning</title>
-      <link>https://huggingface.co/papers/2610.34724</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:f16c90b7dd35487fb47e</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Long-horizon agents continuously encounter reusable procedural knowledge, yet existing systems typically rely either on model adaptation or external memory, trading persistent learning for rapid reuse. This limitation is especially important for Web agents that repeatedly execute related multi-step workflows. We propose HaMo, a Harness-Model collaborative framework that combines fast non-parametric experience accumulation with slow parametric adaptation. HaMo distills trajectories into strategy-</description>
     </item>
   </channel>
 </rss>
