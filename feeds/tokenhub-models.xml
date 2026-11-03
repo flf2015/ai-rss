@@ -104,12 +104,5 @@
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型：新增支持 Kimi K3 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 Hy3 模型。 新增文本及多模态 embedding 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:52b5d752b282bd59c2fa</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 Hy3 模型。 新增文本及多模态 embedding 模型。</description>
-    </item>
   </channel>
 </rss>
