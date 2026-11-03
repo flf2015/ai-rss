@@ -28,6 +28,13 @@
       <description>Jev enables efficient decision-making with large language models (LLMs) through typed querying primitives, allowing the same semantic state to be expressed in different formats, such as binary and multiple-choice queries. However, the consistency of decisions across primitives has not been systematically evaluated. This work introduces PrimaCons, a four-axis benchmark for assessing cross-primitive consistency while preserving the semantics of the query. Evaluations across three Jev sizes reveal</description>
     </item>
     <item>
+      <title>[HF Papers] History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models</title>
+      <link>https://huggingface.co/papers/2611.02782</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:199ed94b017f1aba8c76</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fully exploit richer historical information to constrain the student's current prediction. To address this gap, we introduce History Forcing, a unified on-policy distillation framework that strengthens</description>
+    </item>
+    <item>
       <title>[HF Papers] Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement</title>
       <link>https://huggingface.co/papers/2610.40191</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1cd3fb699c429c309752</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:3f8b996d627cafb142a5</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <description>Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representi</description>
-    </item>
-    <item>
-      <title>[HF Papers] VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</title>
-      <link>https://huggingface.co/papers/2610.33106</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:439ccecefd5a3f6b1956</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Large language model agents have enabled software development through natural-language interaction, but extending this paradigm to end-to-end game development remains challenging. Building a playable game requires coordinating code, scenes, assets, animations, physics, and configurations, while allowing developers to validate their integrated behavior through interactive testing. We introduce VibeGame, a framework for creating complete 2D game projects from natural-language prompts and optional</description>
     </item>
   </channel>
 </rss>
