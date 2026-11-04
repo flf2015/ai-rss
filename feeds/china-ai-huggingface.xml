@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Oct 2026 05:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 04:13:51 +0000</lastBuildDate>
+    <item>
+      <title>[HF moonshotai] moonshotai/Kimi-K3.1-Pro</title>
+      <link>https://huggingface.co/moonshotai/Kimi-K3.1-Pro</link>
+      <guid isPermaLink="false">urn:ai-rss:HF moonshotai:f4a904d03d800a16a777</guid>
+      <pubDate>Mon, 02 Nov 2026 04:13:51 +0000</pubDate>
+      <description>moonshotai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF tencent] tencent/Hy-Nomas-Diffusers</title>
       <link>https://huggingface.co/tencent/Hy-Nomas-Diffusers</link>
@@ -96,20 +103,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:6f92c274a23e32dd53ed</guid>
       <pubDate>Mon, 21 Sep 2026 15:39:33 +0000</pubDate>
       <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
-    <item>
-      <title>[HF Qwen] Qwen/Qwen-Image-2.1-PE-I2I</title>
-      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Qwen:413e4ee860ab5e965ff1</guid>
-      <pubDate>Sun, 20 Sep 2026 08:46:47 +0000</pubDate>
-      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
-    <item>
-      <title>[HF Qwen] Qwen/Qwen-Image-2.1-PE-T2I</title>
-      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Qwen:5eedd09eb4922e0c4f48</guid>
-      <pubDate>Sun, 20 Sep 2026 08:45:29 +0000</pubDate>
-      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
   </channel>
 </rss>
