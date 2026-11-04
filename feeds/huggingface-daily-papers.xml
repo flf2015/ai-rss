@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing</title>
+      <link>https://huggingface.co/papers/2610.35497</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:06b0f840d01c01cd5fd2</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remains unclear when fine-grained credit assignment improves learning and when it fails to improve task performance. Video editing provides a useful testbed for this question, combining multimodal perception, long-horizon planning, and tool use with delayed outcome feedback. We construct four movie-trailer editing task types---Content Selection, Narrative Sequencing, Rough Cut, and F</description>
+    </item>
+    <item>
       <title>[HF Papers] Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG</title>
       <link>https://huggingface.co/papers/2610.36915</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1f339d9769004c33aa9f</guid>
@@ -154,6 +161,13 @@
       <description>Training-free expert pruning makes two decisions: which experts to remove, and what the layer computes when its router still selects a removed expert. Published methods change both at once. Holding the mask fixed, we compare replacement operators from three families on OLMoE, DeepSeek-V2-Lite and Moonlight, with Granite as a fourth router, using paired, multiplicity-corrected tests. The largest effect is a choice usually left implicit: the survivors' gate scale. On routers trained without top-k</description>
     </item>
     <item>
+      <title>[HF Papers] Cross-Prompt Reuse of Entity-Replacement Responses</title>
+      <link>https://huggingface.co/papers/2611.00352</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7552e2224240a4cab861</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicted log-probability shift between two relations' published answers, given known answer prefixes, with the measured one. Hidden reuse injects the aligned change at 50% depth before the target's remaining layers; direct reuse</description>
+    </item>
+    <item>
       <title>[HF Papers] GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data</title>
       <link>https://huggingface.co/papers/2611.02476</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:764ba6746af62f7031df</guid>
@@ -173,6 +187,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:773480bce27b0b2a1110</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <description>Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon software engineering tasks even when taking at most one action per context, and based o</description>
+    </item>
+    <item>
+      <title>[HF Papers] Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval</title>
+      <link>https://huggingface.co/papers/2611.04169</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:84a5fdd9641b6ca7636a</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap and competition is not. On five open models (0.5B to 3B parameters, four families), neutral filler costs nothing: accuracy stays at 0.97 to 1.00, up to 32K tokens on Qwen2.5-1.5B. Statements in the format of the evidence, placed at the same positions, drop it to 0.16 to 0.33. A single statement that gives the queried key a rival value multiplies the loss by 9 to 110, and every ad</description>
     </item>
     <item>
       <title>[HF Papers] PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations</title>
@@ -231,6 +252,13 @@
       <description>Long-horizon terminal tasks are used to evaluate and train agents. Human-curated datasets are scarce, so many synthesis methods have emerged. They usually measure the length of a task by the turns a model needs to pass it, and its difficulty by labels the LLM sets during generation. We find, however, that the turn count largely reflects the habits of the model, not only the demands of the task, and that the labels barely track how often models pass. We describe a terminal task by its work, the n</description>
     </item>
     <item>
+      <title>[HF Papers] SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere</title>
+      <link>https://huggingface.co/papers/2611.04414</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:bc8bc8873ef1162ce2b6</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view: by projecting all modalities into a shared hyperspherical latent space via a frozen self-supervised encoder, cross-modal imputation reduces to short-range geometric transport between nearby points o</description>
+    </item>
+    <item>
       <title>[HF Papers] ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost</title>
       <link>https://huggingface.co/papers/2611.02079</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:bf041134f280b02b6494</guid>
@@ -250,6 +278,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:c505468e80f60cd1d370</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <description>On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses. In this paper, we argue that neither of them is sufficient. Instead, every token needs its own teacher, as the tea</description>
+    </item>
+    <item>
+      <title>[HF Papers] QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board</title>
+      <link>https://huggingface.co/papers/2611.01598</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ce9e54753cd930414f0b</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades. We present QFabric, a prototype that treats cross-domain placement as guarded recovery from a violated empirical soft real-time contract: a bounded task is compiled for both domains, monitored in windows with hysteresis, switched only after semantic and capacity admission at a quiescent epoch boundary, and committe</description>
     </item>
     <item>
       <title>[HF Papers] Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction</title>
@@ -670,41 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:0c317a308218d4af424b</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <description>Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined motion patterns, generalize poorly to unseen environments and characters, and offer l</description>
-    </item>
-    <item>
-      <title>[HF Papers] R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop</title>
-      <link>https://huggingface.co/papers/2610.22740</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0f0086c9a5d35ad8b7a0</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description>In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestrat</description>
-    </item>
-    <item>
-      <title>[HF Papers] On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.40945</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0f823c95d914688a86e5</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description>On-policy reinforcement learning for large language models assumes that training responses are sampled from the current policy. In practice, an inference engine samples the responses and a separate trainer computes the gradients, and the training-inference mismatch between the two makes the training data off-policy. The mismatch has two sources, the numerics of the engine and the stale weights of asynchronous sampling, and a correction that stabilizes training under one source can fail under the</description>
-    </item>
-    <item>
-      <title>[HF Papers] Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage</title>
-      <link>https://huggingface.co/papers/2610.37918</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:19f8d561f9c1031303d5</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Real-world forgery is inherently heterogeneous: it manifests not only as digital manipulation but also as physical spoofing, and is carried not only by images but also by videos. Despite substantial progress, a unified anti-forgery foundation model covering such a broad threat spectrum remains absent. In this paper, we present Venus-DefakerOne2, which substantially extends the forensic capability boundary along both the forgery-form and media-type dimensions. Trained on tens of millions of open-</description>
-    </item>
-    <item>
-      <title>[HF Papers] No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates</title>
-      <link>https://huggingface.co/papers/2610.40914</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2905027e96f708949994</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Training acceleration methods for diffusion transformers, such as REPA and dispersive regularization, are commonly explained by additional supervision, spatial-structure priors, or improved feature geometry. We revisit this view and uncover a striking internal change: the AdaLN-Zero residual gate α, which directly controls how conditioned updates enter the residual stream, is substantially reorganized by these methods. This observation motivates our hypothesis that acceleration arises, at least</description>
-    </item>
-    <item>
-      <title>[HF Papers] Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use</title>
-      <link>https://huggingface.co/papers/2610.40738</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2f2c6234c2e3d3f82968</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description>A capable voice assistant must do more than recognize words; it must understand requests, reason over context, sustain conversations, and act through tools. We present Apriel Voice 27B Preview, an open speech-language model that unifies these capabilities within a shared reasoning backbone while retaining text and image input modalities. Built on the post-trained Gemma 4 26B-A4B checkpoint, Apriel Voice directly processes speech and generates both responses and tool calls without requiring a sep</description>
     </item>
   </channel>
 </rss>
