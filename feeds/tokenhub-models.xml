@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>腾讯云 TokenHub 新增支持的国产模型</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[TokenHub] 新增支持 Hy4 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:TokenHub:3dd81eef6320148460b3</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Hy4 模型。</description>
+    </item>
     <item>
       <title>[TokenHub] 新增支持 Kimi K3.1 Pro、Kimi K3.1 Pro HighSpeed 模型。</title>
       <link>https://cloud.tencent.com/document/product/1823/130675</link>
