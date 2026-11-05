@@ -189,6 +189,13 @@
       <description>Omni models answer questions about videos by jointly processing sampled frames and audio in one turn, with progress driven largely by scaling model size and omni training data. We ask whether a model needs to hear the audio directly at all, and present SleuthVLM, an agent harness built on a VLM that never hears the audio directly: speech will be transcribed into text, and the VLM will sleuth the video on its own without any predefined workflow. On four omni benchmarks with videos up to 90 minute</description>
     </item>
     <item>
+      <title>[HF Papers] Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention</title>
+      <link>https://huggingface.co/papers/2611.03768</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a5920c77218ddc7d9d87</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention (DSA), the attention of DeepSeek-V3.2 and the GLM-5 family, every layer is preceded by a lightning indexer that scores the whole cache and keeps the k=2048 highest-scoring tokens for the layer to attend. At long context this indexer scan, not the sp</description>
+    </item>
+    <item>
       <title>[HF Papers] Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents</title>
       <link>https://huggingface.co/papers/2610.41432</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:a6ec6767517386f89a79</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:2c45653376d5a2ccbcc1</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <description>On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity and calibration, which a smaller student may be unable to reproduce. Because the teacher temperature changes these values without changing the ordering, OPD is also sensitive to the temperature choice. We ask whether the te</description>
-    </item>
-    <item>
-      <title>[HF Papers] CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements</title>
-      <link>https://huggingface.co/papers/2611.03126</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:3641633be911f3276d3e</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level</description>
     </item>
   </channel>
 </rss>
