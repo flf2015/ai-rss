@@ -28,6 +28,13 @@
       <description>Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the receiver benefits from the sender's information.</description>
     </item>
     <item>
+      <title>[HF Papers] SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</title>
+      <link>https://huggingface.co/papers/2611.08483</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:212be68979e91bde4633</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod</description>
+    </item>
+    <item>
       <title>[HF Papers] Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
       <link>https://huggingface.co/papers/2611.02075</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:22fc2e12efed228c1585</guid>
@@ -70,6 +77,13 @@
       <description>Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that i</description>
     </item>
     <item>
+      <title>[HF Papers] Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation</title>
+      <link>https://huggingface.co/papers/2611.06498</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:45738e8da4fa60d0f55e</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margin</description>
+    </item>
+    <item>
       <title>[HF Papers] SLA: Scaling Spatial-Language-Action Model via Continual Pre-training</title>
       <link>https://huggingface.co/papers/2611.08373</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:4c9248f396b51653dfd0</guid>
@@ -77,11 +91,25 @@
       <description>Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-</description>
     </item>
     <item>
+      <title>[HF Papers] StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models</title>
+      <link>https://huggingface.co/papers/2611.04386</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4fea8f839a891c6bfe58</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text rendering and human preference, and must sample in a few steps. Capabilities and few-step sampling are built in separate stages: a full-step model first consolidates capabilities through multi-teacher on-policy distillation, then serves as a fixed teacher for step distillation. Every full-step model we evaluate scores lower once compressed, and the second stage cannot begin unti</description>
+    </item>
+    <item>
       <title>[HF Papers] WeLM-Image: A Unified Image Generation Model towards Visual Intelligence</title>
       <link>https://huggingface.co/papers/2611.07392</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:55bae9ef095c60d69d52</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <description>We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimi</description>
+    </item>
+    <item>
+      <title>[HF Papers] OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery</title>
+      <link>https://huggingface.co/papers/2610.37739</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:63ae11663482de7f136b</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other informati</description>
     </item>
     <item>
       <title>[HF Papers] EvoMemState: Evolving Memory State for Personal Agents</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:91cd8b4a6392a4a85ef9</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <description>GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website environments that faithfully reconstruct the visual interfaces, content, and functiona</description>
-    </item>
-    <item>
-      <title>[HF Papers] YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction</title>
-      <link>https://huggingface.co/papers/2611.05280</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:9adcf04eeca9e5b2f75a</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns. Consequently, they provide limited supervision and evaluation for multimodal stateful interaction, which requires models to understand, maintain, update, and</description>
-    </item>
-    <item>
-      <title>[HF Papers] Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena</title>
-      <link>https://huggingface.co/papers/2610.00854</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a15817211c649f48c7a2</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description>A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth, and scale estimation. A minimal harness leaves task decisions to the model through</description>
-    </item>
-    <item>
-      <title>[HF Papers] DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
-      <link>https://huggingface.co/papers/2611.05377</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a5af911f796601d0dff6</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal late</description>
-    </item>
-    <item>
-      <title>[HF Papers] Recursa: Toward Recursively Self-Improving Foundation Model Systems</title>
-      <link>https://huggingface.co/papers/2611.04035</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a78e557ce6f0ba0c5c27</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation model system that adapts to new domains by learning from its own experience without human experts or a stronger teacher model. Recursa uses a knowledge repository to store what it learns: domain-speci</description>
     </item>
   </channel>
 </rss>
