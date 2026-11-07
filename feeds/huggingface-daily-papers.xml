@@ -112,6 +112,13 @@
       <description>Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other informati</description>
     </item>
     <item>
+      <title>[HF Papers] Tools Need Not Speak in Text: Latent Context Compression for Agents</title>
+      <link>https://huggingface.co/papers/2611.06500</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:65f8ebcbc5699f8867db</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios. In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text</description>
+    </item>
+    <item>
       <title>[HF Papers] EvoMemState: Evolving Memory State for Personal Agents</title>
       <link>https://huggingface.co/papers/2611.03743</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:660a463e9c8f93351a7b</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:9102eb49ab6bf8526114</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <description>A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive midtraining and posttraining. Starting from a pretrained video generator, we midtrain on 30,110 hours of robot demonstrations spanning 22 platforms.</description>
-    </item>
-    <item>
-      <title>[HF Papers] WebHarbor: Docking Real Websites for Evolving GUI Agent Environments</title>
-      <link>https://huggingface.co/papers/2611.03634</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:91cd8b4a6392a4a85ef9</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description>GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website environments that faithfully reconstruct the visual interfaces, content, and functiona</description>
     </item>
   </channel>
 </rss>
