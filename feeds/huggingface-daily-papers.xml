@@ -42,6 +42,13 @@
       <description>Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment</description>
     </item>
     <item>
+      <title>[HF Papers] RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill</title>
+      <link>https://huggingface.co/papers/2611.09709</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:233179032c1ab683a21a</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Flash, where the projection is trained into the model. RidgeFill retrofits it onto models that were never trained for it: the map is a ridge regression fitted once in closed form from</description>
+    </item>
+    <item>
       <title>[HF Papers] Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching</title>
       <link>https://huggingface.co/papers/2501.08686</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:24b001e79cb4fbd9f773</guid>
@@ -61,6 +68,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:369ae4cbd6b9bed58e39</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <description>Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification leads fine-tuned models to choose destructive actions. We tested whether three open-weight models from two families, including two Qwen models with the original adapters, could report this state. Using Open-Weight Masked Introspection (OWMI), we injected pain and neighbouring emotion directions during neutral tasks, then elicited reports against sham runs, random perturbations ma</description>
+    </item>
+    <item>
+      <title>[HF Papers] Creative Priming: Decoupling Process from Product to Escape the Creative Paradox</title>
+      <link>https://huggingface.co/papers/2611.11740</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:388403938e6ba399bffc</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulating new scientific theories, are fundamentally creative acts. Yet creativity is uniquely difficult to learn because it faces a creative paradox: learning to repeat past examples of creative success makes those specific examples more likely to recur, inhibiting the very creativity desired. This work argues that creativity is better modeled as an explicit process rather than as a</description>
     </item>
     <item>
       <title>[HF Papers] AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations</title>
@@ -182,6 +196,13 @@
       <description>Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under Gaussian noise to the Stein score of the noisy marginal. In this work, we extend this perspective beyond Gaussian noise to a broad class of Gibbs (energy-based) noise distributions, with the generalized Gaussian family as an example. We derive the Energy-Tweedie identity: when the denoising posterior is viewed through the lens of scoring rules, the path derivative of a kernel s</description>
     </item>
     <item>
+      <title>[HF Papers] onóna: Twin Embeddings with Tied Unembeddings</title>
+      <link>https://huggingface.co/papers/2611.10556</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b04d0e47df0b5dd0d69b</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing. The Transformer takes the average of two embedding tables as input, and the output head combines the softmax distributions defined by those same tables. A gate conditioned only on the current input token determines the mixture weight. Its values</description>
+    </item>
+    <item>
       <title>[HF Papers] Learning Heterogeneous Tactile Representation for General Dexterous Manipulation</title>
       <link>https://huggingface.co/papers/2611.12806</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b8ca60016d470d5d76d8</guid>
@@ -196,6 +217,13 @@
       <description>Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieval from flat corpora, limiting its ability to adapt retrieval granularity, explore multi-hop relations, and integrate multimodal clinical evidence. We introduce SkinMind, a multimodal agentic RAG framework that equips policy models with human-inspired graph probing for autonomous</description>
     </item>
     <item>
+      <title>[HF Papers] FraudBench: A Legal Evaluation of AI Deception</title>
+      <link>https://huggingface.co/papers/2611.12167</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d3f769560d86f34494d4</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each scenario to LLMs via three tasks at varying levels of autonomy: advising users, drafting messages for users to send, and acting directly on behalf of users (477 tasks total). In each</description>
+    </item>
+    <item>
       <title>[HF Papers] InstantHMR : Real-Time Human Mesh Recovery on Your Phone</title>
       <link>https://huggingface.co/papers/2611.09195</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d78e3030ec82039d3417</guid>
@@ -208,6 +236,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:f6430fbabf186bd31812</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <description>This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG. The core idea of our TRIO is to equip three well-designed agents with an iterative refinement paradigm</description>
+    </item>
+    <item>
+      <title>[HF Papers] MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification</title>
+      <link>https://huggingface.co/papers/2611.10592</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f79957707e712966fc13</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that combine spatial, appearance, and temporal requirements. We introduce MotionGraphicsBench, an expert-curated benchmark of 100 instances for animating an input static SVG with a motion edit prompt. By supplying all required visual elements, our editing task reflects a designer-like workflow and isolates motion generation</description>
     </item>
     <item>
       <title>[HF Papers] FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning</title>
@@ -670,41 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:f328e0f46182aa6ce14a</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <description>Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without explicit regularization, heads may learn redundant patterns rather than complementary roles. Correlation-based penalties encourage head disentanglement, yet apply uniform regularization across all training samples. In face recognition (FR), hard samples whose embeddings lie close to competing identities are critical for optimization and generalization. Motivated by this, we propose</description>
-    </item>
-    <item>
-      <title>[HF Papers] EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure</title>
-      <link>https://huggingface.co/papers/2611.07909</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:fd83ed113ec593da1e83</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leading to artifacts such as blurring, stretching, and temporal instability. We present EDGAR (Efficient Diffusion-Driven Gaussian Avatar Refinement), a conditional diffusion framework designed to enhance the quality of Gaussian avatars by correcting artifacts while preserving identit</description>
-    </item>
-    <item>
-      <title>[HF Papers] VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation</title>
-      <link>https://huggingface.co/papers/2611.06796</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0187cdd331ce6fde8ce2</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Few-step distillation offers efficient generation with diffusion and flow models, but preserving quality with only a few sampling steps remains challenging. Distribution-matching methods via score distillation provide a strong foundation, yet they rely on accurately tracking the student's changing distribution. At intermediate generation steps in few-step sampling, student-score estimation can be difficult, and commonly used estimators may describe a different distribution from the one used to u</description>
-    </item>
-    <item>
-      <title>[HF Papers] Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization</title>
-      <link>https://huggingface.co/papers/2611.03517</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:101e12e2319cb3da63f5</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents let a self-directed model mutate a population of kernels and pay for the freedom in trials: thousands of evaluations, repeated edits, and wrong candidates. Both respond to hard targets by equipping the</description>
-    </item>
-    <item>
-      <title>[HF Papers] SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2611.02846</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:161c7bb90caa58fc7074</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional pipelines collect supervision through sequential draft-and-verify rollouts. Our key insig</description>
-    </item>
-    <item>
-      <title>[HF Papers] StreamDuo: A Live Commentator and a Research Agent for Unseen Games</title>
-      <link>https://huggingface.co/papers/2611.01120</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1ef4cc03594759f089f3</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played. When the commentator sees something it cannot</description>
     </item>
   </channel>
 </rss>

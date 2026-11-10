@@ -5,7 +5,21 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Nov 2026 04:13:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 15:35:23 +0000</lastBuildDate>
+    <item>
+      <title>[HF MiniMaxAI] MiniMaxAI/MiniMax-H3-Image-PE</title>
+      <link>https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE</link>
+      <guid isPermaLink="false">urn:ai-rss:HF MiniMaxAI:f6de200bf2487d0c7bda</guid>
+      <pubDate>Sun, 08 Nov 2026 15:35:23 +0000</pubDate>
+      <description>MiniMaxAI 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF MiniMaxAI] MiniMaxAI/MiniMax-H3-Image</title>
+      <link>https://huggingface.co/MiniMaxAI/MiniMax-H3-Image</link>
+      <guid isPermaLink="false">urn:ai-rss:HF MiniMaxAI:f841d7a6d6b4d1e37e28</guid>
+      <pubDate>Tue, 03 Nov 2026 06:34:36 +0000</pubDate>
+      <description>MiniMaxAI 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF moonshotai] moonshotai/Kimi-K3.1-Pro</title>
       <link>https://huggingface.co/moonshotai/Kimi-K3.1-Pro</link>
