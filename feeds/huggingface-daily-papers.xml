@@ -7,6 +7,13 @@
     <language>zh-cn</language>
     <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>[HF Papers] ODE Policy: Robot Learning via Action Dynamics, Not Actions</title>
+      <link>https://huggingface.co/papers/2611.01729</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0372ac94680235eb0d38</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to action values at discrete control steps and leave the continuity of physical motion to be learned implicitly. We propose ODE policy, which learns the dynamics of the action rather than the action itself. A neural ordinary differential equation (ODE) learns the vector field of the action by matching the integrated actions to the targets over short action chunks in IL and single cont</description>
+    </item>
+    <item>
       <title>[HF Papers] Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers</title>
       <link>https://huggingface.co/papers/2611.06844</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:06206e55ae4ff255bb76</guid>
@@ -91,6 +98,13 @@
       <description>Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's identity from context. We study this convergence in 564,861 AI-related arXiv records. Cross-topic name collision grows 4.33-fold from a pooled 2020-2022 reference to 2026, compared with 1.12-fold within topics. A second sentence encoder reproduces the pattern, and name-group resampling quantifies its uncertainty. Fixed word-frequency bands locate the main increase in an intermediate-</description>
     </item>
     <item>
+      <title>[HF Papers] Coding or Cheating? An Investigation of Frontier Coding LLMs</title>
+      <link>https://huggingface.co/papers/2611.10404</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5ca3ad3589db190f533c</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of deriving it, known as reward hacking. Prior reports document this behavior on public benchmarks. We test its persistence on unseen problems. In a hardened environment where the answe</description>
+    </item>
+    <item>
       <title>[HF Papers] Sketchpad: certified exact arithmetic with a small vision-language model</title>
       <link>https://huggingface.co/papers/2611.04434</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:5e2edd0e3f6e86fd7eb6</guid>
@@ -124,6 +138,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:8f23f9f8413dc12d4a63</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <description>Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one genera</description>
+    </item>
+    <item>
+      <title>[HF Papers] Toward the Era of Agentic Embodied Intelligence</title>
+      <link>https://huggingface.co/papers/2611.09124</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:91b6d7a59a6a8c65ee85</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh</description>
     </item>
     <item>
       <title>[HF Papers] OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer</title>
@@ -684,27 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ceb203706744cfd30eac</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <description>Adversarial diffusion distillation has conventionally relied on image features for discrimination. We revisit this choice for multimodal diffusion transformers (MMDiTs), whose text stream becomes image-dependent through joint attention. We introduce Text-Stream Adversarial Distillation (TSAD), which exploits intermediate text-token states as a new adversarial representation. Because the text stream has already read the image while remaining tied to the text condition, changing that condition cha</description>
-    </item>
-    <item>
-      <title>[HF Papers] VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing</title>
-      <link>https://huggingface.co/papers/2611.03404</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d1cd75628da48a891303</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicting target when driving speech is replaced. We introduce replacement-aware cross-audio supervision: paired-audio samples use full-frame reconstruction, whereas unpaired replacement-audio samples mask o</description>
-    </item>
-    <item>
-      <title>[HF Papers] GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling</title>
-      <link>https://huggingface.co/papers/2610.37257</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d22dd46ad3b8b777ea55</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with captions that describe whole clips in coarse and undifferentiated text, which is insufficient for cont</description>
-    </item>
-    <item>
-      <title>[HF Papers] LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers</title>
-      <link>https://huggingface.co/papers/2611.05304</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:de1ba32ffcd83f4363ae</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) cache grows linearly with the number of loop steps and becomes the main memory bottleneck. We observ</description>
     </item>
   </channel>
 </rss>
