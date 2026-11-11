@@ -28,6 +28,20 @@
       <description>Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input perturbations and make reconstructions unstable. We introduce LipsFlower to reduce this amplification. We derive stability bounds for Flow-from-Y, which initializes the ordinary differential equation from a noise-perturbed observation, as well as for observation-conditioned posterior sampling, which conditions the velocity field on the observation throughout integration. Based on</description>
     </item>
     <item>
+      <title>[HF Papers] PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation</title>
+      <link>https://huggingface.co/papers/2611.13576</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:0fc3039ef9ccbb18d371</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounded diagnostic framework for evaluating physical commonsense in T2V generation. For each caption, PhyR</description>
+    </item>
+    <item>
+      <title>[HF Papers] Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking</title>
+      <link>https://huggingface.co/papers/2611.10486</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:13a6c06ce2128fb6cc84</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions,</description>
+    </item>
+    <item>
       <title>[HF Papers] Micius-Flash: Lightweight Agentic Intelligence for Engineering</title>
       <link>https://huggingface.co/papers/2611.10015</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:19a5f14af02d49b9cbc7</guid>
@@ -112,6 +126,13 @@
       <description>Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinemati</description>
     </item>
     <item>
+      <title>[HF Papers] LEASH: Stay Safe in Agentic Robotics</title>
+      <link>https://huggingface.co/papers/2611.14115</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5dfab7b8edd317ffce08</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks, and comprehensive safety evaluation is still lacking. We introduce RoboRisk, a comprehensive benchmark for evaluating safety in agentic robotics. Its 92 simulated tasks and 13 ph</description>
+    </item>
+    <item>
       <title>[HF Papers] Market-Conditioned JEPA: Learning from Unpredictable Market Shocks</title>
       <link>https://huggingface.co/papers/2611.13572</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:66578873df18f0f3ded8</guid>
@@ -161,6 +182,13 @@
       <description>Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world tran</description>
     </item>
     <item>
+      <title>[HF Papers] Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model</title>
+      <link>https://huggingface.co/papers/2611.13425</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a0e2359c08dadc8dca19</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows. In this paper, we present P2Echo, a unified framework capable of segmenting diverse cardiac structures across multiple standard echocardiographic views using a single model controlled by structured view-aware text prompts. Unlike recent foundation model adaptations that rely on i</description>
+    </item>
+    <item>
       <title>[HF Papers] DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</title>
       <link>https://huggingface.co/papers/2611.03142</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ab05fd498427044aa55c</guid>
@@ -180,6 +208,20 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:b1a72cb7f7cdda51cf69</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <description>Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of</description>
+    </item>
+    <item>
+      <title>[HF Papers] Embodied First Exam</title>
+      <link>https://huggingface.co/papers/2611.12177</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b432cb61b3a9738984b8</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to contr</description>
+    </item>
+    <item>
+      <title>[HF Papers] DyCraft: An Agentic System for Long-Horizon 4D Scene Generation</title>
+      <link>https://huggingface.co/papers/2610.40754</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c286aec31c3818178dc8</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>While frontier coding agents can generate high-quality 3D scenes and articulated assets, they struggle to create coherent long-horizon animations. When equipped with general-purpose harnesses, they frequently produce physically implausible outputs, generating objects that interpenetrate, lack physical support, or move unnaturally. Such bare agents struggle to repair these errors because they default to scripting the full animation in one pass, making it difficult to verify their work and disenta</description>
     </item>
     <item>
       <title>[HF Papers] Tree-Ising: Repairing Language Models with Bit-Level Ising Edits</title>
@@ -215,6 +257,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:f1ce2ec4657178ef3a16</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <description>System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges</description>
+    </item>
+    <item>
+      <title>[HF Papers] Visual Similarity in Adult Word Extension and Artificial Word Learning</title>
+      <link>https://huggingface.co/papers/2611.14116</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:fb98dc8262f96c4caf92</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis &amp; Frank, 2018), computing each test image's distance to the examples shown in the space of a frozen self-supervised visual encoder (DINOv2). Distance was associated with extension (log odds -3.23 per standard deviation; 520 people), and an exploratory post hoc analysis suggested that this associat</description>
     </item>
     <item>
       <title>[HF Papers] Flide: Accelerating Decision Inference with Exact State Forking</title>
@@ -656,55 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d116586beaa32d0c4d3c</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <description>Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and Engl</description>
-    </item>
-    <item>
-      <title>[HF Papers] LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time</title>
-      <link>https://huggingface.co/papers/2611.07025</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d19b6d4d97f0a76784be</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We exploit this with value cache amortisation, which fits a lightweight per-head predictor at test time and</description>
-    </item>
-    <item>
-      <title>[HF Papers] Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding</title>
-      <link>https://huggingface.co/papers/2611.07723</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d7da837898a276b357fe</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but protein function often depends on conformational ensembles and transitions. Here, we address both benchmark scope and success criteria. We introduce BILBY-PRO, a systematically derived</description>
-    </item>
-    <item>
-      <title>[HF Papers] Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use</title>
-      <link>https://huggingface.co/papers/2611.09113</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e239404459bce8cd19f2</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path with an attractive unauthorized shortcut. To ensure executable tasks, tempting shortcuts, and feasible compliant paths, Staged Execution-Reflective Synthesis (SERS) grounds benchmar</description>
-    </item>
-    <item>
-      <title>[HF Papers] AutoCompress: Automated Hardware-Guided Model Compression</title>
-      <link>https://huggingface.co/papers/2611.08290</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e312d36d922d1918264c</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware, and serving engine. We introduce AutoCompress, a hardware-guided compression frame</description>
-    </item>
-    <item>
-      <title>[HF Papers] Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds</title>
-      <link>https://huggingface.co/papers/2611.09017</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e5b82e43fd374803f528</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Coding agents combine visual understanding with program execution, offering a new route to automated 3D creation. By translating images and instructions into editable programs, they bring reconstruction, generation, and editing into a shared workflow. Yet existing benchmarks fragment evaluation across task scopes and protocols, leaving their capabilities across construction levels unclear. We propose Frontier3DBench, a unified benchmark of 145 tasks across 9 categories spanning object, scene, an</description>
-    </item>
-    <item>
-      <title>[HF Papers] Learning to evolve by matching velocities</title>
-      <link>https://huggingface.co/papers/2611.00448</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:e911db1d71e3c10fcc07</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based objectives degenerate as the rollout horizon increases, hindering gradient-based optimization, and that the numerical scheme biases the learned dynamics by constraining the spectrum of the learned Jacob</description>
-    </item>
-    <item>
-      <title>[HF Papers] Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters</title>
-      <link>https://huggingface.co/papers/2611.09634</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ef3b80f056a4f2a3fed1</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned family of policies with group-relative online reinforcement learning. LambdaMix jointly trains one low-rank adapter per objective over a frozen base model. One preference vector select</description>
     </item>
   </channel>
 </rss>
