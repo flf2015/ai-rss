@@ -83,19 +83,5 @@
       <pubDate>Fri, 09 Oct 2026 04:50:01 +0000</pubDate>
       <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF XiaomiMiMo] XiaomiMiMo/MiMo-V2.6-Flash-MOPD</title>
-      <link>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD</link>
-      <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:f03a1aea02d05a7e7880</guid>
-      <pubDate>Sun, 27 Sep 2026 04:01:00 +0000</pubDate>
-      <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
-    <item>
-      <title>[HF XiaomiMiMo] XiaomiMiMo/MiMo-V2.6-Pro-MOPD</title>
-      <link>https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD</link>
-      <guid isPermaLink="false">urn:ai-rss:HF XiaomiMiMo:1d24c97a353b6f912c63</guid>
-      <pubDate>Sun, 27 Sep 2026 03:58:00 +0000</pubDate>
-      <description>XiaomiMiMo 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
