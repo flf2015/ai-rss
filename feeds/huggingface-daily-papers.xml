@@ -5,7 +5,70 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Hugging Face Daily Papers 每日收录的研究论文</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[HF Papers] CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models</title>
+      <link>https://huggingface.co/papers/2607.24999</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4af881fb1285e40d80e3</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Human cognitive tasks let us compare language models with humans under controlled conditions. Yet a model can reproduce the direction of a human effect while making different errors. CogBattery evaluates 54 open-weight language models on text adaptations of 13 cognitive paradigms, comparing each with human data from its source study. Like humans, models respond more to n-back lures than to controls, yet they make far more false alarms on ordinary non-targets. Most models' reported confidence sep</description>
+    </item>
+    <item>
+      <title>[HF Papers] Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents</title>
+      <link>https://huggingface.co/papers/2608.22237</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5241f2422ac882595de0</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read Intent Protocol tracks evolving needs and source coverage; Adaptive Reader Backends select how eviden</description>
+    </item>
+    <item>
+      <title>[HF Papers] GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2611.13028</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:633eba0c691e60addd58</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks. Its evaluation benchmark, GTAVBench, derived from GTA V main-story missions, contains 103 onli</description>
+    </item>
+    <item>
+      <title>[HF Papers] WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models</title>
+      <link>https://huggingface.co/papers/2603.27343</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8c7384a1b2a6e5d4d378</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps. We introduce a working-memory-inspired probe of cumulative state tracking with program-computed answers, 3 to 100 updates, and final-state, intermediate-state, or multi-target queries. It compares protocols on identical items. Acros</description>
+    </item>
+    <item>
+      <title>[HF Papers] Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.39671</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8d85a3399de30001b4b0</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly. To investigate this capability, we formu</description>
+    </item>
+    <item>
+      <title>[HF Papers] Scaling Mathematical Proof Supervision from Structured Textbooks</title>
+      <link>https://huggingface.co/papers/2610.40394</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c46b79611b9b408bebaa</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, depen</description>
+    </item>
+    <item>
+      <title>[HF Papers] Module-Aware Optimization for Graph Neural Networks</title>
+      <link>https://huggingface.co/papers/2611.08379</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c5daf77779a522e68444</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coordinate-wise updates, while matrix-aware optimizers such as Muon utilize weight-matrix structure through orthogonalized updates. For Graph Neural Networks (GNNs), however, the effective geometry of its weight matrices is shaped not only by its learned channel-mixing weights, but also by the graph-propagated representations it acts on. Thus, even if an update is well normalized as</description>
+    </item>
+    <item>
+      <title>[HF Papers] Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds</title>
+      <link>https://huggingface.co/papers/2611.08286</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f1f98f84eed86b6bfff3</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where assistant responses can change subsequent user behavior and task outcomes. Existing benchmarks largely rely on offline replay and therefore cannot capture these effects. We introduce Interactive Visual Gym, a framework for closed-loop evaluation and training of visual interaction models through joint simulation of executable task environments and human users. We contribute three si</description>
+    </item>
+    <item>
+      <title>[HF Papers] Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference</title>
+      <link>https://huggingface.co/papers/2611.10193</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:fd8dd97ed843a4a24a6e</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing. At the core of both methods, PISA combines soft cluster memberships with model-specific pred</description>
+    </item>
     <item>
       <title>[HF Papers] Few-Step Streaming Video Generation via Condition Shifting</title>
       <link>https://huggingface.co/papers/2611.14033</link>
@@ -98,6 +161,13 @@
       <description>Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a relea</description>
     </item>
     <item>
+      <title>[HF Papers] LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting</title>
+      <link>https://huggingface.co/papers/2611.11912</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4057619a3ef03404aee5</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry and dense volumetric semantics, respectively, holding natural potential for mutual complementarity. However, existing world models typically forecast these modalities independently or cascade them heuristically, missing the opportunity for reciprocal cross-modal regularization. To address this, we propose LO-World, a unified 4D world model that forecasts both modalities within a</description>
+    </item>
+    <item>
       <title>[HF Papers] Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists</title>
       <link>https://huggingface.co/papers/2611.12184</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:465f12591150be53173e</guid>
@@ -159,6 +229,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:7d290a5b2e50c66808a8</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <description>Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world somewhere, fixing the task, the data, or the timeline, and thereby remove these fai</description>
+    </item>
+    <item>
+      <title>[HF Papers] One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction</title>
+      <link>https://huggingface.co/papers/2611.13001</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:85acac1dfa8eeba93d18</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbon</description>
     </item>
     <item>
       <title>[HF Papers] Learning to Act with World Models by Valuing What Comes Next</title>
@@ -628,83 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:5aa1a09528d5322379a7</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <description>Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's identity from context. We study this convergence in 564,861 AI-related arXiv records. Cross-topic name collision grows 4.33-fold from a pooled 2020-2022 reference to 2026, compared with 1.12-fold within topics. A second sentence encoder reproduces the pattern, and name-group resampling quantifies its uncertainty. Fixed word-frequency bands locate the main increase in an intermediate-</description>
-    </item>
-    <item>
-      <title>[HF Papers] Coding or Cheating? An Investigation of Frontier Coding LLMs</title>
-      <link>https://huggingface.co/papers/2611.10404</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5ca3ad3589db190f533c</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Frontier agentic LLMs are trained on verifiable rewards in reinforcement learning (RL) environments built from real software repositories. A passing test suite is treated as the reward for solving the task. We show that, on hard problems, frontier models often satisfy these rewards by obtaining the answer instead of deriving it, known as reward hacking. Prior reports document this behavior on public benchmarks. We test its persistence on unseen problems. In a hardened environment where the answe</description>
-    </item>
-    <item>
-      <title>[HF Papers] Sketchpad: certified exact arithmetic with a small vision-language model</title>
-      <link>https://huggingface.co/papers/2611.04434</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:5e2edd0e3f6e86fd7eb6</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Language models are accurate on most long-arithmetic problems, but their accuracy is estimated on samples and carries no guarantee for an unseen input; tool use is exact but moves the computation outside the network. We show that exactness at all input lengths becomes a finite, checkable property of a network when each of its steps reads only a bounded view of an external working memory. In Sketchpad, Qwen3.5-0.8B with a low-rank adapter executes arithmetic procedures on a rendered sheet. Each f</description>
-    </item>
-    <item>
-      <title>[HF Papers] OmniLatent: Unified Latent for 3D Part Modeling</title>
-      <link>https://huggingface.co/papers/2611.09055</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:6ab6c55398a1272d4785</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>3D part decomposition is a central capability for editable asset creation, yet existing workflows typically segment a completed mesh as a post-processing step, making the result sensitive to geometric artifacts, texture ambiguity, and limited part-level annotations. We present OmniLatent, a unified latent modeling framework for 3D part decomposition. Instead of predicting part labels in isolation, OmniLatent learns a shared latent space that jointly encodes geometry, deformation, appearance, and</description>
-    </item>
-    <item>
-      <title>[HF Papers] AgentBaton: Efficient Model Collaboration in Agentic Tasks</title>
-      <link>https://huggingface.co/papers/2610.35959</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:70db9f14411c9a591ceb</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much lower cost are emerging, including lower-tier cloud models and smaller open-weights models deployable on local hardware. This raises a natural question that remains less explored than traditional quer</description>
-    </item>
-    <item>
-      <title>[HF Papers] IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection</title>
-      <link>https://huggingface.co/papers/2611.08647</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:838c18696f470f34070d</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to evaluate how well models perform them. We introduce IWIBench, which measures a large editor model's ability to modify the weights of a smaller target model (typically Gemma 3 4B IT</description>
-    </item>
-    <item>
-      <title>[HF Papers] Beneath the Surface: What We Overlook When We Talk About Agent Evolution</title>
-      <link>https://huggingface.co/papers/2611.07624</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:8f23f9f8413dc12d4a63</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one genera</description>
-    </item>
-    <item>
-      <title>[HF Papers] Toward the Era of Agentic Embodied Intelligence</title>
-      <link>https://huggingface.co/papers/2611.09124</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:91b6d7a59a6a8c65ee85</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A correction encoder and adapter absorb this knowledge into policy weights during training, while fresh</description>
-    </item>
-    <item>
-      <title>[HF Papers] OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer</title>
-      <link>https://huggingface.co/papers/2611.04720</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:a12104d6b11b6e513d84</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking and mix-ranking stages still assemble the final exposure slate using hand-crafted rules and specialized low-capacity models. Mix-ranking combines product cards, short videos, livestreams, and advertising cards supplied by distinct upstream business channels. Although these rules and models encode valuable domain knowledge, they are inherently limited in leveraging additional dat</description>
-    </item>
-    <item>
-      <title>[HF Papers] CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse</title>
-      <link>https://huggingface.co/papers/2611.09891</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:bdf53c1435be099b5090</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasonin</description>
-    </item>
-    <item>
-      <title>[HF Papers] Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width</title>
-      <link>https://huggingface.co/papers/2610.41711</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:bdf68bb3613e1644dd1f</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard d-dimensional PreNorm layers operate inside each block, while a wider D-dimensional PostNorm outer residual connects bl</description>
-    </item>
-    <item>
-      <title>[HF Papers] Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</title>
-      <link>https://huggingface.co/papers/2611.06043</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:d116586beaa32d0c4d3c</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and Engl</description>
     </item>
   </channel>
 </rss>
