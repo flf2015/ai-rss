@@ -70,6 +70,13 @@
       <description>Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly. To investigate this capability, we formu</description>
     </item>
     <item>
+      <title>[HF Papers] Probing Transformer Representations Layer by Layer, Module by Module</title>
+      <link>https://huggingface.co/papers/2611.11531</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a31c51a85935d1d081b9</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard practice of probing the final layer is often suboptimal, as intermediate layers can provide better features. Yet, representations are still largely studied along depth alone, treating each transformer block as an atomic unit. In this work, we analyze transformer representations layer by layer, module by module. Through more than 144,000 linear probing evaluations of vision foundatio</description>
+    </item>
+    <item>
       <title>[HF Papers] Evolving Infra: Agent-Adaptive LLM Serving at Scale</title>
       <link>https://huggingface.co/papers/2611.12304</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:aa36a91e3cc0bc523460</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:06206e55ae4ff255bb76</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <description>A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model. Mainstream MLLMs inject a fixed single-layer visual representation into the LLM and treat all LLM layers as a single consumer, ignoring that different layers demand different visual granularities. Recent multi-layer fusion methods either compress hierarchical featu</description>
-    </item>
-    <item>
-      <title>[HF Papers] LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
-      <link>https://huggingface.co/papers/2611.06856</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:12209de715523c6dd9da</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description>We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 con</description>
     </item>
   </channel>
 </rss>
