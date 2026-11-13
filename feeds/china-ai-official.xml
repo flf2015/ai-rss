@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[DeepSeek] 发布全家桶应用 API</title>
+      <link>https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api</link>
+      <guid isPermaLink="false">urn:ai-rss:DeepSeek:fc2adf4e1a0eb3afef6a</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+      <description>在 DeepSeek App（含网页端）的对话服务中，联网搜索、文件输入、阅读链接、语音交互及安全等能力与模型推理相互配合，构成了用户熟悉的对话体验。今天，我们把这些能力开放给开发者：在原有 API 中开启对应参数，即可获得联网搜索、文件输入、阅读链接等对话功能，相关的工具调用与上下文拼接均由服务端完成。</description>
+    </item>
     <item>
       <title>[腾讯 HY] 新增支持 Hy4 模型。</title>
       <link>https://cloud.tencent.com/document/product/1823/130675</link>
@@ -102,7 +109,7 @@
       <link>https://docs.bigmodel.cn/cn/update/new-releases#2026-08-26</link>
       <guid isPermaLink="false">urn:ai-rss:智谱:b95a13dbccc1e5980a9a</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <description>​ 2026-08-26 GLM-5.3-Flash 原生多模态模型上线 👀 GLM-5.3-Flash 原生融入视觉能力，使模型能够主动观察界面、渲染与交互反馈并持续迭代改进，实现代码、浏览器与图形界面的协同闭环。 极致高效混合架构：采用线性注意力与稀疏注意力混合架构（总参 320B，激活 18B），计算量与 KV 缓存较 GLM-5.3 大幅降低。 超越 Coding 的专业工作伙伴：拓展至 Office 文档与金融研究工作流，自主拆解复杂目标、调用工具、检查优化输出。</description>
+      <description>2026-08-26 GLM-5.3-Flash 原生多模态模型上线 👀 GLM-5.3-Flash 原生融入视觉能力，使模型能够主动观察界面、渲染与交互反馈并持续迭代改进，实现代码、浏览器与图形界面的协同闭环。 极致高效混合架构：采用线性注意力与稀疏注意力混合架构（总参 320B，激活 18B），计算量与 KV 缓存较 GLM-5.3 大幅降低。 超越 Coding 的专业工作伙伴：拓展至 Office 文档与金融研究工作流，自主拆解复杂目标、调用工具、检查优化输出。</description>
     </item>
     <item>
       <title>[DeepSeek] DeepSeek-V4-Flash-Vision-Exp 发布</title>
@@ -116,7 +123,7 @@
       <link>https://docs.bigmodel.cn/cn/update/new-releases#2026-8-19</link>
       <guid isPermaLink="false">urn:ai-rss:智谱:ac0c1d2f0d6f29f8d1b2</guid>
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
-      <description>​ 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力：GLM-5.3 的编程能力大幅提升，在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%，在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力：在白盒代码审查与漏洞发现持平 Mythos 5，已联合多个中国安全团队测试并累计发现 2436 个漏洞（1097 个中高危）</description>
+      <description>2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力：GLM-5.3 的编程能力大幅提升，在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%，在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力：在白盒代码审查与漏洞发现持平 Mythos 5，已联合多个中国安全团队测试并累计发现 2436 个漏洞（1097 个中高危）</description>
     </item>
     <item>
       <title>[DeepSeek] DeepSeek-V4-Pro 更新</title>
