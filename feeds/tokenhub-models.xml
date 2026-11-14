@@ -104,12 +104,5 @@
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <description>新增支持模型：新增支持 MiMo-V2.5-Pro 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 Kimi K3 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:4f2689add2317a51a7b2</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 Kimi K3 模型。</description>
-    </item>
   </channel>
 </rss>

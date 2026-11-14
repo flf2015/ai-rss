@@ -224,6 +224,20 @@
       <description>Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the</description>
     </item>
     <item>
+      <title>[HF Papers] Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction</title>
+      <link>https://huggingface.co/papers/2611.10439</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d0abb5ca6fa575b6d615</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private. We present MixUA, a memory system that distills independent user-agent trajectories into lessons and assigns each lesson to a u</description>
+    </item>
+    <item>
+      <title>[HF Papers] EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</title>
+      <link>https://huggingface.co/papers/2611.16728</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:d4fccda7b89af1bfb83a</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations. We introduce EgoX, an egocentric cross-embodiment learning framework that organizes heterogeneous demonstrations through semantically corresponding observation and action modalities. EgoX pretrains a Modularized Cross-Embodiment Tra</description>
+    </item>
+    <item>
       <title>[HF Papers] Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
       <link>https://huggingface.co/papers/2611.17167</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:fe1095881d4ecac1e1a1</guid>
@@ -691,20 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:233179032c1ab683a21a</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <description>RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Flash, where the projection is trained into the model. RidgeFill retrofits it onto models that were never trained for it: the map is a ridge regression fitted once in closed form from</description>
-    </item>
-    <item>
-      <title>[HF Papers] Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching</title>
-      <link>https://huggingface.co/papers/2501.08686</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:24b001e79cb4fbd9f773</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, domain-specific mappings due to a lack of commonsense and domain-specific knowledge. In parallel, large language models (LLMs) without sufficient background knowledge tend to hallucinate, further complicating schema matching. To overcome these limitations, we introduce KG-RAG4SM, a Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching. This method integrates nove</description>
-    </item>
-    <item>
-      <title>[HF Papers] EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving</title>
-      <link>https://huggingface.co/papers/2611.11994</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2a00f54acd9dfbb3d0a5</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which runs such a model, the frozen student, inside a harness: the prompts, settings, and verification code around its calls. A human-written starting harness, the scaffold, numbers the student's visual observations, transcript, and prosody descriptions as citable evidence and has the student weigh candidate emotions against it. In Meta-Harness Evolving (MHE), a stronger LLM, the Buil</description>
     </item>
   </channel>
 </rss>
