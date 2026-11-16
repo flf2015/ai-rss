@@ -5,7 +5,21 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 02:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[Qwen] Qwen4-Max：新同事，已就位</title>
+      <link>https://qwen.ai/blog?id=qwen4-max</link>
+      <guid isPermaLink="false">urn:ai-rss:Qwen:756563a4144915c6b62a</guid>
+      <pubDate>Mon, 16 Nov 2026 02:00:00 +0000</pubDate>
+      <description>我们正式发布 Qwen4-Max——与你并肩工作、创作和探索的全天候 AI 新同事。Qwen4-Max 基于 Qwen4 系列全新结构，拥有 2.4 万亿主干参数，具备原生视觉能力，支持百万 token 上下文窗口。 Qwen4-Max 以更强的专业工具运用、长程任务执行与成果交付能力，推动真实世界生产力的提升。从专业工作的深度到无限创意的广度，从 3D 建模与游戏开发到复杂精密的工业制造，从金融、法律、医疗到前沿科学探索——在与你的协作中，Qwen4-Max 能够理解工作全貌并持续推进项目，让每一个目标都拥有抵达现实的路径，实现人与</description>
+    </item>
+    <item>
+      <title>[腾讯 HY] 新增支持 Hy4 flash 模型。</title>
+      <link>https://cloud.tencent.com/document/product/1823/130675</link>
+      <guid isPermaLink="false">urn:ai-rss:腾讯 HY:c586cb0954823316a2ca</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>新增支持模型：新增支持 Hy4 flash 模型。</description>
+    </item>
     <item>
       <title>[DeepSeek] 发布全家桶应用 API</title>
       <link>https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api</link>
