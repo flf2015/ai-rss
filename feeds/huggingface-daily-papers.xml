@@ -77,6 +77,13 @@
       <description>Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed. We present OneSteer, a one-step diffusion whole-body controller that combines general motion tracking with selective test-time steering. To accommodate new objectives, differentiable task costs guide optimization of the generator's input noise with frozen weights, while body-group reference masks relax selected tracking requirements. Predicted</description>
     </item>
     <item>
+      <title>[HF Papers] BrickFlow: Connectivity-Guided Brick Reconstruction</title>
+      <link>https://huggingface.co/papers/2611.17321</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:32ae756bc9c77b17d82c</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors. To learn a prior over how parts fit together, we train a set-conditioned SE(3) flow model on procedurally generated assemblies. We then finetune this model to</description>
+    </item>
+    <item>
       <title>[HF Papers] Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</title>
       <link>https://huggingface.co/papers/2611.18397</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:37856f1bbda39ba80058</guid>
@@ -119,6 +126,13 @@
       <description>Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy deviation of each denoising step from its neighboring temporal window. We hypothes</description>
     </item>
     <item>
+      <title>[HF Papers] Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination</title>
+      <link>https://huggingface.co/papers/2611.16661</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:6db56dd83fff40eb9b63</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimizations to reduce batch makespan, the time required to complete all tasks in a batch. For hybrid LLMs, a workload-based resource model guides GPU-memory allocation between key-value (KV) cache and recurrent state and pro</description>
+    </item>
+    <item>
       <title>[HF Papers] Envisioning Agentic Robotics: A New Era of Robotic Systems</title>
       <link>https://huggingface.co/papers/2611.18359</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:72c1418791933d675962</guid>
@@ -147,6 +161,13 @@
       <description>Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The</description>
     </item>
     <item>
+      <title>[HF Papers] EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning</title>
+      <link>https://huggingface.co/papers/2611.16500</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8595a09cd7d37409bde5</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-based parsing, from which we synthetically generate 107,543 training examples spanning translation, grammar, reading comprehension, and semantic classification. To address tokenization inefficiency on E</description>
+    </item>
+    <item>
       <title>[HF Papers] HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation</title>
       <link>https://huggingface.co/papers/2611.16439</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:88cb829e2ceabffbb1b9</guid>
@@ -159,6 +180,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:915969d87f3897db909e</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <description>Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that accep</description>
+    </item>
+    <item>
+      <title>[HF Papers] Restoring Diversity in Distilled Image and Video Generators by Probing Activations</title>
+      <link>https://huggingface.co/papers/2611.18550</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:926ba6a2d450acdd733f</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student models relative to their teachers. We find that distilled students maintain total activation variance comparable to their teachers, but concentrate it into substantially fewer directi</description>
     </item>
     <item>
       <title>[HF Papers] LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent</title>
@@ -196,6 +224,20 @@
       <description>A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order, including two matched-length pairs that vary surface form at fixed length. Across 300 runs (5 train</description>
     </item>
     <item>
+      <title>[HF Papers] Iris-Z: Scaling One Generative Model Past Specialist Geometry Models</title>
+      <link>https://huggingface.co/papers/2611.16010</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c0034bc898e42071827d</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Language moved from many task-specific models to one unified model: a single generative model with a single generative training task that handles all of them within the same backbone, and keeps improving with data, parameters and compute. We believe the bitter lesson applies just as much to computer vision, 3D and spatial understanding, in the end to visual intelligence: the effort should go into general architectures that solve all these tasks in a unified way, and into scaling them, rather tha</description>
+    </item>
+    <item>
+      <title>[HF Papers] Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game</title>
+      <link>https://huggingface.co/papers/2611.14487</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:c41e9fb30ed4363fbfde</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published paper, a model must rediscover the paper's core idea by asking yes-or-no questions. Built from 200 ICML</description>
+    </item>
+    <item>
       <title>[HF Papers] MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation</title>
       <link>https://huggingface.co/papers/2611.15640</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:c94502f30452116e9e54</guid>
@@ -229,6 +271,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:e4b3e0439c18f29889b5</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <description>Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher. In multi-step distillation, although only the student's final output is delivered, existing methods train the fake model on intermediate states or across all denoising steps. Consequently, the studen</description>
+    </item>
+    <item>
+      <title>[HF Papers] Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems</title>
+      <link>https://huggingface.co/papers/2611.05843</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:f2ef664386c9b99c7a09</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and corresponding noise-free measurement from the observation. Specifically, Dual Flow formulates image reconstruction and measurement denoising as a coupled estimation problem, using coupled flows in the</description>
     </item>
     <item>
       <title>[HF Papers] WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents</title>
@@ -656,55 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:13a6c06ce2128fb6cc84</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <description>Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commit or remask strongly affect output quality. Existing certainty-aware strategies rely on instantaneous confidence or entropy, but these local signals can be misleading on difficult reasoning problems. We formulate DLM test-time scaling as adaptive allocation of both inference compute and decoding strategies. Our two-stage approach uses a fast base sampler to solve easy questions,</description>
-    </item>
-    <item>
-      <title>[HF Papers] Micius-Flash: Lightweight Agentic Intelligence for Engineering</title>
-      <link>https://huggingface.co/papers/2611.10015</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:19a5f14af02d49b9cbc7</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning and a 256K-token context window. We design the Micius data pipeline as a knowledge-tree-driven data flywheel comprising three stages: knowledge tree construction and expansion, data synthesis, and quality validation with hard-example augmentation. From this data, we train expert models for semiconductor knowledge and reasoning, hardware coding, and semiconductor multimodal underst</description>
-    </item>
-    <item>
-      <title>[HF Papers] Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents</title>
-      <link>https://huggingface.co/papers/2611.14320</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:19c3643f0c89c54d919b</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectori</description>
-    </item>
-    <item>
-      <title>[HF Papers] From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents</title>
-      <link>https://huggingface.co/papers/2611.01527</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:1c75d5c798e88e566090</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site. It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware. Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes</description>
-    </item>
-    <item>
-      <title>[HF Papers] EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding</title>
-      <link>https://huggingface.co/papers/2611.13907</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2051c9757361f7891cf8</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Under a fixed frame budget, video understanding with vision-language models (VLMs) depends on whether the sampled frames provide sufficient evidence for the question. Sufficient frame evidence supports direct answering, whereas less informative observations may benefit from reasoning that connects the available cues. We introduce EVAThink, which enhances video understanding through evidence sufficiency-guided training for adaptive thinking. First, Recoverable Evidence Gap Mining constructs evide</description>
-    </item>
-    <item>
-      <title>[HF Papers] MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations</title>
-      <link>https://huggingface.co/papers/2611.10649</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:245fbf3ce4964ee05a5d</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard transform online to each layer's activations, while absorbing the corresponding inverse transforms into</description>
-    </item>
-    <item>
-      <title>[HF Papers] Are Causal Neuron Circuits Unique and Transferable?</title>
-      <link>https://huggingface.co/papers/2611.13885</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2e96591cb60ca64d0b9f</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers "Simba" instead of "Scar" to a two-hop Lion King riddle. Such a demonstration establishes that the group matters, but not how much of it is necessary, whether other groups could do the same, or whether the effect carries over to other inputs. We ask: when intervening on a group of neurons changes a model's answe</description>
-    </item>
-    <item>
-      <title>[HF Papers] Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning</title>
-      <link>https://huggingface.co/papers/2611.12865</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:2f3702e66608c287773d</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward than every compliant strategy. Encoding these conflicts in task dynamics lets us generate diverse interactive environments at scale and derive co</description>
     </item>
   </channel>
 </rss>
