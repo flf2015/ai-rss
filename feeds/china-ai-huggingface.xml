@@ -5,7 +5,21 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 08 Nov 2026 15:35:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 03:46:18 +0000</lastBuildDate>
+    <item>
+      <title>[HF tencent] tencent/Hy4-flash-base</title>
+      <link>https://huggingface.co/tencent/Hy4-flash-base</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:badb41916f5db4616414</guid>
+      <pubDate>Tue, 17 Nov 2026 03:46:18 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy4-flash</title>
+      <link>https://huggingface.co/tencent/Hy4-flash</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:364859f834c86602e550</guid>
+      <pubDate>Tue, 17 Nov 2026 03:44:46 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF MiniMaxAI] MiniMaxAI/MiniMax-H3-Image-PE</title>
       <link>https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE</link>

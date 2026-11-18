@@ -174,12 +174,5 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <description>Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length.</description>
     </item>
-    <item>
-      <title>[Qwen] Qwen-Image-3.0: 内容丰实、细节真实、知识厚实</title>
-      <link>https://qwen.ai/blog?id=qwen-image-3.0</link>
-      <guid isPermaLink="false">urn:ai-rss:Qwen:20f3adc106bb4630636a</guid>
-      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
-      <description>我们推出 Qwen-Image-3.0，Qwen-Image 系列的第三代图像生成基础模型。如果说 Qwen-Image-1.0 的关键词是 "准"，Qwen-Image-2.0 的关键词是 "准 多 齐 美 真"，那么 Qwen-Image-3.0 的核心就是有一个字——"实"。 这个"实"体现在三个维度： 内容丰实：支持最大 4.5k token 输入，轻松生成报纸、分镜、试卷等复杂版面。 细节真实：支持</description>
-    </item>
   </channel>
 </rss>
