@@ -49,6 +49,13 @@
       <description>Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent. We present PanDWM, which stitches them into one 360^circ panoramic band. Camera boundaries then fall inside one image, so keeping the views consistent means keeping the image continuous, and each pixel still records its camera ray. Conditioned on layouts, a causal student generates the band window by window in four steps; it is dis</description>
     </item>
     <item>
+      <title>[HF Papers] CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference</title>
+      <link>https://huggingface.co/papers/2611.20995</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:3e070fda8dea49458d33</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet generic inference methods relearn this geometry during warmup. We study how this structure can be used to construct transports for posterior inference. The conditional mean and precision determine exact affine maps, including symmetric Brenier and triangular Knothe-Rosenblatt maps, that separate a standard normal block from the remaining non-Gaussian core. KL and relative Fisher</description>
+    </item>
+    <item>
       <title>[HF Papers] Regularized Score Centering</title>
       <link>https://huggingface.co/papers/2611.21791</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:4089dcd79bdacb87faee</guid>
@@ -140,6 +147,13 @@
       <description>LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, and a general goal for self-improvement, agents construct their own self-learning algorithm for contex</description>
     </item>
     <item>
+      <title>[HF Papers] Attention at Absolute Zero</title>
+      <link>https://huggingface.co/papers/2611.11937</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:7f476887fa6f603354aa</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness judged through its legs (a, k) and (k, b). It reads witnesses at zero temperature, keeping the best and the number tied with it, passes on only bits comparing such counts, rebuilds its pair state from the input and these bits at every loop, and is trained fro</description>
+    </item>
+    <item>
       <title>[HF Papers] ResWAM: Learning What Changes, Not What Stays, for World-Action Models</title>
       <link>https://huggingface.co/papers/2611.19559</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:82a8ff54c8dfdb4bb167</guid>
@@ -159,6 +173,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:92309875d578205bbee8</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <description>Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods across compatible benchmarks or policy models. We propose Self-Improvement Memory (SIM) for the harn</description>
+    </item>
+    <item>
+      <title>[HF Papers] MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering</title>
+      <link>https://huggingface.co/papers/2611.21644</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:92abbf0dbbca9f31b981</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To quantify this capability, we introduce MInfoVisQA, a parallel benchmark with 8,960 QA configurations derived from 128 seed instances across 24 languages. We construct seed-matched, language-parallel visuals and QA pairs by disentangling numerical-structural data from text and progra</description>
     </item>
     <item>
       <title>[HF Papers] TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation</title>
@@ -684,27 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:72c1418791933d675962</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <description>The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and to</description>
-    </item>
-    <item>
-      <title>[HF Papers] GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs</title>
-      <link>https://huggingface.co/papers/2611.06866</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:784942471992d23b35be</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events. Existing studies examine workflow definitions and outputs, but provide limited evidence of what happens during execution. We present GH-AWTrace, a dataset linking 25,014 verified GitHub Agentic Workflows across 5,051 repositories to 4,112,526 run records and 562,877 nonempty execution log archives. The dataset preserves execution evidence subject to GitHub's log-retention li</description>
-    </item>
-    <item>
-      <title>[HF Papers] eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means</title>
-      <link>https://huggingface.co/papers/2611.18529</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7c483a34f358bd20e570</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but they cannot name more speakers than they have slots. We remove this limit without retraining. The slot head keeps deciding who is active and when speech overlaps, and speaker embeddings are clustered inside a single slot, with the official e-means algorithm, only after every slot ha</description>
-    </item>
-    <item>
-      <title>[HF Papers] Continual-ARC: Measuring Skill Acquisition over a Working Lifetime</title>
-      <link>https://huggingface.co/papers/2611.14505</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7e2448ce7247ab67ba5b</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The</description>
     </item>
   </channel>
 </rss>
