@@ -119,6 +119,13 @@
       <description>Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose better artifacts, but because noisy evaluations cannot reliably identify them. Across</description>
     </item>
     <item>
+      <title>[HF Papers] StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model</title>
+      <link>https://huggingface.co/papers/2611.24408</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:5ea57dd77a2612b631c2</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a scene reconstructed from its own frames or a camera trajectory aligned to the command path with a free scale. Such references can absorb gradual scene deformation and changes in pace</description>
+    </item>
+    <item>
       <title>[HF Papers] PReMind: When Personal Memory Meets Visual Hazards</title>
       <link>https://huggingface.co/papers/2611.23808</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:61c8a50467ee1b45ed7a</guid>
@@ -133,11 +140,32 @@
       <description>Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes t</description>
     </item>
     <item>
+      <title>[HF Papers] Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data</title>
+      <link>https://huggingface.co/papers/2611.16933</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:65e21270b90f81576682</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per person with the original length and timing; overlaps and short replies ("yeah", "mm-hm") stay on the track of the person who said them. Kezek decides who speaks when and who is who once for the whole recor</description>
+    </item>
+    <item>
+      <title>[HF Papers] BLIP-Live: Balancing Timeliness &amp; Firing Precision in Proactive Streaming Video Agents</title>
+      <link>https://huggingface.co/papers/2611.21553</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:669feec91f5396514c25</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must be proactive for natural and useful human interaction: they should respond as soon as sufficient evidence becomes available while avoiding premature, redundant, or incorrect responses. We present BLIP-Live, a framework unifying data, metrics, harness, and training around a shared formulation of proactivity as effective causal response decisions balancing the two competing object</description>
+    </item>
+    <item>
       <title>[HF Papers] Recurrent Domain Incremental Adaptation of Time-Series Foundation Models</title>
       <link>https://huggingface.co/papers/2611.24075</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:6ef671ad886aec69fff7</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <description>Pretrained Time-Series Foundation Models (TSFMs) provide strong representations for downstream classification tasks. Yet adapting a TSFM under changing operating conditions remains challenging. A model must improve on each newly observed condition without sacrificing conditions it has already learned, often from only a small labeled calibration set and without knowing the operating condition at inference time. We find that this difficulty has an important geometric structure. Under an operating-</description>
+    </item>
+    <item>
+      <title>[HF Papers] RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation</title>
+      <link>https://huggingface.co/papers/2611.22382</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:74af91523ab2bb700131</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial document-splitting APIs do not disclose their methods. We reimagine PSS for LLMs as a sequential process over the whole stream and propose RICoT (Recurrent Interleaved Chain-of-Thought), a prompting framework that works through</description>
     </item>
     <item>
       <title>[HF Papers] AVTR: Adaptive Multimodal Reasoning with Visual Imagination</title>
@@ -154,6 +182,13 @@
       <description>Organizations increasingly deploy downloaded open-weight GUI agents. A backdoored agent passes acceptance tests on clean data and misbehaves only when a visual trigger appears on screen, turning an unvetted checkpoint into a supply-chain risk. However, existing sample-level detectors target image classifiers and CLIP-style encoders, leaving step-level backdoor detection for GUI agents unaddressed. On clean steps, the instruction drives the action; when an unreferenced screen region hijacks the s</description>
     </item>
     <item>
+      <title>[HF Papers] StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software</title>
+      <link>https://huggingface.co/papers/2611.23257</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:8bd6f65d6256bfea1106</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose. We introduce StatePortal, an agent that synthesizes a checkpoint, an artifact that res</description>
+    </item>
+    <item>
       <title>[HF Papers] PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents</title>
       <link>https://huggingface.co/papers/2611.24362</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:91402236596dc57116a9</guid>
@@ -161,11 +196,25 @@
       <description>Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through adversarial training bef</description>
     </item>
     <item>
+      <title>[HF Papers] Choosing Quantized Code LLMs by File Size and Energy per Solved Task</title>
+      <link>https://huggingface.co/papers/2611.17605</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:957ebe583ea5646cdc97</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBook Air M2 and priced each in energy per solved task on 542 EvalPlus tasks. The result is a selection guide indexed by Ollama's listed file size, with an evidence label on each pick</description>
+    </item>
+    <item>
       <title>[HF Papers] Let Samples Sing in Chorus: Mitigating Spurious Correlations via Cross-view Consensus</title>
       <link>https://huggingface.co/papers/2611.22668</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:9e7f9fb23eaf8c19b071</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <description>Deep models often rely on spurious correlations that fail on underrepresented groups. Existing methods either correct human-specified bias attributes or infer unknown biases from the learned representation space. However, annotated attributes may differ from the shortcuts actually used by a model, while a single representation provides incomplete and potentially noisy evidence. Our key insight is that a bias obscured in one feature space may be clearer in another. In this work, we propose CHORD</description>
+    </item>
+    <item>
+      <title>[HF Papers] TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning</title>
+      <link>https://huggingface.co/papers/2611.23779</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:a49b6dbcc8783a37bedd</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance. We introduce TabBioMed, a large-scale benchmark of 94 curated public biomedical tabular datasets spanning electronic health records, drug discovery, genomics, transcriptomics, proteomics, metabolomics, single-cell omics, and systems biology. TabBioMed unif</description>
     </item>
     <item>
       <title>[HF Papers] ALIVE: Making Streaming Video Models Interactive</title>
@@ -222,6 +271,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:ca170e59d579bd866f68</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <description>Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it reports tell us the</description>
+    </item>
+    <item>
+      <title>[HF Papers] WaveView: The Novel View Is in the Noise</title>
+      <link>https://huggingface.co/papers/2611.23994</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:cbcb378778498290aff0</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view. Explicit warp methods complete a reprojection of the source with video diffusion models, and implicit methods encode the camera parameters or 3D cues. Both add inference overhead, and the generated layout often drifts from the ground truth. We present WaveView, which injects the warped source into the phase of the initial noise of a pretrained generator. The Dual-Tree Co</description>
     </item>
     <item>
       <title>[HF Papers] RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models</title>
@@ -649,62 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:552463c97e7449aa7237</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <description>High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partially overlapping image stacks. Existing learning-based super-resolution methods typically rely on single, under-constrained inputs or fixed multi-stack configurations with idealised acquisition geometr</description>
-    </item>
-    <item>
-      <title>[HF Papers] GPBam: A Retrieval-Aware German Public Law Exam Benchmark</title>
-      <link>https://huggingface.co/papers/2611.18981</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:57753e17e8f5646ea664</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference solutions, paired with a recitation task over 200 statutory provisions. Drawn from state examination preparation, the cases are broad and rarely repeat, and are not publicly available</description>
-    </item>
-    <item>
-      <title>[HF Papers] SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations</title>
-      <link>https://huggingface.co/papers/2611.20218</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:663fd710ac509156c217</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior. Starting from</description>
-    </item>
-    <item>
-      <title>[HF Papers] Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning</title>
-      <link>https://huggingface.co/papers/2605.09614</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:6e1c36b69428f0a6463e</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during generation, limiting long-horizon multimodal reasoning. Existing methods either re-inject vision at inference or train policies for stronger grounding, but where to intervene relies on perception heuristics rather than principled gain analysis, and how local visual influence propagates remains implicit. We study this problem from an information-theoretic standpoint and derive a</description>
-    </item>
-    <item>
-      <title>[HF Papers] K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
-      <link>https://huggingface.co/papers/2611.21003</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:73cc59e32e030fa9459c</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projection</description>
-    </item>
-    <item>
-      <title>[HF Papers] Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures</title>
-      <link>https://huggingface.co/papers/2611.20595</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:74e2d10cb431991fc6a8</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often see the problem and answer anyway. We present SilentGuard, which moves the decision from the model to the harness running tool calls. It tests each result against invariants that an</description>
-    </item>
-    <item>
-      <title>[HF Papers] Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix</title>
-      <link>https://huggingface.co/papers/2611.20148</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:759547217579b2848344</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Directional ablation removes a hidden state's component along a "behaviour direction" while a language model runs. It is the standard way to switch a behaviour such as refusal off, but it is erratic: on some models it barely fires, on others the text collapses into repetition. We show why, and fix it. At the last residual stream, ablation is exactly a logit bias: a fixed vocabulary footprint scaled by a gate, the cosine between the hidden state and the direction. The gate is measured from the or</description>
-    </item>
-    <item>
-      <title>[HF Papers] Latent Feedback Is a Compute and Data Amplifier</title>
-      <link>https://huggingface.co/papers/2611.20404</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:777e1803a65c29d41966</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token's top-layer state into the next token's input, is another way to spend that compute, yet it has not been tested against a vanilla Transformer that spends the same compute on more epochs. We run this test across a ladder of model sizes, unique data and epochs, tuning both models at every size and amount of unique data. Latent</description>
-    </item>
-    <item>
-      <title>[HF Papers] Sage S2.1 Flash Technical Report</title>
-      <link>https://huggingface.co/papers/2611.21072</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:7787fd6b1e83e8e42f87</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description>We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images. To develop the model's agent</description>
     </item>
   </channel>
 </rss>
