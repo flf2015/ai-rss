@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>七个官方组织新建的模型仓库；仅按 createdAt 收录</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Nov 2026 03:46:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 07:01:12 +0000</lastBuildDate>
+    <item>
+      <title>[HF tencent] tencent/Hy4-base</title>
+      <link>https://huggingface.co/tencent/Hy4-base</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:8d567d16e4f61b8224b9</guid>
+      <pubDate>Wed, 18 Nov 2026 07:01:12 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
     <item>
       <title>[HF tencent] tencent/Hy4-flash-base</title>
       <link>https://huggingface.co/tencent/Hy4-flash-base</link>
@@ -40,6 +47,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF moonshotai:f4a904d03d800a16a777</guid>
       <pubDate>Mon, 02 Nov 2026 04:13:51 +0000</pubDate>
       <description>moonshotai 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy4</title>
+      <link>https://huggingface.co/tencent/Hy4</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:f2fa4f4d666a1f43fcc8</guid>
+      <pubDate>Thu, 29 Oct 2026 08:29:16 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
     <item>
       <title>[HF tencent] tencent/Hy-Nomas-Diffusers</title>
