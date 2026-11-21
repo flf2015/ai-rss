@@ -28,6 +28,13 @@
       <description>Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, t</description>
     </item>
     <item>
+      <title>[HF Papers] Time Series Structure Learning with Local Causal Parent Discovery</title>
+      <link>https://huggingface.co/papers/2611.26232</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:17e3cc90d0aee985711f</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure fo</description>
+    </item>
+    <item>
       <title>[HF Papers] AURA: AUdio-dRiven streaming Avatar</title>
       <link>https://huggingface.co/papers/2611.26540</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:1ed402270c7016ab3690</guid>
@@ -82,6 +89,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:42de1572f11354f6ab86</guid>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <description>Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision language model can be directly extended into a unified model with extensive parameter s</description>
+    </item>
+    <item>
+      <title>[HF Papers] PAD: Policy-Aware Data Valuation for Autonomous Driving</title>
+      <link>https://huggingface.co/papers/2611.25604</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:44b969f8c68d9041fbcd</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies that do not measure downstream policy utility. To address this, we introduce Policy-Aware Data Valuat</description>
     </item>
     <item>
       <title>[HF Papers] ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
@@ -231,6 +245,13 @@
       <description>Supervised fine-tuning (SFT) is the stage in which Video Large Language Models (VideoLLMs) advance their capability to reason over video. However, the VideoLLM also learns to answer from textual regularities of its training data, a shortcut that bypasses the video. The regularities behind the shortcut are hard to define at the data level, and the shortcut forms regardless of training epoch, data size, or backbone. The shortcut is hidden behind a rise in accuracy within the training distribution,</description>
     </item>
     <item>
+      <title>[HF Papers] Lang-SVG: Hierarchical Image Vectorization with Language Priors</title>
+      <link>https://huggingface.co/papers/2611.15941</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:ac0ac784748cfa4ecc54</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-part hierarchies, making them difficult to manipulate. To address this, we propose Lang-SVG, which introduces an explicit tree structure to organize SVG primitives with semantic la</description>
+    </item>
+    <item>
       <title>[HF Papers] TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs</title>
       <link>https://huggingface.co/papers/2611.26248</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:bb4cb38a147a7c46f062</guid>
@@ -264,6 +285,13 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:d3e9de781f539fc50769</guid>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <description>Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or complete the task in a different way. A checker may then accept an incomplete execution (phantom success) or reject an execution that satisfies the instruction (silent failure). In this paper, we int</description>
+    </item>
+    <item>
+      <title>[HF Papers] Teaching Vision-Language-Action Models to Stop Safely</title>
+      <link>https://huggingface.co/papers/2611.26239</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:dcbfd074a81bcd813158</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, th</description>
     </item>
     <item>
       <title>[HF Papers] System 1 agents: a method for local, reliable and fast agentic AI</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:fbf38bd87df887abb9f1</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <description>Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored per environment. We present AnyS1, a framework that turns human-authored procedural skills, whose instructions naturally specify where choices arise and which options apply, into a</description>
-    </item>
-    <item>
-      <title>[HF Papers] CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning</title>
-      <link>https://huggingface.co/papers/2611.24654</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:fcfde440d0f20ed1d42f</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description>A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model, CurvDelta constructs a low-curvature space in which parameter updates leave the preservation loss near</description>
-    </item>
-    <item>
-      <title>[HF Papers] NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding</title>
-      <link>https://huggingface.co/papers/2611.22790</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:ff11c6bcb6c01f525ea4</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Fine-grained questions about long videos ask how many times an action occurs, in what order events unfold, or exactly when a state changes. Answering them can require finding brief moments scattered across hours of footage. Agentic models that decide when and where to look promise to find these moments, yet this ability is hard both to measure and to learn. Sparse supporting evidence may establish that an action occurred without establishing its total count; verifying timeline-wide claims requir</description>
-    </item>
-    <item>
-      <title>[HF Papers] Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns</title>
-      <link>https://huggingface.co/papers/2611.19244</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:018a58e751b674d9f0b6</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description>On-policy distillation (OPD) transfers specialized capabilities to language-model agents, but its cross-domain effects on interaction remain unclear. We investigate how OPD reshapes ReAct interaction patterns across mathematics, ALFWorld, and τ^2-bench, focusing on reasoning, actions, and observation acquisition. General-reasoning supervision reduces mathematical tool attempts from 70.4% to 14.4% while increasing accuracy from 16.7% to 38.0%; code-interpreter supervision improves household actio</description>
-    </item>
-    <item>
-      <title>[HF Papers] FMT: Lossless Image Compression in a Fixed Number of Parallel Steps</title>
-      <link>https://huggingface.co/papers/2611.23108</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:0aa97533ddf786024551</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still use classical codecs. A main reason is time: a learned codec takes seconds to decode a photo that a classical codec opens in milliseconds, and their faster variants give up most of their gain in size. We argue that much of this time is spent waiting, not computing: the network waits for the values it conditions on, and the arithmetic decoder reads them one at a time. We introduce</description>
     </item>
   </channel>
 </rss>
