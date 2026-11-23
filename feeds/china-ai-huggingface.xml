@@ -104,12 +104,5 @@
       <pubDate>Thu, 15 Oct 2026 09:52:00 +0000</pubDate>
       <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
-    <item>
-      <title>[HF Qwen] Qwen/Qwen-Image-2.1-Turbo</title>
-      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Qwen:167c7efa09e6db366774</guid>
-      <pubDate>Fri, 09 Oct 2026 04:50:01 +0000</pubDate>
-      <description>Qwen 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
-    </item>
   </channel>
 </rss>
