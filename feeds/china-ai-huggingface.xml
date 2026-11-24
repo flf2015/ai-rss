@@ -28,6 +28,27 @@
       <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
     </item>
     <item>
+      <title>[HF tencent] tencent/Hy-MT3-1.8B</title>
+      <link>https://huggingface.co/tencent/Hy-MT3-1.8B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:5726af66ec0808d457b2</guid>
+      <pubDate>Tue, 17 Nov 2026 02:09:21 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy-MT3-7B</title>
+      <link>https://huggingface.co/tencent/Hy-MT3-7B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:0501dc02b66bd2fc1fc5</guid>
+      <pubDate>Tue, 17 Nov 2026 02:08:31 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
+      <title>[HF tencent] tencent/Hy-MT3-30B-A3B</title>
+      <link>https://huggingface.co/tencent/Hy-MT3-30B-A3B</link>
+      <guid isPermaLink="false">urn:ai-rss:HF tencent:22b848459bcd75e7123c</guid>
+      <pubDate>Tue, 17 Nov 2026 02:07:23 +0000</pubDate>
+      <description>tencent 官方组织新建模型仓库。仅按 createdAt 收录，不把模型卡修改当作新发布。</description>
+    </item>
+    <item>
       <title>[HF MiniMaxAI] MiniMaxAI/MiniMax-H3-Image-PE</title>
       <link>https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE</link>
       <guid isPermaLink="false">urn:ai-rss:HF MiniMaxAI:f6de200bf2487d0c7bda</guid>
