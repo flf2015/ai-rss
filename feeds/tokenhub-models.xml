@@ -104,12 +104,5 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <description>Token Plan 企业版：新增模型：新增支持 GLM-5.3 模型。</description>
     </item>
-    <item>
-      <title>[TokenHub] 新增支持 MiMo-V2.5-Pro 模型。</title>
-      <link>https://cloud.tencent.com/document/product/1823/130675</link>
-      <guid isPermaLink="false">urn:ai-rss:TokenHub:29fcf0eec3441631e91b</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>新增支持模型：新增支持 MiMo-V2.5-Pro 模型。</description>
-    </item>
   </channel>
 </rss>
