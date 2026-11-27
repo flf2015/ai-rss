@@ -5,7 +5,14 @@
     <link>https://github.com/flf2015/ai-rss</link>
     <description>Qwen、Kimi、MiniMax、智谱、DeepSeek、腾讯 HY 的官方发布与重要变更</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Nov 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[智谱] GLM-5.4 新一代旗舰模型上线</title>
+      <link>https://docs.bigmodel.cn/cn/update/new-releases#2026-11-23</link>
+      <guid isPermaLink="false">urn:ai-rss:智谱:69c1d2702fda0a3672bf</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <description>2026-11-23 GLM-5.4 新一代旗舰模型上线 💬 GLM-5.4 以 Scaling Loop 突破智能上限：采用 Loop Transformer 架构，通过循环复用网络层实现更深度推理，智能水平比肩 2–3T 级模型。 原生视觉编程，解锁“泛 Coding”创作：具备原生视觉编程能力，融合代码与视觉理解能力，支持视频创作、游戏开发、3D 建模与机械设计。 自主完成复杂任务：多阶段拆解与自我验证能力全面增强，可自主调用工具、多轮迭代，高效交付长链路复杂任务。</description>
+    </item>
     <item>
       <title>[Qwen] Qwen4-Max：新同事，已就位</title>
       <link>https://qwen.ai/blog?id=qwen4-max</link>
@@ -138,6 +145,13 @@
       <guid isPermaLink="false">urn:ai-rss:智谱:ac0c1d2f0d6f29f8d1b2</guid>
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
       <description>2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力：GLM-5.3 的编程能力大幅提升，在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%，在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力：在白盒代码审查与漏洞发现持平 Mythos 5，已联合多个中国安全团队测试并累计发现 2436 个漏洞（1097 个中高危）</description>
+    </item>
+    <item>
+      <title>[智谱] GLM-5.3 新一代旗舰模型上线</title>
+      <link>https://docs.bigmodel.cn/cn/update/new-releases#2026-08-19</link>
+      <guid isPermaLink="false">urn:ai-rss:智谱:c616bb4a61aa375c3621</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description>2026-08-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力：GLM-5.3 的编程能力大幅提升，在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%，在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力：在白盒代码审查与漏洞发现持平 Mythos 5，已联合多个中国安全团队测试并累计发现 2436 个漏洞（1097 个中高危）</description>
     </item>
     <item>
       <title>[DeepSeek] DeepSeek-V4-Pro 更新</title>
