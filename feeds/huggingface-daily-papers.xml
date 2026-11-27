@@ -21,6 +21,13 @@
       <description>Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active</description>
     </item>
     <item>
+      <title>[HF Papers] Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning</title>
+      <link>https://huggingface.co/papers/2611.30025</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:1f13ac2a8743c88699df</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph neural networks. DAWIN couples spatial projection with elapsed-time-dependent wave excitation and integrates it into a local complex state through closed-form damped evolution, avoid</description>
+    </item>
+    <item>
       <title>[HF Papers] So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes</title>
       <link>https://huggingface.co/papers/2611.31155</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:3599dfd276fd3968aee6</guid>
@@ -40,6 +47,27 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:45717205f3f89878f479</guid>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
       <description>Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia</description>
+    </item>
+    <item>
+      <title>[HF Papers] BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models</title>
+      <link>https://huggingface.co/papers/2611.30723</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4879d798f3a5621ccffb</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language modeling harder. Unified tokenizers combine both, but representing acoustic detail and linguistic content within a single feature space can cause interference between the two objecti</description>
+    </item>
+    <item>
+      <title>[HF Papers] Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries</title>
+      <link>https://huggingface.co/papers/2611.27112</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:49f3dcf92dea889f35bb</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis code deposited first. Claude Code, Codex CLI, Gemini CLI and OpenCode with DeepSeek worked through 20 small repositories with hidden tests, 12 for three of them. Three agents met</description>
+    </item>
+    <item>
+      <title>[HF Papers] Revisiting LLMs as Context Engineers</title>
+      <link>https://huggingface.co/papers/2611.30494</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:4eef5e230ab88d54d617</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from offline trials as context. Although these methods resemble how humans learn from experiences, it rema</description>
     </item>
     <item>
       <title>[HF Papers] ProxyGenBench: Benchmarking Proxy-Guided Video Generation</title>
@@ -677,34 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:624cf161071a36fc2317</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <description>We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-strea</description>
-    </item>
-    <item>
-      <title>[HF Papers] Model Carving: Training Transformers That Optimize Their Own Topology</title>
-      <link>https://huggingface.co/papers/2611.27962</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:63afefd2dac23a5145b2</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should sh</description>
-    </item>
-    <item>
-      <title>[HF Papers] Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth</title>
-      <link>https://huggingface.co/papers/2611.31977</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:67bb2e3ba98da861c0c5</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transformers are trained from scratch, which repeats the full pretraining cost although strong pretrained non-looped diffusion transformers exist. We propose Distill to Loop (Dooop), which distills a pretrained non-looped diffusion transformer into a looped student whose blocks are initialized from the teacher's. We cast distillation as a fixed-point iteration toward the teacher, in whic</description>
-    </item>
-    <item>
-      <title>[HF Papers] InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning</title>
-      <link>https://huggingface.co/papers/2611.32918</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:67c0db1eb72ade160f78</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their responses, and the further a response drifts from the initial model's length, the more often it fails. We propose InstructReplay: the initial model answers a set of general instructions</description>
-    </item>
-    <item>
-      <title>[HF Papers] LoopedWAM: Looped World Action Models for Elastic Inference</title>
-      <link>https://huggingface.co/papers/2611.25595</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:70030624d5ea14a10a82</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <description>World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 transformer layers while storing only 12 blocks per expert. To account for their asymmetric inference costs, the video and action experts can operate at different depths: visual features are computed once</description>
     </item>
   </channel>
 </rss>
