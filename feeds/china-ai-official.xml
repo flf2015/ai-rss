@@ -181,12 +181,5 @@
       <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
       <description>DeepSeek-V4-Flash 正式版 API 上线公测，API 调用方式不变，模型名设置为 deepseek-v4-flash 即可使用最新版本。</description>
     </item>
-    <item>
-      <title>[MiniMax] MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities</title>
-      <link>https://www.minimax.io/blog/minimax-h3</link>
-      <guid isPermaLink="false">urn:ai-rss:MiniMax:643740d8b1d776507524</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up to 2K resolution and 15 seconds in length.</description>
-    </item>
   </channel>
 </rss>

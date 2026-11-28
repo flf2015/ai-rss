@@ -112,6 +112,13 @@
       <description>Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whos</description>
     </item>
     <item>
+      <title>[HF Papers] LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing</title>
+      <link>https://huggingface.co/papers/2611.33885</link>
+      <guid isPermaLink="false">urn:ai-rss:HF Papers:b5a35b0aa24d3ee244be</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations. We introduce LayoutRecall, a multi-round editor that stores and reuses appearance in the local coordinate systems of 3D boxes. Box-Surface La</description>
+    </item>
+    <item>
       <title>[HF Papers] Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models</title>
       <link>https://huggingface.co/papers/2611.34813</link>
       <guid isPermaLink="false">urn:ai-rss:HF Papers:cc533d6ad34f00cfd0a3</guid>
@@ -698,13 +705,6 @@
       <guid isPermaLink="false">urn:ai-rss:HF Papers:5eaf82b7d23ebfa7674b</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <description>Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collisions and boundary violations to losses or post-processing; semantic-map methods make occupancy explicit, but collapse instance and directional structure. We introduce RoomTokens, a sliced structured-token representation</description>
-    </item>
-    <item>
-      <title>[HF Papers] Rewirable Circuits in Transformers with Loom Attention</title>
-      <link>https://huggingface.co/papers/2611.30634</link>
-      <guid isPermaLink="false">urn:ai-rss:HF Papers:624cf161071a36fc2317</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <description>We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-strea</description>
     </item>
   </channel>
 </rss>
